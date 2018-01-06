@@ -1,0 +1,141 @@
+* The 1 major opening
+
+One of a major promises 5 cards and at least 11 HCP. It is limited since with
+game forcing hands you open 2!c.
+
+After a non fit response of 1!s or 1NT a direct 2NT rebid promises 6 cards in
+the major and maybe 4 cards in a minor. The 2NT bid is then forcing to game.
+An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19HCP with 5M4m.
+
+** Answers
+
+1H-
+1S = 4!s and normally 6+ HCP
+1N = no 4!s, 5-12 HCP, with fit you have a minimum
+2C = FG
+2D = 5+!d, FG
+2H = 3!h, 7-9 HCP
+2S = 6!s, 8-11 HCP
+2N = fit, 10-14 HCP
+3m = 6m, INV
+
+1S-
+1N = 5-12 HCP, with fit you have a minimum
+2C = FG
+2D = 5+!d, FG
+2H = 5+!h, FG
+2S = 3!s, 7-9 HCP
+2N = fit, 10-14 HCP
+3m = 6m, INV
+3H = 6!h, INV
+
+*** 1!h-1!s
+
+1H-1S-
+1N = 12-14 SA
+2C = a kind of Gazilli with one of:
+     1) 4+!c
+     2) 18-19 NT
+     3) 17-19 HCP, 5!h-4m
+     4) FG, exactly 5!h and one minor
+     5) 3!s, 15-17 HCP, no 5332
+  2D = (R)
+    2H = variant 1
+      2S = ART, FG
+      2N = INV, no 4!c
+      3C = T/P
+      3D = 5!s-5!d, FG
+    2S = variant 5
+      P = NF
+      2N = FG
+      3CDHS = FG
+    2N = variant 2 or 3
+      3C = (R), FG, 5!c or 5!s possible
+        3D = no 4m
+          3H = shows 5!c
+          3S = shows 5!s
+        3H = shows 4!c
+          3S = shows 5!s
+        3S = 4!d, 3!s (changed 1-11-2017)
+        3N = 4!d, no 3!s (changed 1-11-2017)
+      3D = 5!d, FG
+      3H = 3!h, FG
+      3S = 6!s, FG
+    3m = variant 4
+  2H = T/P, NAT, normally 3!h (otherwise 2!d)
+  2S = NAT, T/P, no interest in playing 3!c opposite variant 1
+  2N = 4!c, INV
+    3C = T/P
+  3C = 5!c, INV
+  3D = 6!d, T/P
+  3H = 5!s-3!h, INV
+2D = 5+!h-4+!d, limited to about 16 HCP
+2H = 6!h, NF
+  2N = F, see 1m-1M-2m-2N
+2S = NAT, normally 4!s
+  2N = F, see 1m-1M-2M-2N
+2N = 6!h, FG
+  3X = see 1!h-1!s-2!c-2!d-2NT
+3m = 15-17 HCP, 5-5
+  3H = T/P
+  3S = 5+!s, FG
+  4m = S/A
+  4om = S/A !h
+3H = INV
+  3S = 5+!s, FG
+3S = 4!s, INV
+  3N = ASK for SPL
+3N = 4!s, FG
+  4C = ASK for SPL
+    4D = SPL !d
+    4H = SPL !c
+4m = 4!s, S/T, void
+4H = 6+!h, 3!s
+  4S = T/P
+
+*** 1M-1N
+
+1M-1N-
+2C = a kind of Gazilli with one of:
+     1) 4+!c
+     2) 18-19 NT
+     3) 17-19 HCP, 5M-4m
+     4) FG, exactly 5M and another suit
+     5) 15-17 HCP, 5!s-4!h (after 1!s)
+  2D = (R)
+    2M = variant 1
+      2N = INV, no 4!c
+      3C = T/P
+    2H = variant 5
+      2N = FG
+      3H = NF
+    2S = variant 4
+    2N = variant 2 or 3
+      3C = (R), FG, 5!c possible
+        3D = no 4m
+          3H = shows 5!c
+        3H = shows 4!c
+        3S = 4!d, 3oM (changed 1-11-2017)
+        3N = 4!d, no 3oM (changed 1-11-2017)
+      3D = 5!d, FG
+    3m = variant 4
+  2M = T/P, NAT, normally 3M (otherwise 2!d)
+  2H = (after 1!s), 5+!h, no interest in playing 3!c opposite variant 1
+  2N = 4!c, INV
+    3C = T/P
+  3C = 5!c, INV
+  3D = 6!d, T/P
+2D = 5+M-4+!d, limited to about 16 HCP
+2M = 6M, NF
+2oM = (after 1!s) 5!s-4!h, 11-14 HCP
+2N = 6M, FG
+  3X = see 1M-1NT-2!c-2!d-2NT
+3m = 15-17 HCP, 5-5
+  3M = T/P
+  4m = S/A
+  4om = S/A M
+3M = 6M, INV
+3H = (after 1!s) 15-17 HCP, 5-5
+
+
+

@@ -1,0 +1,83 @@
+* The 2NT opening
+
+** Answers
+
+After 2NT we try to reach 5-3 major fits even with 5!s-4!h. This means that
+standard Puppet Stayman is not good enough. So after the 3!c response, opener
+must evaluate his hand opposite 5!s-4!h.
+
+2N- = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
+  3C = (R)
+    3D = one of:
+         1) 4!s, maybe 4!h
+         2) no 4M, suitable for 4!s opposite 5!s-4!h
+      3H = 4!s
+        3S = variant 1
+        3N = variant 2
+      3S = 4!h, maybe a S/T with 5!s-4!h
+        3N = no 4!h
+      4m = NAT, S/T, see 1NT-2C-2D-4C
+      4H = 5!s-4!h, TRF to 4!s
+    3H = 4+!h, no 4!s
+      3S = (R)
+        3N = exact 4!h
+      4m = 5m
+    3S = 5!s
+      4m = 5m
+      4H = S/T for !h
+    3N = no 4M, no interest in playing 4!s opposite 5!s-4!h
+  3D = 5+!h, TRF
+    3H = NF
+      3S = 5!h-4!s, FG
+        4C = S/A for !h
+        4D = S/A for !s
+      4C = 5!h-4!c
+        4D = K/B (only great fit for !c possible)
+        4H = NAT
+      4D = 5!h-4!d
+        4H = NAT
+        4S = K/B (only great fit for !d possible)
+      4H = S/T
+    3S = good fit, second suit
+    3N = 5!s2!h33
+      4C = S/A for !s
+      4D/4H = TRF
+    4m = good fit, second suit
+  3H = 5+!s, TRF
+    3S = NF
+      4C = 5!s-4!c
+        4D = K/B (only great fit for !c possible)
+        4S = NAT
+      4D = 5!s-4!d
+        4H = K/B (only great fit for !d possible)
+        4S = NAT
+      4S = S/T
+    3N = 5!h2!s33
+      4C = S/A for !h
+      4D/4H = TRF
+    4m = good fit, second suit
+    4H = good fit, second suit
+  3S = mm
+    4m = S/A
+  4C = 6!h, TRF to 4!h
+    4H = forced
+  4D = 6!s, TRF to 4!s
+    4S = forced
+  4H = 6!c, S/T
+    4S = fit, MAX
+      4N = K/B
+    4N = no fit, T/P
+      5C = T/P
+      5N = K/B
+    5C = fit, MIN
+      5N = K/B
+  4S = 6!d, S/T
+    4N = no fit, T/P
+      5D = T/P
+      5N = K/B
+    5C = fit, MAX
+      5N = K/B
+    5D = fit, MIN
+      5N = K/B
+
+** Intervention

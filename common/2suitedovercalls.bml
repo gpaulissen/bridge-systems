@@ -1,0 +1,144 @@
+** Michaels
+
+We play two-suited overcalls after an opponents 1 level opening. The style
+depends a lot on vulnerability. A two-suited overcall always shows at least 5+
+in both suits.
+
+*** Direct two-suited bids
+
+(1C)-
+2C = NAT
+2D = MM
+2N = !d+!h
+3C = Weak, 6+!c
+
+(1D)-
+2D = MM
+2N = !c+!h
+3D = !c+!s (normally 6!c)
+
+(1H)-
+2H = !s+m
+2N = !c+!d
+3H = Asks stop for 3NT
+
+(1S)-
+2S = !h+m
+2N = !c+m
+3S = Ask stop for 3NT
+
+**** Continuations after our two-suited overcall
+
+(1C)-2D-(P)
+  P = at own risk
+  2H = NF, preference
+  2S = NF, preference
+  2N = INV+, ASK
+    3C = min/med
+      3D = asks shortness
+      3M = NF INV
+    3D = MAX, short !d (changed 1-11-2017)
+    3H = MAX, short !c (changed 1-11-2017)
+    3S = MAX, 1-1 minors
+  3C = NF, (6)7+!c
+  3D = NF, (6)7+!d
+  3H = NF, (3)4+!h, light INV
+  3S = NF, (3)4+!s, light INV
+  3N = T/P
+  4C = S/T !h
+  4D = S/T !s
+  4M = T/P
+
+(1C)-2N-(P)
+  3C = INV+, !h
+  3D = NF, preference
+  3H = NF, preference
+  3S = NF, 6+!s
+  4C = INV, !c
+  4D = K/B, !c
+  4H = T/P
+  4S = T/P
+
+(1D)-2D-(P)
+  2M = NF preference
+  2N = INV+ ASK
+    3C = min/med
+      3D = asks shortness
+      3M = NF INV
+    3D = MAX, short !c
+    3H = MAX, short !d
+    3S = MAX, 1-1 minors
+  3C = NF, (6)7+!c
+  3D = INV, MM
+  3H = NF, (3)4+!h, light INV
+  3S = NF, (3)4+!s, light INV
+  3N = T/P
+  4C = S/T, !h
+  4D = S/T, !s
+  4M = T/P
+
+(1D)-2N-(P)
+  3C = NF, preference
+  3D = INV(+), !h
+  3H = NF, preference
+  3S = NF, 6+!s
+  4C = INV, !c
+  4D = K/B, !c
+  4H = T/P
+  4S = T/P
+
+(1H)-2H-(P)
+  2S = NF, preference 
+  2N = INV+, see continuation after Muiderberg 
+  3C = P/C
+  3D = INV, !s
+  3H = S/T, !s
+  3S = light INV, !s
+  3N = T/P
+  4C = !c+!s
+  4D = !d+!s
+  4H = SPL for !s
+  4S = T/P
+  4N = bid your m
+
+(1H)-2N-(P)
+  3m = NF, preference
+  3H = FG 
+  3S = NF, 6+!s
+  3N = T/P
+  4C = INV, !c
+  4D = INV, !d
+  4H = K/B, !d
+  4S = T/P
+  4N = Pick best m
+
+(1S)-2S-(P)
+  2N = INV+, see continuation after Muiderberg
+  3C = P/C
+  3D = INV, !h
+  3H = NF, pref
+  3S = S/T, !h
+  3N = T/P
+  4C = !c+!h
+  4D = !d+!h
+  4H = T/P
+  4S = K/B !h
+  4N = bid your m
+
+(1S)-2N-(P)
+  3m = NF, preference
+  3H = NF, 6+!h
+  3S = FG
+  3N = T/P
+  4C = INV, !c
+  4D = INV, !d
+  4H = T/P
+  4S = ?
+  4N = Pick best m
+
+*** They bid after our twosuited overcall
+
+If they bid a new suit intending as natural, dbl is penalty.
+If they support each other, dbl is take out, might be INV for M if you don't have another INV.
+If they cue bid, dbl means that you would have liked to bid that.
+

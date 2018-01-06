@@ -1,0 +1,187 @@
+<project name="system" default="build" basedir=".">
+
+  <description>
+Build output files for a document.
+  </description>
+
+  <target name="init">
+    <property environment="env"/>
+    <!-- Mac OS X / Windows -->
+    <condition property="env.TMP" value="${env.TMPDIR}" else="${env.TEMP}"> 
+      <os family="mac"/>
+    </condition>
+    <echo message="env.TMP: ${env.TMP}"/>
+    <property name="tmp.dir" location="${env.TMP}/bml"/>
+    <mkdir dir="${tmp.dir}"/>
+    <property name="output.dir" location="output"/>
+    <mkdir dir="${output.dir}"/>
+    <property name="log.level" value="verbose"/>
+    <condition property="python3" value="python3" else="py">
+      <os family="mac"/>
+    </condition>
+    <condition property="bml.dir.relative" value="../bml" else="bml"> 
+      <available file="../bml" type="dir"/>
+    </condition>   
+    <property name="bml.dir" location="${bml.dir.relative}"/>
+    <fail message="BML directory (${bml.dir}) must exist">
+      <condition>
+        <not>
+          <available file="${bml.dir}/bml2latex.py" type="file"/>
+        </not>
+      </condition>
+    </fail>
+    <condition property="document.bml.exists">
+      <available file="${document}.bml" type="file"/>
+    </condition>
+    <condition property="option.tree" value="--tree" else="--no-tree">
+      <and>
+	<isset property="tree"/>
+	<or>
+	  <equals arg1="${tree}" arg2="true" trim="yes" casesensitive="no"/>
+	  <equals arg1="${tree}" arg2="yes" trim="yes" casesensitive="no"/>
+	  <equals arg1="${tree}" arg2="1" trim="yes" casesensitive="no"/>
+	</or>
+      </and>
+    </condition>
+    <condition property="option.include.external.files" value="--include-external-files"
+	       else="--no-include-external-files">
+      <and>
+	<isset property="include.external.files"/>
+	<or>
+	  <equals arg1="${include.external.files}" arg2="true" trim="yes" casesensitive="no"/>
+	  <equals arg1="${include.external.files}" arg2="yes" trim="yes" casesensitive="no"/>
+	  <equals arg1="${include.external.files}" arg2="1" trim="yes"
+		  casesensitive="no"/>
+	</or>
+      </and>
+    </condition>
+    <property name="include_external_files" value="no-include-external-files"/>   
+  </target>
+
+  <target name="clean" depends="init">
+    <delete dir="${tmp.dir}"/>
+  </target>
+
+  <target name="build" description="Build ${document} output files" depends="build-pdf,build-htm,build-bss"/>
+
+  <target name="bml-copy" description="Copy BML files" depends="init">
+    <copy todir="${tmp.dir}">
+      <fileset dir=".">
+        <filename name="**/*.bml"/>
+      </fileset>
+    </copy>
+    <copy todir="${tmp.dir}">
+      <fileset dir=".">
+        <filename name="**/*.tex"/>
+      </fileset>
+    </copy>
+    <copy file="${bml.dir}/bml.tex" todir="${tmp.dir}" quiet="true"/>
+    <copy file="${bml.dir}/bml.css" todir="${tmp.dir}" quiet="true"/>
+  </target>
+  
+  <target name="build-pdf" description="Build ${document}.pdf" depends="build-tex">
+    <!-- sequence: pdflatex bibtex pdflatex pdflatex -->
+    <echo message="Step 1: running pdflatex"/>
+    <exec executable="pdflatex" dir="${tmp.dir}" failonerror="false" outputproperty="output1" resultproperty="result1">
+      <arg value="${document}"/>
+    </exec>
+    <echo message="result1: ${result1}; output1: ${output1}" level="${log.level}"/>
+    <fail message="${output1}">
+      <condition>
+        <not>
+          <equals arg1="${result1}" arg2="0"/>
+        </not>
+      </condition>
+    </fail>
+
+    <!-- bibtex does not return an error code if the file does not exist, so check output -->
+    <echo message="Step 2: running bibtex"/>
+    <exec executable="bibtex" dir="${tmp.dir}" failonerror="false" outputproperty="output2" resultproperty="result2">
+      <arg value="${document}"/>
+    </exec>
+    <echo message="result2: ${result2}; output2: ${output2}" level="${log.level}"/>
+    <fail message="${output2}">
+      <!--
+          OK if:
+          1) result = 0
+          2) output does contain one of:
+             a) I found no \citation commands
+             b) I found no \bibdata command
+             c) I found no \bibstyle command
+      -->
+      <condition>
+        <not>
+          <or>
+            <and>
+              <equals arg1="${result2}" arg2="0"/>
+              <not>
+                <contains string="${output2}" substring="I couldn't open file name"/>
+              </not>
+            </and>
+            <contains string="${output2}" substring="I found no \citation commands"/>
+            <contains string="${output2}" substring="I found no \bibdata command"/>
+            <contains string="${output2}" substring="I found no \bibstyle command"/>
+          </or>
+        </not>
+      </condition>
+    </fail>
+
+    <echo message="Step 3: running pdflatex"/>
+    <exec executable="pdflatex" dir="${tmp.dir}" failonerror="false" outputproperty="output3" resultproperty="result3">
+      <arg value="${document}"/>
+    </exec>
+    <echo message="result3: ${result3}; output3: ${output3}" level="${log.level}"/>
+    <fail message="${output3}">
+      <condition>
+        <not>
+          <equals arg1="${result3}" arg2="0"/>
+        </not>
+      </condition>
+    </fail>
+
+    <echo message="Step 4: running pdflatex"/>
+    <exec executable="pdflatex" dir="${tmp.dir}" failonerror="false" outputproperty="output4" resultproperty="result4">
+      <arg value="${document}"/>
+    </exec>
+    <echo message="result4: ${result4}; output4: ${output4}" level="${log.level}"/>
+    <fail message="${output4}">
+      <condition>
+        <not>
+          <equals arg1="${result4}" arg2="0"/>
+        </not>
+      </condition>
+    </fail>
+
+    <echo message="copy ${tmp.dir}/${document}.pdf to ${output.dir}"/>
+    <copy file="${tmp.dir}/${document}.pdf" todir="${output.dir}" quiet="false"/>
+  </target>
+
+  <target name="build-tex" description="Build .tex files" depends="bml-copy" if="document.bml.exists">
+    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
+      <arg value="${bml.dir}/bml2latex.py"/>
+      <arg value="${option.tree}"/>
+      <arg value="${option.include.external.files}"/>
+      <arg value="${tmp.dir}/${document}.bml"/>
+    </exec>
+  </target>
+
+  <target name="build-htm" description="Build .htm files" depends="bml-copy" if="document.bml.exists">
+    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
+      <arg value="${bml.dir}/bml2html.py"/>
+      <arg value="${option.tree}"/>
+      <arg value="${option.include.external.files}"/>
+      <arg value="${tmp.dir}/${document}.bml"/>
+    </exec>
+    <copy file="${tmp.dir}/${document}.htm" todir="${output.dir}" quiet="true"/>
+    <copy file="${bml.dir}/bml.css" todir="${output.dir}" quiet="true"/>
+  </target>
+
+  <target name="build-bss" description="Build .bss files" depends="bml-copy" if="document.bml.exists">
+    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
+      <arg value="${bml.dir}/bml2bss.py"/>
+      <arg value="${tmp.dir}/${document}.bml"/>
+    </exec>
+    <copy file="${tmp.dir}/${document}.bss" todir="${output.dir}" quiet="true"/>
+  </target>
+
+</project>

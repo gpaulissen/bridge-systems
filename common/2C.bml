@@ -1,0 +1,85 @@
+* The 2!c opening
+
+** Answers
+
+2C = One of:
+     1) weak-two in !d
+     2) 25+ NT
+     3) FG in !c, !h or !s
+  2D = (R)
+    P = weak-two in !d
+    2H = FG in !h
+      2S = (R), any hand not suitable for other bids hence 0+ HCP
+        2N = 4!s
+        3m = 4+m
+        3H = 6!h
+      2N = 5+!s, 6+ HCP
+      3m = 5+m, 6+ HCP
+      3H = fit, at least Hxx or xxxx, 6+ HCP
+        3S = no SPL
+        3N = SPL !s
+        4m = SPL m
+      3S = fit, at least Hxx or xxxx, 6+ HCP, SPL !s
+      3N = fit, at least Hxx or xxxx, 6+ HCP, SPL !d
+      4C = fit, at least Hxx or xxxx, 6+ HCP, SPL !c
+    2S = FG in !s
+      2N = (R), any hand not suitable for other bids hence 0+ HCP
+      3m = 5+m, 6+ HCP
+      3H = 5+!h, 6+ HCP
+      3S = fit, at least Hxx or xxxx, 6+ HCP
+        3N = no SPL
+        4m = SPL m
+        4H = SPL !h
+      3N = fit, at least Hxx or xxxx, 6+ HCP, SPL !h
+      4m = fit, at least Hxx or xxxx, 6+ HCP, SPL m
+    2N = 25+HCP, BAL
+    3C = FG in !c, one of:
+         1) 4M
+         2) 1-suiter, not a solid suit plus stoppers and 9 tricks
+      3D = (R)
+        3M = variant 1
+          4om = S/A for M
+          4m = S/A for m
+        3N = variant 2
+        4m = variant 2
+      3M = 5+M
+    3D = FG, 5+!c-4+!d
+      3M = stopper  
+      4C = S/A for !c
+      4D = S/A for !d
+    3M = FG, 5+!c-5M, clubs better or longer
+      4C = S/A for !c
+      4D = S/A for M
+    3N = FG in !c, 1-suiter, a solid suit plus stoppers and 9 tricks
+  2M = 5+M, F1R
+    2N = One of:
+         1) weak-two in !d
+         2) 25+ HCP, BAL
+      3D = Only NF bid
+      3X = FG, NAT (no system-on!)
+    3D = weak-two in !d, no fit, good suit, NF
+      3M = FG
+    3M = weak-two in !d, fit, MIN
+    4M = weak-two in !d, fit, MAX
+    2X = FG, system-on if possible
+    3X = FG, system-on if possible
+    3N = FG, system-on if possible
+  2N = (R), STR
+    3C = weak-two, not MAX or no good suit
+      3D = NF
+    3D = weak-two, MAX, good suit, SPL !c
+    3H = weak-two, MAX, good suit, SPL !h
+    3S = weak-two, MAX, good suit, SPL !s
+    3N = weak-two, MAX, good suit, no SPL
+    4X = same meaning and development as after 2!c-2!d-3X
+  3C = 6+!c, INV
+  3D = PRE
+  3M = 6M, INV
+  
+** Intervention
+
+We just keep it simple: a pass promises clubs, redouble is strong. The rest is system-on.
+
+2C-(D)
+  P = 5+!c, NF
+  R = STR

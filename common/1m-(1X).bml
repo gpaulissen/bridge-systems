@@ -1,0 +1,30 @@
+* Transfers after 1m and a one level overcall
+
+All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are
+transfers. All bids are FG opposite a strong opener (17+ HCP).
+
+It is more difficult to play 2m but not impossible. You may be able to bid
+1!s, a transfer to 1NT, after which you can correct to 2m.
+
+All direct bids by responder at the three level are natural and preemptive.
+
+1m-(1X);
+D = Negative double with at least 4 (and at most 5) cards in the next suit (X<!s) or the other major (X=!s).
+1S = Transfer to 1NT. Normally a hand without a good stopper.
+1N = NAT
+2C = (after 1!d) NAT and INV+
+2m = A transfer to the next suit showing at least 5 cards.
+2Y = (m= < Y < X-1) A transfer to the next suit showing at least 5 cards.
+2Y = (Y = X-1) A transfer to their suit hence it shows fit and it is at least INV.
+2Y = (X <= Y < !s) A transfer to the next suit showing at least 6 cards.
+2S = A transfer to 2NT. At least INV. Opener should play (positional).
+2N = 5-5 in the suits not bid, INV
+
+** Further development
+
+Opener responds to a 1 level transfer as if the bid has been bid naturally but
+accepting the transfer shows 3 cards. Accepting the transfer at the two level
+just shows a minimal opening and 4 cards. When responder shows !h or !s after
+1!c a 2!d bid is system-on.
+
+

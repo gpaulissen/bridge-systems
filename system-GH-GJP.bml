@@ -1,0 +1,36 @@
+#+TITLE: GH-GJP 1.0
+#+AUTHOR: Gerbrand Hop / Gert-Jan Paulissen
+
+#+DESCRIPTION: Based on Dutch doubleton (five card major, strong NT, Multi, Muiderberg)
+
+* Introduction
+
+Let's start with the basic opening structure of the system:
+
+1C  = 2+!c, NAT or BAL, 11+ HCP (12+ if BAL)
+1D  = 4+!d, 11+ HCP (12+ if BAL)
+1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
+1N  = 15--17 BAL
+2C  = Weak-two in !d / Any game force except !d
+2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
+2M  = 5M, 4+m, 5-10 HCP
+2N  = 22--24 BAL
+3X  = PRE
+3N  = Gambling
+
+#INCLUDE common/1C.bml
+#INCLUDE common/1D.bml
+#INCLUDE common/1m-(1X).bml
+#INCLUDE common/1M.bml
+#INCLUDE common/1M-fit.bml
+#INCLUDE common/1N.bml
+#INCLUDE common/2C.bml
+#INCLUDE common/2D.bml
+#INCLUDE common/muiderberg.bml
+#INCLUDE common/2N.bml
+#INCLUDE common/theyopen.bml
+#INCLUDE common/2suitedovercalls.bml
+
+
+#INCLUDE common/abbreviations.bml
+

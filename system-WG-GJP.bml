@@ -1,0 +1,47 @@
+#+TITLE: WG-GJP 1.0
+
+#+AUTHOR: Gert-Jan Paulissen
+
+#+DESCRIPTION: Based on Dutch doubleton (five card major, Multi, Muiderberg) but with a variable NT (11-13 1st and 2nd NV else 14-16)
+
+* Introduction
+
+Let's start with the basic opening structure of the system:
+
+1C  = 2+!c, NAT or BAL, 11+ HCP (11+ if BAL)
+1D  = 4+!d, 11+ HCP (11+ if BAL)
+1HS = 5+!h/!s, 11+ HCP (11+ if BAL)
+1N  = 11-13 HCP 1st and 2nd NV else 14-16 HCP
+2C  = Weak-two in !d / Any game force except !d
+2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
+2M  = 5M, 4+m, 5-10 HCP
+2N  = 22--24 BAL
+3X  = PRE
+3N  = Gambling
+
+// in system-common
+//#INCLUDE common/1C.bml
+//#INCLUDE common/1D.bml
+//#INCLUDE common/1M.bml
+
+// in Systeem GJ en Willem
+//#INCLUDE common/1N.bml
+
+#INCLUDE common/2C.bml
+#INCLUDE common/2D.bml
+
+// in Systeem GJ en Willem
+//#INCLUDE common/muiderberg.bml
+
+// in system-common
+//#INCLUDE common/1m-(1X).bml
+
+#INCLUDE common/1M-fit.bml
+
+// in Systeem GJ en Willem
+//#INCLUDE common/2N.bml
+//#INCLUDE common/theyopen.bml
+//#INCLUDE common/2suitedovercalls.bml
+
+#INCLUDE common/abbreviations.bml
+
