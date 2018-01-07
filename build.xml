@@ -173,7 +173,7 @@ Build output files for a document.
       <arg value="${tmp.dir}/${document}.bml"/>
     </exec>
     <copy file="${tmp.dir}/${document}.htm" todir="${output.dir}" quiet="true"/>
-    <copy file="${bml.dir}/bml.css" todir="${output.dir}" quiet="true"/>
+    <!--copy file="${bml.dir}/bml.css" todir="${output.dir}" quiet="true"/-->
   </target>
 
   <target name="build-bss" description="Build .bss files" depends="bml-copy" if="document.bml.exists">

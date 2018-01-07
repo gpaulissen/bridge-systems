@@ -22,21 +22,21 @@ without a top honor is not allowed.
 
 2M-2N-
 3C = 4+!c (VULN 5+), MIN/MED
-  3D  = NAT, 5+!d, FG, looking for best game/slam
-  3M  = FG with fit
-  3oM = NAT, 5+ cards, FG, looking for best game/slam
-  3N  = T/P
-  4C  = NAT, S/T
-  4D  = K/B for !c
-  4M  = T/P
+  3D = NAT, 5+!d, FG, looking for best game/slam
+  3M = FG with fit
+  3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
+  3N = T/P
+  4C = NAT, S/T
+  4D = K/B for !c
+  4M = T/P
 3D = 4+!d (VULN 5+), MIN/MED
-  3M  = FG with fit
-  3oM = NAT, 5+ cards, FG, looking for best game/slam
-  3N  = T/P
-  4C  = CTRL for !d
-  4D  = NAT, S/T, no !c CTRL
-  4M  = T/P
-  4oM = K/B for !d
+  3M = FG with fit
+  3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
+  3N = T/P
+  4C = CTRL for !d
+  4D = NAT, S/T, no !c CTRL
+  4M = T/P
+  4X = K/B for !d (X = oM)
 3H = 5+!c, MAX
   3S = CoG
   3N = T/P
@@ -52,14 +52,24 @@ without a top honor is not allowed.
 ** Intervention after our Muiderberg
 
 2M-(D)-
-R = Showing strength, can be with fit
-2N = asks partner to bid just his minor
-3m = NAT, NF
+  R = Showing strength, can be with fit
+  2N = asks partner to bid just his minor
+  3m = NAT, NF
 
-2M-(bid)-
-D     = PEN
-2N/4N = asks partner to bid just his minor
-3C    = P/C if 2NT is not available else NAT and T/P
-3D    = NAT, T/P
-4C    = with jump as w/o intervention else P/C
-4D    = with Jump as w/o intervention else NAT and T/P
+2M-(2X)-
+  D     = PEN
+  2N/4N = asks partner to bid just his minor
+  3C    = NAT and T/P
+  3D    = NAT, T/P
+
+2M-(2N)-
+  D  = PEN
+  3N/4N = asks partner to bid just his minor
+  3C = P/C
+  3D = NAT, T/P
+
+2M-(3X)-
+  D  = PEN
+  4N = asks partner to bid just his minor
+  3D/4D = NAT, T/P
+  4C = P/C

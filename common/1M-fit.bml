@@ -12,17 +12,18 @@
     3C = slam try
       3D = relay, positive
         3M = BAL
-        3oM = NAT
+        3X = NAT (X = oM)
         3N = SPL in the other major
         4m = SPL m
       3M = minimum, sorry
         3N = NAT (since slam is not possible)
-      3oM = NAT
+      3X = NAT (X = oM)
       3N = SPL in the other major
       4m = SPL
     3D = game try
       3N = NAT (since slam is not possible)
-    3oM = NAT
+    3M = S/O
+    3X = FG, NAT (X = oM)
     3NT = SPL in the other major, stronger than via 3!c
     4m = SPL, stronger than via 3!c
     4M = to play, no interest in slam
