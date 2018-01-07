@@ -259,18 +259,6 @@ Changes 2017-12-22:
     3C = FG
   2N = INV, short in the other minor
 
-*** 1!c-2!c
-
-Inverted minor and FG. Promises 5 cards after 1!c and 4 cards after 1!d.
-
-1C-2C-
-2D = at most 3 cards in !c
-2M = at least 4!c, NAT
-2N = at least 4!c, NAT
-3C = at least 4!c, NAT
-3N = 18-19 BAL, 4!c, NAT
-3X = SPL, STR
-
 *** 1!c-2!d
 
 A weak Multi-coloured (<= 6 HCP). A hand that may not be strong enough opposite

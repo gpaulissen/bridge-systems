@@ -1,0 +1,19 @@
+* Inverted minor
+
+1m-2m is inverted minor and FG. Promises 5 cards after 1!c and 4 cards after 1!d.
+
+1C-2C
+  2D = at most 3 cards in !c
+  2M = at least 4!c, NAT
+  2N = at least 4!c, NAT
+  3C = at least 4!c, NAT
+  3N = 18-19 BAL, 4!c, NAT
+  3X = SPL, STR
+
+1D-2D
+  2M = NAT
+  2N = NAT
+  3C = SPL, STR
+  3D = NAT
+  3N = 18-19 BAL, 5332, NAT
+  3M = SPL, STR
