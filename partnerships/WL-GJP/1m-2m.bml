@@ -13,7 +13,7 @@
   3D = Texas !h, 4 cartes à !h impérativement avec la courte à !s, 15+ HCP
   3H = Texas !s, 4 cartes à !s impérativement avec la courte à !h, 15+ HCP
   3S = Courte à !d (4414) dans une main de 15+ HCP
-  3N = ?
+  3N = N'existe pas
 
 1C-2C-2N
   3C = (R)
@@ -47,27 +47,32 @@
 
 ** 1!d-2!d
 
+Changes 2018-01-09:
+
+- Switched meaning of 1!d-2!d-2NT and 1!d-2!d-3C in order to remove the 'piège'
+
 1D-2D
   2H = Une main irrégulière, 11-14 HCP
   2S = Texas SA (mini maxi 12-14 ou 18-19) 
-  2N = Texas !c, minimum 5/4, 15+ HCP
-  3C = Texas !d, 6 cartes, 15+ HCP (ou 5 cartes avec courte à !c)
+  2N = Texas !d, 6 cartes, 15+ HCP (ou 5 cartes avec courte à !c)
+  3C = Texas !c, minimum 5/4, 15+ HCP
   3D = Texas !h, 4 cartes à !h impérativement avec la courte à !s, 15+ HCP
   3H = Texas !s, 4 cartes à !s impérativement avec la courte à !h, 15+ HCP
   3S = Courte à !c (4414) dans une main de 15+ HCP
+  3N = N'existe pas
 
 1D-2D-2N
   3C = (R)
-    3D = 3361 ou 3451 seul piège
-    3H = 3154 
-    3S = 1354 
-    3N = 2254
+    3D = 3451 ou 3361 
+    3H = 3163
+    3S = 1363
+    3N = (6322)
 
 1D-2D-3C
   3D = (R)
-    3H = 3163
-    3S = 1363 
-    3N = (6322)
+    3H = 31(54)
+    3S = 13(54)
+    3N = 22(54)
 
 1D-2D-3D
   3H = ça me plait, je suis intéressé par le chelem, petite proposition

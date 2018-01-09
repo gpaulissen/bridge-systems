@@ -2,6 +2,11 @@
 
 ** Answers
 
+Changes 2018-01-09:
+
+- 2!d-2!s is positive
+- 2!d-2!s-3NT is 22-24 HCP, BAL
+
 2D = Multi-coloured, one of:
      1) weak-two in a major
      2) 22-24 NT
@@ -31,7 +36,7 @@
       4C = S/A for M
       4D = S/A for !d
     3N = FG in !d, 1-suiter, a solid suit plus stoppers and 9 tricks
-  2S = NF opposite a weak-two in !s
+  2S = NF, opposite a weak-two in !s, positive (normally 10+ HCP)
     2N = weak-two in !h
       3C = 5!s-5m, FG
         3D = (R)
@@ -41,6 +46,7 @@
       3H = NF
       3S = 6!s, INV
     3X = see 2!d-2!h-3!c
+    3N = 22-24 HCP, BAL
   2N = (R), STR
     3C = weak-two in !h, not MAX or no good suit
     3D = weak-two in !s, not MAX or no good suit

@@ -2,11 +2,15 @@
 
 ** Answers
 
+Changes 2014-01-09:
+
+- 2NT-3!c-3!s-4!h shows !s fit (typo solved)
+
 After 2NT we try to reach 5-3 major fits even with 5!s-4!h. This means that
 standard Puppet Stayman is not good enough. So after the 3!c response, opener
 must evaluate his hand opposite 5!s-4!h.
 
-2N- = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
+2N
   3C = (R)
     3D = one of:
          1) 4!s, maybe 4!h
@@ -24,7 +28,7 @@ must evaluate his hand opposite 5!s-4!h.
       4m = 5m
     3S = 5!s
       4m = 5m
-      4H = S/T for !h
+      4H = S/T for !s
     3N = no 4M, no interest in playing 4!s opposite 5!s-4!h
   3D = 5+!h, TRF
     3H = NF
