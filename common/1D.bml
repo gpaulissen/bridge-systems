@@ -14,7 +14,7 @@ Changes 2017-12-22:
 
 1D
   1M = 4+M 5+HCP 
-  1NT = 6-10 no 4M
+  1N = 6-10 no 4M
   2C = FG, 4+!c (usually 5)
   2D = inverted minor, 4+!d, FG
   2H = 5!s-4+!h, 5-9 HCP, see continuation after 1!c
@@ -93,7 +93,7 @@ Changes 2017-12-23:
 - Modified 1D-1N-2N
 - Added 1D-1N-3M
 
-1D-1NT
+1D-1N
   2m = NF
   2M = 16+ reverse, F1R
     2N = NF

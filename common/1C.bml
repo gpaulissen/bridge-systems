@@ -232,7 +232,7 @@ Changes 2017-12-22:
 1C-1M
   3D = SPL, 4M, FG
   3M = 4M, INV
-    3M+1 = (R), asks for singleton that opener should show naturally
+    1step = (R), asks for singleton that opener should show naturally
       4D = singleton
       3N = singleton !s (M= !h)
       4H = singleton !h (M= !s)

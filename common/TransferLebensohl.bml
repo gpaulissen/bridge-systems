@@ -1,0 +1,106 @@
+* Transfer Lebensohl
+
+We play this after our 1 NT opening and their intervention of 2!c till
+2!s. And also after their weak two level opening bids, whether it be some kind
+or multi or not. 
+
+** One suit known
+
+Transfer Lebensohl starts at 2NT. There are 4 types of special bids:
+
+1) A transfer to their suit which is FG and shows at 4 cards in at least one
+   of the unbid majors.
+2) 2NT, a Puppet to 3!c. It can be either a sign-off below their suit or FG
+   with at least 5 clubs.
+3) A transfer to a suit. This is at least invitational and
+   shows 5 cards in the transfer suit unless it is a transfer in a major which
+   has been implied by partner's take-out double. It does not matter whether the transfer
+   is above or below their suit.
+4) 3!s. This is FG and denies a stop and it denies a 4 card major in an unbid
+   suit.
+
+1N-(2C) = 5+!c
+  2X = NAT, S/O
+  2N = A transfer to their suit, hence FG and at least one 4 card major
+    3C = I do *not* have a stopper
+    3M = I do have a stopper as well as 4 cards in this major
+  3C = A transfer to !d, INV+, 5+!d
+  3D = A transfer to !h, INV+, 5+!h  
+  3H = A transfer to !s, INV+, 5+!s
+  3S = FG, no stopper, no 4 card major
+
+1N-(2D) = 5+!d
+  2X = NAT, S/O
+  2N = PUP
+    3C = Forced
+      P  = 5+!c, S/O
+      3D = FG, 5+!c, no 4M, asks primarily for stopper but different from 3!s immediately
+      3M = FG, 5+!c, 4M
+  3C = A transfer to their suit, hence FG and at least one 4 card major
+    3D = I do *not* have a stopper
+    3M = I do have a stopper as well as 4 cards in this major
+  3D = A transfer to !h, INV+, 5+!h  
+  3H = A transfer to !s, INV+, 5+!s
+  3S = FG, no stopper, no 4 card major
+
+1N-(2H) = 5+!h
+  2X = NAT, S/O
+  2N = PUP
+    3C = Forced
+      P  = 5+!c, S/O
+      3D = 5+!d, S/O
+      3H = FG, 5+!c, no 4!s, asks primarily for stopper but different from 3!s immediately
+      3S = FG, 5+!c, 4!s
+  3C = A transfer to !d, INV+, 5+!d
+  3D = A transfer to their suit, hence FG and 4!s
+    3H = I do *not* have a stopper and probably not 4!s as well
+    3S = 4!s, with or without stopper
+  3H = A transfer to !s, INV+, 5+!s
+  3S = FG, no stopper, no 4!s
+
+1N-(2S) = 5+!s
+  2N = PUP
+    3C = Forced
+      P  = 5+!c, S/O
+      3D = 5+!d, S/O
+      3H = 5+!h, S/O
+      3S = FG, 5+!c, no 4!s, asks primarily for stopper but different from 3!s immediately
+  3C = A transfer to !d, INV+, 5+!d
+  3D = A transfer to !s, INV+, 5+!h
+  3H = A transfer to their suit, hence FG and 4!h
+    3S = I do *not* have a stopper and not 4!h as well
+  3S = FG, no stopper, no 4!h
+
+** Two suits known
+
+1N-(2C) = both MM
+  D  = take-out (with balanced hands)
+  P  = maybe a trap pass (a later double is for penalties, the usual method for dealing with twosuiters)
+  2X = NAT, S/O (also 2!h and 2!s unless this is a known 5 card)
+  2N = A transfer to !c, either S/O or FG
+  3C = A transfer to !d, INV+ (with a weak hand you bid 2!d)
+  3D = A transfer to !h, hence SPL and FG
+  3H = A transfer to !s, hence SPL and FG
+  3S = FG, no stopper in !h nor !s
+
+** Multi-coloured
+
+After Multi we play that double shows short spades and at least 3 cards in
+hearts. This is a Polish convention and it allows us to know better what is
+going on. We will assume that after a double their suit is spades.
+
+(2D)-D = take-out on !s, hence short !s (pass first with short !h)
+  (P)
+    P  = long diamonds if pass promises !d (always ask explanation)
+    2H = NAT, NF
+    2S = 6!s, NAT, NF (try to pass though)
+    2N = PUP, either S/O in !c (you can pass with long !d)
+    3C = A transfer to !d, INV+. If their pass shows long diamonds this is a cuebid, see 1NT-2!d natural
+    3D = A transfer to !h. If FG it shows 5+!h else 4+!h (partner promises 3+!h)
+    3H = A transfer to !s, a kind of cue bid hence FG and it shows 4!h
+  (2M)
+    2N = PUP, either S/O in a minor else FG with 5+!c
+    3C = A transfer to !d, INV+
+    3DHS = see (2D)-D-(P)
+    
+  
