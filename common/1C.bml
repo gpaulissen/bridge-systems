@@ -93,9 +93,16 @@ Changes 2017-12-22:
 - Modified 1C-1M-2M-3X
 - Modified 1C-1M-2D (4M possible)
 
+Changes 2018-01-16:
+
+- 1C-1H-1S-2C is NF and 1C-1H-1S-2C 4SFG
+
+1C-1H
+  1S = shows 4!s (but can bid 1NT too with 4333)
+    2C = NAT, NF
+    2D = 4SFG
+
 1C-1M
-  1S = (after 1!h) shows 4!s (but can bid 1NT too with 4333)
-    2CD = NAT or two-way Checkback Stayman (TODO)
   1N = 12-14 NT. 4333 possible after 1!c-1!h.
   2C = 11-16 HCP, 5+!c
   2N = onesuiter, FG
@@ -136,8 +143,8 @@ Changes 2017-12-22:
 
 **** 1!c-1M-2!c
 
-1C-1H-2C
-  2D = 3rd suit forcing, FG unless opener bids NF and reponder passes
+1C-1M-2C
+  2D = 3rd suit forcing, FG unless opener bids NF and responder passes
     2M = NF
     2N = NF
     3C = NF
@@ -146,7 +153,7 @@ Changes 2017-12-22:
   2M = NAT, NF
   2N = exactly 4M, F
     3C = MIN
-    3X = MAX, S/S (also 3M)
+    3M = MAX, S/S (also 3M)
     3N = MAX, no S/S
   3C = INV, not suitable for 2NT
   3D = 5M-5!d, FG
@@ -166,7 +173,7 @@ Changes 2017-12-22:
   2H = NAT, INV (1!c-2!h shows 5!s-4!h and a weak hand)
   3H = 55 MM
 
-**** 1!c-1M-2D
+**** 1!c-1M-2!d
 
 1C-1M
   2D = one of:
@@ -211,14 +218,14 @@ Changes 2017-12-22:
       4D = MAX, 4M, SPL !d (om)
     3M = 5M, (mildly) INV
     2S/3H = (bid in other major w/o jump), 54 MM, INV+
-    3X = 5M, NAT, S/T
+    3M = 5M, NAT, S/T
 
 1C-1H-2H-2N
   4C = MAX, 4!h, SPL !s
 
 1C-1S-2S-2N
   4C = MAX, 4!s, SPL !h
-
+  
 **** 1!c-1M-2oM
 
 1C-1H
@@ -227,7 +234,11 @@ Changes 2017-12-22:
 1C-1S
   2H = NAT, STR, FG
 
-**** strong with 4 cards fit after 1!c-1M
+**** Strong with 4 cards fit after 1!c-1M
+
+After 1!c-1M there is room to show an unbalanced and game forcing hand with 4
+cards fit by bidding 3!d. After a 1!d opening this is not possible hence the
+development after 1!d-1M is different.
 
 1C-1M
   3D = SPL, 4M, FG
@@ -272,9 +283,9 @@ a strong (balanced) hand.
 
 *** 1!c-2!h
 
-Shows at least 5!s-4!h and 5-9 HCP. This bid exists because after 1C-1S-2C a
-bid of 2H is at least INV. It is not mandatory because if you prefer 2C if
-partner rebids it, you can bid 1D or 1S.
+    Shows at least 5!s-4!h and 5-9 HCP. This bid exists because after 1!c-1!s-2!c a
+bid of 2!h is at least INV. It is not mandatory because if you prefer 2!c if
+partner rebids it, you can bid 1!d or 1!s.
 
 1C-2H-2N-
 3C = MIN, no 5-5
@@ -307,9 +318,9 @@ Pass is allowed now. All bids except pass, redouble and 1!d remain
 unchanged. So for example, 2!c is still inverted minor and FG.
 
 1C-(D)-
-P = nothing to bid, maybe even 5=5=3=0
+P = nothing to bid, maybe even 5-5-3-0
 R = at least 10 HCP and not very unbalanced
-1D = 5+!d, 0+HCP, opener responds like after 1!c-1!d without further intervention
+1D = 5+!d, 0+HCP, opener rebids like after 1!c-1!d without further intervention
 
 **** 1!c-(1X)
 
@@ -326,7 +337,7 @@ Like 1!c-(1X)-P-(2X) except that a double may not be so strong.
 **** 1!c-(P)-1!d-(D)
 
 A pass shows a minimal balanced hand. Redouble shows a strong hand and at
-least 3!d. Other bid are as usual but 1M suggests an unbalanced hand.
+least 3!d. Other bids are as usual but 1M suggests an unbalanced hand.
 
 **** 1!c-(P)-1!d-(nX)
 

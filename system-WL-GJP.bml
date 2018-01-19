@@ -52,12 +52,13 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/WL-GJP/2C.bml
 #INCLUDE common/2D.bml
 #INCLUDE common/muiderberg.bml
-#INCLUDE common/2N.bml
+#INCLUDE partnerships/WL-GJP/2N.bml
 #INCLUDE common/theyopen.bml
 #INCLUDE common/2suitedovercalls.bml
+#INCLUDE common/weopen.bml
 #INCLUDE common/TransferLebensohl.bml
-#INCLUDE common/1X-(1N).bml
 #INCLUDE common/DefenseAgainstTwoSuiters.bml
+#INCLUDE common/blackwood.bml
 
 #INCLUDE common/abbreviations.bml
 

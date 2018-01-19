@@ -8,18 +8,21 @@ or multi or not.
 
 Transfer Lebensohl starts at 2NT. There are 4 types of special bids:
 
-1) A transfer to their suit which is FG and shows at 4 cards in at least one
+1. A transfer to their suit which is FG and shows at 4 cards in at least one
    of the unbid majors.
-2) 2NT, a Puppet to 3!c. It can be either a sign-off below their suit or FG
+2. 2NT, a Puppet to 3!c. It can be either a sign-off below their suit or FG
    with at least 5 clubs.
-3) A transfer to a suit. This is at least invitational and
+3. A transfer to a suit. This is at least invitational and
    shows 5 cards in the transfer suit unless it is a transfer in a major which
    has been implied by partner's take-out double. It does not matter whether the transfer
    is above or below their suit.
-4) 3!s. This is FG and denies a stop and it denies a 4 card major in an unbid
+4. 3!s. This is FG and denies a stop and it denies a 4 card major in an unbid
    suit.
 
-1N-(2C) = 5+!c
+1N
+  (2X) = 5+X
+
+1N-(2C)
   2X = NAT, S/O
   2N = A transfer to their suit, hence FG and at least one 4 card major
     3C = I do *not* have a stopper
@@ -29,7 +32,7 @@ Transfer Lebensohl starts at 2NT. There are 4 types of special bids:
   3H = A transfer to !s, INV+, 5+!s
   3S = FG, no stopper, no 4 card major
 
-1N-(2D) = 5+!d
+1N-(2D)
   2X = NAT, S/O
   2N = PUP
     3C = Forced
@@ -43,7 +46,7 @@ Transfer Lebensohl starts at 2NT. There are 4 types of special bids:
   3H = A transfer to !s, INV+, 5+!s
   3S = FG, no stopper, no 4 card major
 
-1N-(2H) = 5+!h
+1N-(2H)
   2X = NAT, S/O
   2N = PUP
     3C = Forced
@@ -58,13 +61,13 @@ Transfer Lebensohl starts at 2NT. There are 4 types of special bids:
   3H = A transfer to !s, INV+, 5+!s
   3S = FG, no stopper, no 4!s
 
-1N-(2S) = 5+!s
+1N-(2S)
   2N = PUP
     3C = Forced
       P  = 5+!c, S/O
       3D = 5+!d, S/O
       3H = 5+!h, S/O
-      3S = FG, 5+!c, no 4!s, asks primarily for stopper but different from 3!s immediately
+      3S = FG, 5+!c, no 4!h, asks primarily for stopper but different from 3!s immediately
   3C = A transfer to !d, INV+, 5+!d
   3D = A transfer to !s, INV+, 5+!h
   3H = A transfer to their suit, hence FG and 4!h
@@ -101,6 +104,6 @@ going on. We will assume that after a double their suit is spades.
   (2M)
     2N = PUP, either S/O in a minor else FG with 5+!c
     3C = A transfer to !d, INV+
-    3DHS = see (2D)-D-(P)
+    3DHS = see (2!d)-D-(P)
     
   

@@ -4,33 +4,40 @@ Changes 2018-01-10:
 
 - totally rewritten
 
+Changes 2018-01-16:
+
+- Added bids at the three level.
+
 All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are
 transfers. All bids are FG opposite a strong opener (17+ HCP).
 
-When X is their suit bid and Y is a new suit bid there are four variants:
+When X is their suit bid and Y is a new suit bid there are seven variants:
 
 1. 2Y (m =< Y < X-1) shows a transfer to the next suit showing at least 5 cards. An example is 1!d-(1!s)-2!d.
 2. 2Y (Y = X-1) is a transfer to their suit hence it shows fit and it is at least INV. An example is 1!d-(1!s)-2!h.
 3. 2Y (X <= Y < !s) is a transfer to the next suit showing at least 6 cards,
    either weak (6-9 HCP) or FG. An example is 1!d-(1!h)-2!h.
-4. 3Y (X <= Y < !s) is a transfer to the next suit showing at least 6 cards
+4. 3m is natural (at least 5 cards after 1!c and 4 otherwise) and weak.
+5. 3Y (Y < X) shows at least 6 cards and is weak.
+6. 3Y (X <= Y < !s) is a transfer to the next suit showing at least 6 cards
    and is invitational.
+7. 3S is a transfer to 3NT showing at least Axx in their suit.
 
 It is more difficult to play 2m but not impossible. You may be able to bid
 1!s, a transfer to 1NT, after which you can correct to 2m.
 
-All direct bids by responder at the three level are natural and preemptive.
+1m-(1X)
+  D  = Negative double with at least 4 (and at most 5) cards in the next suit (X<!s) or the other major (X=!s).
+  1H = Transfer to 1!s. At least 4!s.
+  1S = Transfer to 1NT. Normally a hand without a good stopper.
+  1N = NAT
+  2m = A transfer to the next suit showing at least 5 cards.
+  2S = A transfer to 2NT. At least INV. Opener should play (positional).
+  2N = Natural, INV
+  3S = FG, BAL, Axx in their suit and wants to play 3NT
 
-1m-(1X);
-D = Negative double with at least 4 (and at most 5) cards in the next suit (X<!s) or the other major (X=!s).
-1H = Transfer to 1S. At least 4!s>
-1S = Transfer to 1NT. Normally a hand without a good stopper.
-1N = NAT
-2C = (after 1!d) NAT and INV+
-2m = A transfer to the next suit showing at least 5 cards.
-2S = A transfer to 2NT. At least INV. Opener should play (positional).
-2N = Natural, INV
-3S = FG, BAL, Axx in their suit and wants to play 3NT
+1D-(1X)
+  2C = NAT and INV+
 
 1C-(1D)
   2C = variant 2: transfer to their suit, hence fit and at least INV

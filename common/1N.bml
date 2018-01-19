@@ -44,7 +44,7 @@ Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K 
   4C = 4!c S/T, balanced
     4D = nat
       4N = Sign off
-    4M = CUE
+    4M = CTRL
       4N = sign off
   4D = 4!d S/T, balanced
     4H = K/B
@@ -59,8 +59,8 @@ Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K 
     3m = 5m
       3H = S/A !h
     3H = 5!h
-      3S = S/A !h, CUE
-      4m = S/A !h, CUE
+      3S = S/A !h, CTRL
+      4m = S/A !h, CTRL
   2N = INV
   3m = 5+m-4!s FG
   3H = INV
@@ -73,7 +73,7 @@ Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K 
   3H = (R)
     3S = exactly 4!s not 4333
     3N = 4333
-    4X = 5!s CUE
+    4X = 5!s CTRL
   3S = INV
   4m = see 1N-2!c-2!d
 
@@ -83,10 +83,11 @@ Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K 
   2H = NF
     2S = 5+4+MM FG
       2N = (R)
-        3m = "NAT"
+        3m = 3m
           3M = 3M
-        3M = 5M4OM22
-        3N = 55MM
+        3M = 5M4oM22
+        3N = 55MM, MIN
+        4m = 55MM, MAX, SPL m
       3m = 5+m (good suit) not 4M
       3M = S/A M
     2N = INV
@@ -101,12 +102,12 @@ Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K 
     4H = 6+!h S/T
   2N = 4+!h MAX
     3C = INV
-    3D = Xfer
+    3D = TRF
     3S = SPL
     4m = SPL
   3H = 4+!h MIN 
 
-After 1N-2H we use the same structure as over 1NT-2D, so very natural.
+After 1NT-2!h we use the same structure as over 1NT-2!d, so very natural.
 
 1N-2N
   3C = Forced
@@ -119,7 +120,7 @@ After 1N-2H we use the same structure as over 1NT-2D, so very natural.
     3M = SPL 
     3N = suggest SPL !c
 
-*** Continuation after 1N-2!s
+*** Continuation after 1NT-2!s
 
 1N-2S
   2N = Forced
@@ -135,8 +136,8 @@ as well and is forcing till 2!s.
 1N-(2C)
   D = values and a double later on is for take out
   2D = NF
-  2H = NF
-  2S = minors 
+  2H = NF (?)
+  2S = minors (?)
   2N = transfer lebensohl
   3X = transfer lebensohl
 
@@ -180,7 +181,7 @@ as well and is forcing till 2!s.
   R = 3+ cards fit, wants partner to play (usually no stopper or something like Ax(x))
   2M = 3+ cards fit, wants to play (usually a stopper)
 
-When they bid oer our transfer a double is just for penalties.  Support shows
+When they bid over our transfer a double is just for penalties.  Support shows
 a good hand with fit, after 2D at least 4 cards (partner may have 4!h5!s in
 the majors). If they bid our cuebid dbl shows fit and willingness to compete.
 

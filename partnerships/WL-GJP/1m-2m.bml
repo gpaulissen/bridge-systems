@@ -4,8 +4,13 @@
 
 ** 1!c-2!c
 
+Changes 2018-01-16:
+
+- After 1!c-2!c-2!d we play the same schedule as after 1!c-2!c-2!h and more
+
 1C-2C
   2D = Texas SA avec 2 ou 3!c (mini maxi 12-14 ou 18-19)
+#COPY 1C-2C-2H  
   2H = Une main irrégulière, 11-14 HCP
   2S = Texas SA avec 4!c et plus (mini maxi 12-14 ou 18-19)
   2N = Texas !c, 6 cartes, 15+ HCP (ou 5 cartes avec courte à !d)
@@ -14,10 +19,15 @@
   3H = Texas !s, 4 cartes à !s impérativement avec la courte à !h, 15+ HCP
   3S = Courte à !d (4414) dans une main de 15+ HCP
   3N = N'existe pas
+#ENDCOPY
+
+1C-2C
+  2D
+  #PASTE 1C-2C-2H
 
 1C-2C-2N
   3C = (R)
-    3D = 3415 ou 3316 
+    3D = (34)15 ou 3316 
     3H = 3136 
     3S = 1336 
     3N = (6322)
@@ -55,7 +65,7 @@ Changes 2018-01-09:
   2H = Une main irrégulière, 11-14 HCP
   2S = Texas SA (mini maxi 12-14 ou 18-19) 
   2N = Texas !d, 6 cartes, 15+ HCP (ou 5 cartes avec courte à !c)
-  3C = Texas !c, minimum 5/4, 15+ HCP
+  3C = 4+!c, minimum 5/4, 15+ HCP
   3D = Texas !h, 4 cartes à !h impérativement avec la courte à !s, 15+ HCP
   3H = Texas !s, 4 cartes à !s impérativement avec la courte à !h, 15+ HCP
   3S = Courte à !c (4414) dans une main de 15+ HCP
@@ -63,7 +73,7 @@ Changes 2018-01-09:
 
 1D-2D-2N
   3C = (R)
-    3D = 3451 ou 3361 
+    3D = (34)51 ou 3361 
     3H = 3163
     3S = 1363
     3N = (6322)

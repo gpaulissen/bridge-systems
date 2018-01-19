@@ -125,24 +125,28 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19HCP with 5M4m.
       3D = 5!d, FG
     3m = variant 4
   2M = T/P, NAT, normally 3M (otherwise 2!d)
-  2H = (after 1!s), 5+!h, no interest in playing 3!c opposite variant 1
   2N = 4!c, INV
     3C = T/P
   3C = 5!c, INV
   3D = 6!d, T/P
 2D = 5+M-4+!d, limited to about 16 HCP
 2M = 6M, NF
-2X = (after 1!s) 5!s-4!h, 11-14 HCP (X = oM)
 2N = 6M, FG
   3X = see 1M-1NT-2!c-2!d-2NT
 3m = 15-17 HCP, 5M-5m
 3M = 6M, INV
 
+1S-1N
+  2H = 5!s-4!h, 11-14 HCP
+
+1S-1N-2C
+  2H = 5+!h, no interest in playing 3!c opposite variant 1
+
 1H-1N-3m
-  3S = 15-17 HCP, 5-5
+  3S = NAT, stopper, FG
 
 1S-1N-3m
-  3H = 15-17 HCP, 5-5
+  3H = NAT, stopper, FG
 
 1M-1N-3C
   3M = T/P
@@ -153,10 +157,6 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19HCP with 5M4m.
   3M = T/P
   4C = S/A M
   4D = S/A !d
-
-1H-1N-3m
-  3H = NAT, FG
-
 
 
 

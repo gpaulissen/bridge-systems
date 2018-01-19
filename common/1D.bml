@@ -40,18 +40,23 @@ Changes 2017-12-23:
   2C = 5+!d 4+!c 11-17(18)
   2D = 6+!d 11-14(15)
   2M = (3)4+M 12-14
-    2N    = (R), F1R
-    2S/3H = INV, nAT
-    3m    = FG, S/T
+    2N = (R), F1R
+    3m = FG, S/T
   2H = 16+ HCP, 5+!d-4+!h
   2S = 19+ HCP, 5+!d-4+!s, FG
   3C = 19+, 5+!d-4+!c, FG
   3D = 15-17, 6+!d
 
+1D-1H-2H
+  2S = INV, NAT
+
+1D-1S-2S
+  3H = INV, NAT
+
 **** 1!d-1M-2NT
 
 1D-1H
-  2N = 18+ HCP, 5+!d, FG
+  2N = 18+ HCP, 5+!d
     3C = (R)
       3D = 5332, NF
       3H = 3!h, FG
@@ -59,14 +64,14 @@ Changes 2017-12-23:
     3D = fit, FG, (mild) S/T
 
 1D-1S
-  2N = 18+ HCP, 5+!d, FG
+  2N = 18+ HCP, 5+!d
     3C = (R)
       3D = 5332, NF
       3H = 6+!d, no 3!s, FG
       3S = 3!s, FG
     3D = fit, FG, (mild) S/T
 
-**** strong with 4 cards fit after 1!d-1M
+**** Strong with 4 cards fit after 1!d-1M
 
 1D-1M
   3M = 15-17, (4)5+!d-4M
@@ -77,14 +82,14 @@ Changes 2017-12-23:
 1D-1H
   3S = 4!h, FG, UNB
     3N = (R)
-  3N = 4!h, SPL !s, stronger than 3S
-  4C = 4!h, SPL !c, stronger than 3S
+  3N = 4!h, SPL !s, stronger than 3!s
+  4C = 4!h, SPL !c, stronger than 3!s
 
 1D-1S
   3H = 4!s, FG, UNB
     3S = (R)
-  3N = 4!s, SPL !h, stronger than 3H
-  4C = 4!s, SPL !c, stronger than 3H
+  3N = 4!s, SPL !h, stronger than 3!h
+  4C = 4!s, SPL !c, stronger than 3!h
 
 *** 1!d-1NT
 
@@ -93,16 +98,20 @@ Changes 2017-12-23:
 - Modified 1D-1N-2N
 - Added 1D-1N-3M
 
+Changes 2018-01-16:
+
+- 1D-1N-2M-2N is a Puppet
+
 1D-1N
   2m = NF
   2M = 16+ reverse, F1R
-    2N = NF
+    2N = PUP
     3m = NF
   2N = INV, short in other minor
   3C = 4+!c, FG
   3D = 6+!d, INV
   3M = 6+!d, FG, autosplinter
-
+  
 *** 1!d-2!c
 
 1D-2C;
@@ -115,5 +124,5 @@ Changes 2017-12-23:
 
 *** 1!d-2!d
 
-All Nat, except 3!c = Spl
+See inverted minor.
 

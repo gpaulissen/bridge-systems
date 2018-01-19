@@ -14,6 +14,12 @@ major is not allowed either.
 
 ** Answers
 
+2H
+  2S = 5+!s, NF
+
+2S
+  3H = 6+!h, INV
+
 2M
   2S = (after 2!h) 5+!s, NF
   2N = INV+, (R)
@@ -26,7 +32,7 @@ major is not allowed either.
   4M = T/P
   4N = mm
 
-*** 2M-2N
+*** 2M-2NT
 
 2M-2N
   3C = 4+!c, MIN
@@ -59,27 +65,27 @@ major is not allowed either.
 
 ** Intervention after our Muiderberg
 
-2M-(D)-
+2M-(D)
   R = Showing strength, can be with fit
-  2N = asks partner to bid just his minor
+  2N = asks partner to just bid his minor
   3m = NAT, NF
 
-2M-(2X)-
+2M-(2X)
   D  = PEN
-  2N = asks partner to bid just his minor
-  4N = asks partner to bid just his minor
+  2N = asks partner to just bid his minor
+  4N = asks partner to just bid his minor
   3C = NAT and T/P
   3D = NAT, T/P
 
-2M-(2N)-
+2M-(2N)
   D  = PEN
-  3N = asks partner to bid just his minor
-  4N = asks partner to bid just his minor
+  3N = asks partner to just bid his minor
+  4N = asks partner to just bid his minor
   3C = P/C
   3D = NAT, T/P
 
-2M-(3X)-
+2M-(3X)
   D  = PEN
-  4N = asks partner to bid just his minor
+  4N = asks partner to just bid his minor
   3D/4D = NAT, T/P
   4C = P/C

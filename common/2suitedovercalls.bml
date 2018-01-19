@@ -15,7 +15,7 @@ in both suits.
 (1D)-
 2D = MM
 2N = !c+!h
-3D = !c+!s (normally 6!c)
+3D = Asks stop for 3NT
 
 (1H)-
 2H = !s+m
@@ -136,9 +136,10 @@ in both suits.
   4S = ?
   4N = Pick best m
 
-*** They bid after our twosuited overcall
+*** They bid after our two-suited overcall
 
-If they bid a new suit intending as natural, dbl is penalty.
-If they support each other, dbl is take out, might be INV for M if you don't have another INV.
-If they cue bid, dbl means that you would have liked to bid that.
+If they bid a new suit intended as natural, dbl is penalty.  If they support
+each other, dbl is for take-out and may be INV for the major if you don't have
+another invitational bid.  If they bid one of our suits, dbl means that you would have
+liked to bid that.
 
