@@ -52,12 +52,8 @@
       4D = S/A for M
     3N = FG in !c, 1-suiter, a solid suit plus stoppers and 9 tricks
   2M = 5+M, F1R
-    2N = One of:
-         1) weak-two in !d
-         2) 25+ HCP, BAL
-      3D = Only NF bid
-      3X = FG, NAT (no system-on!)
-    3D = weak-two in !d, no fit, good suit, NF
+    2N = 25+ HCP, BAL
+    3D = weak-two in !d, no fit, NF
       3M = FG
     3M = weak-two in !d, fit, MIN
     4M = weak-two in !d, fit, MAX
@@ -78,8 +74,9 @@
   
 ** Intervention
 
-We just keep it simple: a pass promises clubs, redouble is strong. The rest is system-on.
+We just keep it simple: a pass promises clubs, redouble is a Puppet to 2!d
+with an own suit and a weak hand. The rest is system-on.
 
 2C-(D)
   P = 5+!c, NF
-  R = STR
+  R = Puppet to 2!d
