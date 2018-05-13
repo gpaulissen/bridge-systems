@@ -1,0 +1,78 @@
+* The 1 major opening
+
+One of a major promises 5 cards and at least 11 HCP. It is limited since with
+game forcing hands you open 2!c.
+
+** Answers
+
+1H-
+1S = 4!s and normally 6+ HCP
+1N = no 4!s, 5-12 HCP, with fit you have a minimum
+2C = FG
+2D = 5+!d, FG
+2H = 3!h, 7-9 HCP
+2S = 6!s, 8-11 HCP
+2N = fit, 10-14 HCP
+3m = 6m, INV
+
+1S-
+1N = 5-12 HCP, with fit you have a minimum
+2C = FG
+2D = 5+!d, FG
+2H = 5+!h, FG
+2S = 3!s, 7-9 HCP
+2N = fit, 10-14 HCP
+3m = 6m, INV
+3H = 6!h, INV
+
+*** 1!h-1!s
+
+1H-1S-
+1N = 12-14 SA
+2C = 5+!h-4+!c, limited to about 18 HCP
+  2D = 4SFG
+2D = 5+!h-4+!d, limited to about 18 HCP
+  3C = 4SFG
+2H = 6!h, NF
+  2N = F, see 1m-1M-2m-2N
+2S = NAT, normally 4!s
+  2N = F, see 1m-1M-2M-2N
+2N = 5+!h, either 18-19 BAL or FG
+  3C = (R)
+    3D = 5332
+      3H = NF (only way to stop below game)
+      3S = 5!s, FG
+    3H = 6!h, FG
+    3S = 6!h, 3!s, FG
+    3N = 6!h, NF
+  3D = 5!d, FG
+  3H = fit, FG
+  3S = 6!s, FG
+3m = 5!h-4m, FG
+3H = INV
+  3S = 5+!s, FG
+3S = 4!s, INV
+  3N = ASK for SPL
+3N = 4!s, FG
+  4C = ASK for SPL
+    4D = SPL !d
+    4H = SPL !c
+4m = 4!s, S/T, void
+4H = 6+!h, 3!s
+  4S = T/P
+
+*** 1M-1NT
+
+1M-1N-
+2C = 5+M-4+!c, limited to about 18 HCP
+2D = 5+M-4+!d, limited to about 18 HCP
+2M = 6M, NF
+2N = 5M, BAL, NF
+3m = 5!h-4m, FG
+3M = 6M, INV
+
+1S-1N
+  2H = 5!s-4!h, limited to about 18 HCP
+
+
+

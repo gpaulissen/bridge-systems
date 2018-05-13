@@ -1,0 +1,72 @@
+* The 2NT opening
+
+** Answers
+
+2N
+  3C = Stayman
+    3D = no 4M
+      3H = 5!s, 4!h
+      3S = 5!h, 4!s
+      4m = NAT, S/T, see 1NT-2C-2D-4m
+    3H = 4+!h, no 4!s
+      3S = S/T for !h
+      4m = NAT, S/T, see 1NT-2C-2D-4m
+    3S = 4+!s, no 4!h
+      4H = S/T for !s
+      4m = NAT, S/T, see 1NT-2C-2D-4m
+    3N = 4!h, 4!s
+      4C = impossible
+      4D = TRF for 4!h
+      4H = TRF for 4!s
+  3D = 5+!h, TRF
+    3H = 3+!h
+      3S = PUP
+        3N = (R)
+          4C = SPL !c
+          4D = SPL !d
+          4H = SPL !s
+      3N = S/T, no SPL, no 4m
+      4m = NAT, S/T
+      4H = S/O
+    3S = good fit, second suit
+    3N = no 3+!h
+      4D = TRF, S/T (else 2NT-4!c immediately)
+    4m = good fit, second suit
+  3H = 5+!s, TRF
+    3S = 3+!s
+      3N = PUP
+        4C = (R)
+          4D = SPL !d
+          4H = SPL !h
+          4S = SPL !c
+      4m = NAT, S/T
+      4H = S/T, no SPL, no 4m
+      4S = S/O
+    3N = no 3+!s
+      4H = TRF, S/T (else 2NT-4!d immediately)
+    4m = good fit, second suit
+    4H = good fit, second suit
+  3S = mm
+    4m = S/A
+  4C = 6!h, TRF to 4!h
+    4H = forced
+  4D = 6!s, TRF to 4!s
+    4S = forced
+  4H = 6!c, S/T
+    4S = fit, MAX
+      4N = Blackwood
+    4N = no fit, T/P
+      5C = T/P
+      5N = Blackwood
+    5C = fit, MIN
+      5N = Blackwood
+  4S = 6!d, S/T
+    4N = no fit, T/P
+      5D = T/P
+      5N = Blackwood
+    5C = fit, MAX
+      5N = Blackwood
+    5D = fit, MIN
+      5N = Blackwood
+
+** Intervention

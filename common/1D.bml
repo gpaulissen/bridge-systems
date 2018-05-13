@@ -19,7 +19,10 @@ Changes 2017-12-22:
   2D = inverted minor, 4+!d, FG
   2H = 5!s-4+!h, 5-9 HCP, see continuation after 1!c
   2S = INV, 4+!d
-    3C = spl, rest see 1!c
+    2N = NAT, F1 (we play 3!d or 3NT, not 2NT)
+    3C = SPL, FG
+    3D = S/O
+    3M = SPL, FG
   2N = INV
     3m = NF
     3M = SPL, FG
@@ -105,8 +108,8 @@ Changes 2018-01-16:
 1D-1N
   2m = NF
   2M = 16+ reverse, F1R
-    2N = PUP
-    3m = NF
+    2N = PUP, S/O in 3m
+    3m = GF
   2N = INV, short in other minor
   3C = 4+!c, FG
   3D = 6+!d, INV
