@@ -16,7 +16,7 @@ Build output files for a document.
     <echo message="tmp.dir: ${tmp.dir}"/>
     <property name="output.dir" location="output"/>
     <mkdir dir="${output.dir}"/>
-    <property name="log.level" value="verbose"/>
+    <property name="ant.log.level" value="verbose"/>
     <condition property="python3" value="python3" else="py">
       <os family="mac"/>
     </condition>
@@ -26,6 +26,7 @@ Build output files for a document.
     <property name="bml.dir" location="${bml.dir.relative}"/>
     <property name="bml.bin.dir" location="${bml.dir}/bin"/>
     <property name="bml.src.dir" location="${bml.dir}/src/bml"/>
+    <property name="bml.option.verbose" value="-v"/>
     <fail message="BML directory (${bml.bin.dir}) must exist">
       <condition>
         <not>
@@ -73,8 +74,7 @@ Build output files for a document.
     <delete dir="${tmp.dir}"/>
   </target>
 
-  <!--target name="build" description="Build ${document} output files" depends="build-pdf,build-htm,build-bss"/-->
-  <target name="build" description="Build ${document} output files" depends="build-pdf,build-htm"/>
+  <target name="build" description="Build ${document} output files" depends="build-pdf,build-htm,build-bss"/>
 
   <target name="bml-copy" description="Copy BML files" depends="init">
     <copy todir="${tmp.dir}">
@@ -91,7 +91,7 @@ Build output files for a document.
     <exec executable="${pdflatex}" dir="${tmp.dir}" failonerror="false" outputproperty="output1" resultproperty="result1">
       <arg value="${document}"/>
     </exec>
-    <echo message="result1: ${result1}; output1: ${output1}" level="${log.level}"/>
+    <echo message="result1: ${result1}; output1: ${output1}" level="${ant.log.level}"/>
     <fail message="${output1}">
       <condition>
         <not>
@@ -105,7 +105,7 @@ Build output files for a document.
     <exec executable="${bibtex}" dir="${tmp.dir}" failonerror="false" outputproperty="output2" resultproperty="result2">
       <arg value="${document}"/>
     </exec>
-    <echo message="result2: ${result2}; output2: ${output2}" level="${log.level}"/>
+    <echo message="result2: ${result2}; output2: ${output2}" level="${ant.log.level}"/>
     <fail message="${output2}">
       <!--
           OK if:
@@ -136,7 +136,7 @@ Build output files for a document.
     <exec executable="${pdflatex}" dir="${tmp.dir}" failonerror="false" outputproperty="output3" resultproperty="result3">
       <arg value="${document}"/>
     </exec>
-    <echo message="result3: ${result3}; output3: ${output3}" level="${log.level}"/>
+    <echo message="result3: ${result3}; output3: ${output3}" level="${ant.log.level}"/>
     <fail message="${output3}">
       <condition>
         <not>
@@ -149,7 +149,7 @@ Build output files for a document.
     <exec executable="${pdflatex}" dir="${tmp.dir}" failonerror="false" outputproperty="output4" resultproperty="result4">
       <arg value="${document}"/>
     </exec>
-    <echo message="result4: ${result4}; output4: ${output4}" level="${log.level}"/>
+    <echo message="result4: ${result4}; output4: ${output4}" level="${ant.log.level}"/>
     <fail message="${output4}">
       <condition>
         <not>
@@ -166,6 +166,7 @@ Build output files for a document.
     <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
       <arg value="${bml.bin.dir}/bml2latex.py"/>
       <arg value="${option.tree}"/>
+      <arg value="${bml.option.verbose}"/>
       <arg value="${option.include.external.files}"/>
       <arg value="${tmp.dir}/${document}.bml"/>
     </exec>
@@ -175,6 +176,7 @@ Build output files for a document.
     <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
       <arg value="${bml.bin.dir}/bml2html.py"/>
       <arg value="${option.tree}"/>
+      <arg value="${bml.option.verbose}"/>
       <arg value="${option.include.external.files}"/>
       <arg value="${tmp.dir}/${document}.bml"/>
     </exec>
@@ -187,6 +189,7 @@ Build output files for a document.
   <target name="build-bss" description="Build .bss files" depends="bml-copy" if="document.exists">
     <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
       <arg value="${bml.bin.dir}/bml2bss.py"/>
+      <arg value="${bml.option.verbose}"/>
       <arg value="${tmp.dir}/${document}.bml"/>
     </exec>
     <copy file="${tmp.dir}/${document}.bss" todir="${output.dir}" quiet="true"/>
