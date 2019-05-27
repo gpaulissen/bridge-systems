@@ -1,0 +1,203 @@
+* The 1NT Opening
+
+Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K or Q. 14 or 17 with a 5crd suit are upgraded regularly. 
+
+** Answers
+
+1N
+  2C = Stayman, not with 5-4MM FG!
+  2D = 5+!h or 54MM FG TRF
+  2H = 5+!s TRF
+  2S = 4441 or 5m4M31
+  2N = 6+!c or 5-5 mm FG TRF
+  3C = 6+!d TRF
+  3D = 22(54) FG, looking for best game
+  3H = 31(54) FG
+  3S = 13(54) FG
+  3N = T/P
+  4C = 6+!h
+    4H = forced
+  4D = 6+!s 
+    4S = forced
+
+*** Continuation after Stayman
+
+Changes 2018-01-09:
+
+- 1NT-2!c-2!d-2M = 5M, INV
+- 1NT-2!c-2!d-3M = Smolen with 6-4
+
+1N-2C
+  2D = no 4M
+  2H = 4+!h, no 4!s
+  2S = 4+!s, no 4!h
+  2N = 44MM min
+    3D = TRF !h
+    3H = TRF !s
+  3C = 44MM max
+    3D = TRF !h
+    3H = TRF !s
+        
+1N-2C-2D
+  2H = 5+!h, INV
+  2S = 5+!s, INV
+  2N = INV 
+  3m = 5+m 4M FG
+  3H = Smolen with 6!s-4!h, FG
+  3S = Smolen with 6!h-4!s, FG
+  3N = T/P
+  4C = 4!c S/T, balanced
+    4D = nat
+      4N = Sign off
+    4M = CTRL
+      4N = sign off
+  4D = 4!d S/T, balanced
+    4H = K/B
+    4S = CTRL
+    4N = sign off
+    5C = CTRL
+        
+1N-2C-2H
+  2S = (R)
+    2N = 3433 or 34(42)
+      3H = S/A !h
+    3m = 5m
+      3H = S/A !h
+    3H = 5!h
+      3S = S/A !h, CTRL
+      4m = S/A !h, CTRL
+  2N = INV
+  3m = 5+m-4!s FG
+  3H = INV
+  3S = 3433 CoG
+  4m = see 1N-2!c-2!d
+        
+1N-2C-2S
+  2N = INV
+  3m = 5+m-4!h FG
+  3H = (R)
+    3S = exactly 4!s not 4333
+    3N = 4333
+    4X = 5!s CTRL
+  3S = INV
+  4m = see 1N-2!c-2!d
+
+*** Continuation after Transfers
+
+Changes 2018-01-09:
+
+- 1NT-2!d-2!h-2NT and 1NT-2!-2!s-2NT FG with 5431
+- 1NT-2!d-2!h-3m FG with 55 or S/T
+
+
+1N-2D
+  2H = NF
+    2S = 5+4+MM FG
+      2N = (R)
+        3m = 3m
+          3M = 3M
+        3M = 5M4oM22
+        3N = 55MM, MIN
+        4m = 55MM, MAX, SPL m
+      3m = 5+m (good suit) not 4M
+      3M = S/A M
+    2N = FG, 5M4m(31), no S/T
+      3C = (R)
+        3D = 4!c, 3!d
+        3H = 4!c, 1!d
+        3D = 4!d, 3!c
+        3H = 4!d, 1!c
+    3m = 5+m, FG or 4m, S/T
+      3M = might be "I am stuck"
+    3H = 6+!h INV
+    3S = 6+!h SPL
+    3N = T/P
+    4m = 6+!h SPL
+    4H = 6+!h S/T
+  2N = 4+!h MAX
+    3C = INV
+    3D = TRF
+    3S = SPL
+    4m = SPL
+  3H = 4+!h MIN 
+
+After 1NT-2!h we use the same structure as over 1NT-2!d, so very natural.
+
+1N-2N
+  3C = Forced
+    3D = 5-5 !d+!c FG
+    3M = SPL 6+!c
+    3N = suggests SPL !d
+        
+1N-3C
+  3D = Forced
+    3M = SPL 
+    3N = suggest SPL !c
+
+*** Continuation after 1NT-2!s
+
+1N-2S
+  2N = Forced
+    3X = Shortness, bidding continues natural
+
+** They bid over our 1NT opening
+
+After a double we play system on. The only new bid is redouble which depends
+on the meaning of double. If double is for penalties (or just showing values),
+the redouble is a Puppet to 2!c. In any other case the redouble shows values
+as well and is forcing till 2!s.
+
+1N-(2C)
+  D = values and a double later on is for take out
+  2D = NF
+  2H = NF (?)
+  2S = minors (?)
+  2N = transfer lebensohl
+  3X = transfer lebensohl
+
+*** They bid over stayman
+
+1N-(P)-2C-(D)
+  P = no !c stopper
+    R = Stayman again, INV+
+      2D = 4+!h
+      2H = 4+!s
+      2S = no 4+M
+      2N = MM, MIN
+      3C = MM, MAX
+  R = Proposal to play (4)5+!c
+  2DHS = !c stopper, system on
+  2N = !c stopper, system on
+  3C = !c stopper, system on
+
+1N-(P)-2C-(2D)
+  P  = no M
+  D  = 4+!h
+  2H = 4+!s
+  2N = MM, MIN
+  3C = MM, MAX
+
+1N-(P)-2C-(2M)
+  D  = take out (4+oM)
+  2S = 5+!s
+
+1N-(P)-2C-(3m)
+  D  = at least one major
+  3M = 5+M
+
+*** They bid over our transfer
+
+1N-(P)-2red-(D)
+  P = no 3 cards fit 
+    R = retransfer
+    1step = to play
+    3m = 5-5, NF
+  R = 3+ cards fit, wants partner to play (usually no stopper or something like Ax(x))
+  2M = 3+ cards fit, wants to play (usually a stopper)
+
+When they bid over our transfer a double is just for penalties.  Support shows
+a good hand with fit, after 2D at least 4 cards (partner may have 4!h5!s in
+the majors). If they bid our cuebid dbl shows fit and willingness to compete.
+
+
+

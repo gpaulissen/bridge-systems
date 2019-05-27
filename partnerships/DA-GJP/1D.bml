@@ -1,0 +1,131 @@
+* The 1!d opening
+
+The 1!d opening shows at least 4!d. With 2!c and 4!d and a balanced hand we
+tend to open 1!d but 1!c can be chosen for strategic reasons. With 18-19 BAL
+we only open 1!d with a good 5 card suit. 
+
+** Answers
+
+Changes 2017-12-22:
+
+- Modified 1D-2C
+- Modified 1D-2D
+- Modified 1D-2H
+
+1D
+  1M = 4+M 5+HCP 
+  1N = 6-10 no 4M
+  2C = FG, 4+!c (usually 5)
+  2D = inverted minor, 4+!d, FG
+  2H = 5!s-4+!h, 5-9 HCP, see continuation after 1!c
+  2S = INV, 4+!d
+    2N = NAT, F1 (we play 3!d or 3NT, not 2NT)
+    3C = SPL, FG
+    3D = S/O
+    3M = SPL, FG
+  2N = INV
+    3m = NF
+    3M = SPL, FG
+  3C = INV 6+!c
+  3D = 5-9 4+!d 
+  3M = INV 6+M
+  3N = 12-15 all suits stopped, normally 3343 or 3334.
+
+*** 1!d-1M
+
+Changes 2017-12-23:
+
+- 1D-1M-2S
+
+1D-1M
+  1S = 4+!s NF 
+  1N = 12-14 HCP, BAL, see 1!c opening
+  2C = 5+!d 4+!c 11-17(18)
+  2D = 6+!d 11-14(15)
+  2M = (3)4+M 12-14
+    2N = (R), F1R
+    3m = FG, S/T
+  2H = 16+ HCP, 5+!d-4+!h
+  2S = 19+ HCP, 5+!d-4+!s, FG
+  3C = 19+, 5+!d-4+!c, FG
+  3D = 15-17, 6+!d
+
+1D-1H-2H
+  2S = INV, NAT
+
+1D-1S-2S
+  3H = INV, NAT
+
+**** 1!d-1M-2NT
+
+1D-1H
+  2N = 18+ HCP, 5+!d
+    3C = (R)
+      3D = 5332, NF
+      3H = 3!h, FG
+      3S = 6+!d, no 3!h, FG
+    3D = fit, FG, (mild) S/T
+
+1D-1S
+  2N = 18+ HCP, 5+!d
+    3C = (R)
+      3D = 5332, NF
+      3H = 6+!d, no 3!s, FG
+      3S = 3!s, FG
+    3D = fit, FG, (mild) S/T
+
+**** Strong with 4 cards fit after 1!d-1M
+
+1D-1M
+  3M = 15-17, (4)5+!d-4M
+    1step = asking shortness
+  4D = 6m-4M, 16+ HCP, (mild) S/T
+  4M = 6m-4M, 11-15 HCP
+
+1D-1H
+  3S = 4!h, FG, UNB
+    3N = (R)
+  3N = 4!h, SPL !s, stronger than 3!s
+  4C = 4!h, SPL !c, stronger than 3!s
+
+1D-1S
+  3H = 4!s, FG, UNB
+    3S = (R)
+  3N = 4!s, SPL !h, stronger than 3!h
+  4C = 4!s, SPL !c, stronger than 3!h
+
+*** 1!d-1NT
+
+Changes 2017-12-23:
+
+- Modified 1D-1N-2N
+- Added 1D-1N-3M
+
+Changes 2018-01-16:
+
+- 1D-1N-2M-2N is a Puppet
+
+1D-1N
+  2m = NF
+  2M = 16+ reverse, F1R
+    2N = PUP, S/O in 3m
+    3m = GF
+  2N = INV, short in other minor
+  3C = 4+!c, FG
+  3D = 6+!d, INV
+  3M = 6+!d, FG, autosplinter
+  
+*** 1!d-2!c
+
+1D-2C;
+2D = min not suited for another bid, can be only 4!d
+2M = extra's 5+!d 4+M
+2N = bal 
+3C = 4+!c not complete min
+3D = 6+!d 14+
+3M = Spl 4+!c
+
+*** 1!d-2!d
+
+See inverted minor.
+
