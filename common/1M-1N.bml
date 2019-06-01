@@ -1,0 +1,59 @@
+*** 1M-1NT
+
+1M-1N-
+2C = a kind of Gazilli with one of:
+     1) 4+!c
+     2) 18-19 NT
+     3) 17-19 HCP, 5M-4m
+     4) FG, exactly 5M and another suit
+     5) 15-17 HCP, 5!s-4!h (after 1!s)
+  2D = (R)
+    2M = variant 1
+      2N = INV, no 4!c
+      3C = T/P
+    2H = variant 5
+      2N = FG
+      3H = NF
+    2S = variant 4
+    2N = variant 2 or 3
+      3C = (R), FG, 5!c possible
+        3D = no 4m
+          3H = shows 5!c
+        3H = shows 4!c
+        3S = 4!d, 3oM (changed 1-11-2017)
+        3N = 4!d, no 3oM (changed 1-11-2017)
+      3D = 5!d, FG
+    3m = variant 4
+  2M = T/P, NAT, normally 3M (otherwise 2!d)
+  2N = 4!c, INV
+    3C = T/P
+  3C = 5!c, INV
+  3D = 6!d, T/P
+2D = 5+M-4+!d, limited to about 16 HCP
+2M = 6M, NF
+2N = 6M, FG
+  3X = see 1M-1NT-2!c-2!d-2NT
+3m = 15-17 HCP, 5M-5m
+3M = 6M, INV
+
+1S-1N
+  2H = 5!s-4!h, 11-14 HCP
+
+1S-1N-2C
+  2H = 5+!h, no interest in playing 3!c opposite variant 1
+
+1H-1N-3m
+  3S = NAT, stopper, FG
+
+1S-1N-3m
+  3H = NAT, stopper, FG
+
+1M-1N-3C
+  3M = T/P
+  4C = S/A !c
+  4D = S/A M
+
+1M-1N-3D
+  3M = T/P
+  4C = S/A M
+  4D = S/A !d

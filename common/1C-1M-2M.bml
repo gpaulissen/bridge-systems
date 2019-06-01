@@ -1,0 +1,19 @@
+1C-1M
+  2M = MIN, usually 4M but sometimes 3M is possible
+    2N = F1, any INV+
+      3C = MIN, 3M, 5!c, NF
+      3M = MIN, 4M
+      3X = MAX, 3M, NAT
+      3N = 4M333
+      4M = MAX, 4M
+      4D = MAX, 4M, SPL !d (om)
+    3M = 5M, (mildly) INV
+    2S/3H = (bid in other major w/o jump), 54 MM, INV+
+    3M = 5M, NAT, S/T
+
+1C-1H-2H-2N
+  4C = MAX, 4!h, SPL !s
+
+1C-1S-2S-2N
+  4C = MAX, 4!s, SPL !h
+  

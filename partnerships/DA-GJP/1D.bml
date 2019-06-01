@@ -6,36 +6,27 @@ we only open 1!d with a good 5 card suit.
 
 ** Answers
 
-Changes 2017-12-22:
+Changes 2019-06-01:
 
-- Modified 1D-2C
-- Modified 1D-2D
-- Modified 1D-2H
+- Removed inverted minor
+- Moved fit after 1D-1M  to another place
 
 1D
   1M = 4+M 5+HCP 
   1N = 6-10 no 4M
   2C = FG, 4+!c (usually 5)
-  2D = inverted minor, 4+!d, FG
+  2D = NAT, 6-9 HCP, NF
   2H = 5!s-4+!h, 5-9 HCP, see continuation after 1!c
-  2S = INV, 4+!d
-    2N = NAT, F1 (we play 3!d or 3NT, not 2NT)
-    3C = SPL, FG
-    3D = S/O
-    3M = SPL, FG
+  2S = 6!s, weak
   2N = INV
     3m = NF
     3M = SPL, FG
-  3C = INV 6+!c
+  3C = 4+!d, INV
   3D = 5-9 4+!d 
   3M = INV 6+M
   3N = 12-15 all suits stopped, normally 3343 or 3334.
 
 *** 1!d-1M
-
-Changes 2017-12-23:
-
-- 1D-1M-2S
 
 1D-1M
   1S = 4+!s NF 
@@ -74,36 +65,7 @@ Changes 2017-12-23:
       3S = 3!s, FG
     3D = fit, FG, (mild) S/T
 
-**** Strong with 4 cards fit after 1!d-1M
-
-1D-1M
-  3M = 15-17, (4)5+!d-4M
-    1step = asking shortness
-  4D = 6m-4M, 16+ HCP, (mild) S/T
-  4M = 6m-4M, 11-15 HCP
-
-1D-1H
-  3S = 4!h, FG, UNB
-    3N = (R)
-  3N = 4!h, SPL !s, stronger than 3!s
-  4C = 4!h, SPL !c, stronger than 3!s
-
-1D-1S
-  3H = 4!s, FG, UNB
-    3S = (R)
-  3N = 4!s, SPL !h, stronger than 3!h
-  4C = 4!s, SPL !c, stronger than 3!h
-
 *** 1!d-1NT
-
-Changes 2017-12-23:
-
-- Modified 1D-1N-2N
-- Added 1D-1N-3M
-
-Changes 2018-01-16:
-
-- 1D-1N-2M-2N is a Puppet
 
 1D-1N
   2m = NF
@@ -125,7 +87,4 @@ Changes 2018-01-16:
 3D = 6+!d 14+
 3M = Spl 4+!c
 
-*** 1!d-2!d
-
-See inverted minor.
 

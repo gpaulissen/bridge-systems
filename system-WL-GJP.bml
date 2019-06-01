@@ -42,10 +42,13 @@ Let's start with the basic opening structure of the system (:
 3N  = Gambling
 
 #INCLUDE common/1C.bml
+#INCLUDE common/1C-1M-2M.bml
 #INCLUDE common/1D.bml
 #INCLUDE partnerships/WL-GJP/1m-2m.bml
 #INCLUDE common/1m-(1X).bml
 #INCLUDE common/1M.bml
+#INCLUDE common/1H-1S.bml
+#INCLUDE common/1M-1N.bml
 #INCLUDE common/1M-fit.bml
 #INCLUDE partnerships/WL-GJP/1N.bml
 #INCLUDE common/2C.bml

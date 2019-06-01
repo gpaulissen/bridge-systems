@@ -1,0 +1,33 @@
+* Fit after 1m-1M
+
+1m-1M
+  2M = MIN, usually 4M but sometimes 3M is possible
+    2N = F1, any INV+
+      3M = MIN, 4M
+      3X = MAX, 3+M, NAT
+      3N = 4M333
+      4M = MAX, 4M, SPL oM
+      4m = MAX, 5422
+      4om = MAX, 4M, SPL om
+    3M = 5M, (mildly) INV
+    2S/3H = (bid in other major w/o jump), 54 MM, INV+
+    3X = 5M, NAT, INV+
+  3M = 4M, INV
+    1step = (R)
+      3N = (M = !h) SPL oM
+      4oM = (M = !s) SPL oM
+      4om = SPL om
+      4m = 5422
+  3oM = 4M, FG
+    1step = (R), GF
+      3N = (M = !s) SPL oM
+      4M = (M = !h) SPL oM
+      4om = SPL om
+      4m = 5422
+  3N = 4M, FG, void oM
+  4om = 4M, FG, void om
+  4m = 64, STR
+  4M = 64, weaker
+
+
+  

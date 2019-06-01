@@ -57,14 +57,16 @@ without a top honor is not allowed.
   3m = NAT, NF
 
 2M-(2X)-
-  D     = PEN
-  2N/4N = asks partner to bid just his minor
-  3C    = NAT and T/P
-  3D    = NAT, T/P
+  D  = PEN
+  2N = asks partner to bid just his minor
+  4N = asks partner to bid just his minor
+  3C = NAT and T/P
+  3D = NAT, T/P
 
 2M-(2N)-
   D  = PEN
-  3N/4N = asks partner to bid just his minor
+  3N = asks partner to bid just his minor
+  4N = asks partner to bid just his minor
   3C = P/C
   3D = NAT, T/P
 

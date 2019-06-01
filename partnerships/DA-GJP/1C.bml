@@ -28,6 +28,10 @@ Changes 2019-05-27:
 - 1C-2S shows 5 spades plus at least 4 clubs
 - Added 1C-1D-2M-2oM
 - Development after 1C-1M with 4 card fit and a strong hand
+- 1C-1M-3D
+- fit after 1C-1M
+- 1C-2D
+- 1C-2S
 
 1C-
 P  = impossible except when 5+!c and 0-3 HCP
@@ -211,27 +215,6 @@ P  = impossible except when 5+!c and 0-3 HCP
 1C-1S-2D
   3H = 55 MM, good suits (else 2!s), S/T
 
-**** 1!c-1M-2M
-
-1C-1M
-  2M = MIN, usually 4M but sometimes 3M is possible
-    2N = F1, any INV+
-      3C = MIN, 3M, 5!c, NF
-      3M = MIN, 4M
-      3X = MAX, 3M, NAT
-      3N = 4M333
-      4M = MAX, 4M
-      4D = MAX, 4M, SPL !d (om)
-    3M = 5M, (mildly) INV
-    2S/3H = (bid in other major w/o jump), 54 MM, INV+
-    3M = 5M, NAT, S/T
-
-1C-1H-2H-2N
-  4C = MAX, 4!h, SPL !s
-
-1C-1S-2S-2N
-  4C = MAX, 4!s, SPL !h
-  
 **** 1!c-1M-2oM
 
 1C-1H
@@ -239,29 +222,6 @@ P  = impossible except when 5+!c and 0-3 HCP
 
 1C-1S
   2H = NAT, STR, FG
-
-**** Strong with 4 cards fit after 1!c-1M
-
-After 1!c-1M there is room to show an unbalanced and game forcing hand with 4
-cards fit by bidding 3!d. After a 1!d opening this is not possible hence the
-development after 1!d-1M is different.
-
-1C-1M
-  3D = SPL, 4M, FG
-  3M = 4M, INV
-    1step = (R), asks for singleton that opener should show naturally
-      4D = singleton
-      3N = singleton !s (M= !h)
-      4H = singleton !h (M= !s)
-  3N = 5422, 4M, FG
-  4C = 6-4, good suits, (mild) S/T
-  4X = (X < M), void, 4M
-
-1C-1H
-  3S = SPL !s, 4!h, FG
-
-1C-1S
-  3H = SPL !h, 4!s, FG
 
 *** 1!c-1NT
 
@@ -274,36 +234,48 @@ development after 1!d-1M is different.
 
 *** 1!c-2!d
 
-A weak Multi-coloured (<= 6 HCP). A hand that may not be strong enough opposite
+A weak Multi-coloured (<= 6 HCP) or a hand with club fit. The weak hand may not be strong enough opposite
 a strong (balanced) hand.
 
-1C-2D-
-2M = see the 2M opening
-2N = idem
-3M = idem
-3C = NF
+1C-2D
+  2H = similar to the 2D opening
+    P = weak !h
+    2S = weak !s
+    2N = 5+!c, FG
+    3C = 5+!c, INV, NF
+  2S = similar to the 2D opening
+    P = weak !s
+    2N = weak !h
+    3C = 5+!c, INV, NF
+    3X = 5+!c, FG
+  2N = idem
+  3M = idem
+  3C = NF
 
 *** 1!c-2!h
 
-    Shows at least 5!s-4!h and 5-9 HCP. This bid exists because after 1!c-1!s-2!c a
+Shows at least 5!s-4!h and 5-9 HCP. This bid exists because after 1!c-1!s-2!c a
 bid of 2!h is at least INV. It is not mandatory because if you prefer 2!c if
 partner rebids it, you can bid 1!d or 1!s.
 
-1C-2H-2N-
-3C = MIN, no 5-5
-3D = MIN, 5-5
-3H = MAX, FG, no 5-5
-3S = MAX, FG, 5-5
+1C-2H-2N
+  3C = 3+!c
+    3M = INV, NF
+  3D = 3+!d
+    3M = INV, NF
+  3H = 5422, MIN
+  3S = 5422, MAX
 
 *** 1!c-2!s
 
-Inverted minor and just INV.
+Shows 5!s and 4+!c, 7-9 HCP.
 
 1C-2S
-  2N = NF
-  3C = S/O
-  3D = SPL, FG
-  3M = idem
+  2N = (R)
+    3C = MIN
+    3D = 3+!d, MAX, FG
+    3H = 3+!h, MAX, FG
+    3S = MAX
 
 *** 1!c-2NT
 
@@ -320,9 +292,9 @@ Pass is allowed now. All bids except pass, redouble and 1!d remain
 unchanged. So for example, 2!c is still inverted minor and FG.
 
 1C-(D)-
-P = nothing to bid, maybe even 5-5-3-0
+P = 3+!c, nothing to bid
 R = at least 10 HCP and not very unbalanced
-1D = 5+!d, 0+HCP, opener rebids like after 1!c-1!d without further intervention
+1D = 0-2!c, 0+HCP, opener rebids like after 1!c-1!d without further intervention
 
 **** 1!c-(1X)
 
@@ -338,7 +310,7 @@ Like 1!c-(1X)-P-(2X) except that a double may not be so strong.
 
 **** 1!c-(P)-1!d-(D)
 
-A pass shows a minimal balanced hand. Redouble shows a strong hand and at
+A pass shows a minimal balanced hand with at least 3!d. Redouble shows a strong hand and at
 least 3!d. Other bids are as usual but 1M suggests an unbalanced hand.
 
 **** 1!c-(P)-1!d-(nX)
