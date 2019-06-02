@@ -38,14 +38,16 @@ Build output files for a document.
       <available file="${document}.bml" type="file"/>
     </condition>
     <condition property="option.tree" value="--tree" else="--no-tree">
-      <and>
-        <isset property="tree"/>
+      <or>
+        <not>
+          <isset property="tree"/>
+        </not>
         <or>
           <equals arg1="${tree}" arg2="true" trim="yes" casesensitive="no"/>
           <equals arg1="${tree}" arg2="yes" trim="yes" casesensitive="no"/>
           <equals arg1="${tree}" arg2="1" trim="yes" casesensitive="no"/>
         </or>
-      </and>
+      </or>
     </condition>
     <condition property="option.include.external.files" value="--include-external-files"
                else="--no-include-external-files">

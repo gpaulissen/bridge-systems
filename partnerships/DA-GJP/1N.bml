@@ -1,76 +1,64 @@
 * The 1NT Opening
 
-Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton K or Q. 14 or 17 with a 5crd suit are upgraded regularly. 
+Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely singleton
+K or Q. 14 or 17 with a 5crd suit are upgraded regularly.
 
 ** Answers
 
 1N
-  2C = Stayman, not with 5-4MM FG!
-  2D = 5+!h or 54MM FG TRF
+  2C = Stayman
+  2D = 5+!h TRF
   2H = 5+!s TRF
-  2S = 4441 or 5m4M31
-  2N = 6+!c or 5-5 mm FG TRF
+  2S = 5+!c TRF
+  2N = 8-9 HCP, BAL
   3C = 6+!d TRF
-  3D = 22(54) FG, looking for best game
+  3D = Optional Stayman, normally 4333
   3H = 31(54) FG
   3S = 13(54) FG
   3N = T/P
-  4C = 6+!h
-    4H = forced
-  4D = 6+!s 
-    4S = forced
+  4C = 55 MM
+    4D = !c-fit
+    4H = !s-fit
+  4D = 55 MM
+  4M = T/P
+  4N = QUANT
+  5m = T/P
+  
 
 *** Continuation after Stayman
-
-Changes 2018-01-09:
-
-- 1NT-2!c-2!d-2M = 5M, INV
-- 1NT-2!c-2!d-3M = Smolen with 6-4
 
 1N-2C
   2D = no 4M
   2H = 4+!h, no 4!s
   2S = 4+!s, no 4!h
-  2N = 44MM min
-    3D = TRF !h
-    3H = TRF !s
-  3C = 44MM max
-    3D = TRF !h
-    3H = TRF !s
+  2N = 44MM
+    3C = 4+!h, INV or S/T
+    3D = 4+!s, INV or S/T
+    4C = 4+!h, GF
+    4D = 4+!s, GF
         
 1N-2C-2D
-  2H = 5+!h, INV
-  2S = 5+!s, INV
+  2H = 5+!h, INV (misère dorée)
+  2S = 5+!s, INV (misère dorée)
   2N = INV 
   3m = 5+m 4M FG
-  3H = Smolen with 6!s-4!h, FG
-  3S = Smolen with 6!h-4!s, FG
+  3H = Smolen (chassé croisé) with 5!s-4!h, FG
+  3S = Smolen (chassé croisé) with 5!h-4!s, FG
   3N = T/P
-  4C = 4!c S/T, balanced
-    4D = nat
-      4N = Sign off
-    4M = CTRL
-      4N = sign off
-  4D = 4!d S/T, balanced
-    4H = K/B
-    4S = CTRL
-    4N = sign off
-    5C = CTRL
+  4C = Smolen with 6!h-4!s, FG
+  4D = Smolen with 6!s-4!h, FG
+  4N = QUANT
         
 1N-2C-2H
-  2S = (R)
-    2N = 3433 or 34(42)
-      3H = S/A !h
-    3m = 5m
-      3H = S/A !h
-    3H = 5!h
-      3S = S/A !h, CTRL
-      4m = S/A !h, CTRL
+  2S = 5+!s, INV (misère dorée)
   2N = INV
   3m = 5+m-4!s FG
   3H = INV
-  3S = 3433 CoG
-  4m = see 1N-2!c-2!d
+  3S = 4+!h, S/T
+    3N = CTRL !s
+  4m = 4+!h, S/T, SPL m
+  4N = QUANT
+  5m = 4+!h, BW exclusion
         
 1N-2C-2S
   2N = INV
