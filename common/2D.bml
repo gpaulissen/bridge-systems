@@ -22,14 +22,14 @@ Changes 2018-01-09:
       3S = PRE
     2N = 22-24 NT, see 2NT opening
     3C = FG in !d, one of:
-         1) 4M
-         2) 1-suiter, not a solid suit plus stoppers and 9 tricks
+         a) 4M
+         b) 1-suiter, not a solid suit plus stoppers and 9 tricks
       3D = (R)
-        3M = variant 1
+        3M = variant a
           4C = S/A for M
           4D = S/A for !d
-        3N = variant 2
-        4m = variant 2
+        3N = variant b
+        4m = variant b
       3M = 5+M
     3D = FG, 5+!d-4+!c
       3M = stopper  
@@ -41,11 +41,7 @@ Changes 2018-01-09:
     3N = FG in !d, 1-suiter, a solid suit plus stoppers and 9 tricks
   2S = NF, opposite a weak-two in !s, positive (normally 10+ HCP)
     2N = weak-two in !h
-      3C = 5!s-5m, FG
-        3D = (R)
-          3H = shows 5!c
-          3S = shows 5!d
-      3D = (R), opener bids 4!d with a MAX else 3!h
+      3m = 5!s-5m, FG
       3H = NF
       3S = 6!s, INV
     3X = see 2!d-2!h-3!c
@@ -72,8 +68,8 @@ We just keep it simple: a pass promises diamonds, redouble is a Puppet to 2!h
 in order to play with a long suit. The rest is system-on.
 
 2D-(D)
-  P = 5+!d, NF
-  R = PUP to 2!h
+  P = wants !d lead
+  R = wants !c lead
 
 2D-(2M)
   P = NF

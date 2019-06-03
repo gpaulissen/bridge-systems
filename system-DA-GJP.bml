@@ -56,7 +56,7 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/WL-GJP/2C.bml
 #INCLUDE common/2D.bml
 #INCLUDE common/muiderberg.bml
-#INCLUDE partnerships/WL-GJP/2N.bml
+#INCLUDE partnerships/DA-GJP/2N.bml
 #INCLUDE common/theyopen.bml
 #INCLUDE common/2suitedovercalls.bml
 #INCLUDE common/weopen.bml
