@@ -1,15 +1,15 @@
-#+TITLE: WL-GJP 1.1
+#+TITLE: EM-GJP 1.1
 
-#+AUTHOR: Wilfried Libbrecht / Gert-Jan Paulissen
+#+AUTHOR: Erick Mauberquez / Gert-Jan Paulissen
 
-#+DESCRIPTION: Based on Dutch doubleton (five card major, strong NT, Multi, Muiderberg)
+#+DESCRIPTION: Based on Dutch doubleton (five card major, strong NT)
 
 * Introduction
 
 ** BML - Bridge Bidding Markup Language
 
 The notation in this document is in BML format, see
-github.com/Kungsgeten/bml/blob/master/README.org.
+github.com/gpaulissen/bml/blob/master/README.org.
 
 This notation allows for text documents with simple bidding tables.
 
@@ -35,32 +35,30 @@ Let's start with the basic opening structure of the system (:
 1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
 1N  = 15--17 BAL
 2C  = Weak-two in !d / Any game force except !d
-2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
-2M  = 5M, 4+m, 5-10 HCP
+2DHS  = To be defined
 2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
 3X  = PRE
 3N  = Gambling
 
-#INCLUDE common/1C.bml
-#INCLUDE common/1C-1M-2M.bml
-#INCLUDE common/1D.bml
-#INCLUDE partnerships/WL-GJP/1m-2m.bml
+#INCLUDE partnerships/EM-GJP/1C.bml
+#INCLUDE partnerships/EM-GJP/1C-1M-3D.bml
+#INCLUDE partnerships/EM-GJP/1D.bml
+#INCLUDE partnerships/EM-GJP/1m-1M-fit.bml
 #INCLUDE common/1m-(1X).bml
-#INCLUDE common/1M.bml
-#INCLUDE common/1H-1S.bml
-#INCLUDE common/1M-1N.bml
-#INCLUDE common/1M-fit.bml
-#INCLUDE partnerships/WL-GJP/1N.bml
-#INCLUDE partnerships/WL-GJP/2C.bml
-#INCLUDE common/2D.bml
-#INCLUDE common/muiderberg.bml
-#INCLUDE partnerships/WL-GJP/2N.bml
-#INCLUDE common/theyopen.bml
-#INCLUDE common/2suitedovercalls.bml
-#INCLUDE common/weopen.bml
-#INCLUDE common/TransferLebensohl.bml
-#INCLUDE common/DefenseAgainstTwoSuiters.bml
-#INCLUDE common/blackwood.bml
+//#INCLUDE common/1M.bml
+//#INCLUDE common/1H-1S.bml
+//#INCLUDE common/1H-1S-2N.bml
+//#INCLUDE common/1M-1N.bml
+//#INCLUDE partnerships/EM-GJP/1M-fit.bml
+//#INCLUDE partnerships/EM-GJP/1N.bml
+//#INCLUDE partnerships/WL-GJP/2C.bml
+//#INCLUDE partnerships/EM-GJP/2N.bml
+//#INCLUDE common/theyopen.bml
+//#INCLUDE common/2suitedovercalls.bml
+//#INCLUDE common/weopen.bml
+//#INCLUDE common/TransferLebensohl.bml
+//#INCLUDE common/DefenseAgainstTwoSuiters.bml
+//#INCLUDE common/blackwood.bml
 
 #INCLUDE common/abbreviations.bml
 

@@ -52,7 +52,6 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE common/1M-1N.bml
 #INCLUDE partnerships/DA-GJP/1M-fit.bml
 #INCLUDE partnerships/DA-GJP/1N.bml
-#INCLUDE common/2C.bml
 #INCLUDE partnerships/WL-GJP/2C.bml
 #INCLUDE common/2D.bml
 #INCLUDE common/muiderberg.bml

@@ -234,19 +234,20 @@ P  = impossible except when 5+!c and 0-3 HCP
 
 *** 1!c-2!d
 
-A weak Multi-coloured (<= 6 HCP) or a hand with club fit and a limit. The weak hand may not be strong enough opposite
+A weak Multi-coloured (<= 6 HCP) or a hand with club fit. The weak hand may not be strong enough opposite
 a strong (balanced) hand.
 
 1C-2D
   2H = similar to the 2D opening
     P = weak !h
     2S = weak !s
-    2N = 5+!c, INV, NF
+    2N = 5+!c, FG
     3C = 5+!c, INV, NF
   2S = similar to the 2D opening
     P = weak !s
     2N = weak !h
     3C = 5+!c, INV, NF
+    3X = 5+!c, FG
   2N = idem
   3M = idem
   3C = NF

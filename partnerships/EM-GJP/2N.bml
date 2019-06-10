@@ -1,0 +1,45 @@
+* The 2NT opening
+
+** Answers
+
+2N
+  3C = Stayman
+    3D = no 4M
+      3H = Smolen (chassé croisé) with 5!s-4!h, FG
+      3S = Smolen (chassé croisé) with 5!h-4!s, FG
+    3H = 4+!h, no 4!s
+      3S = !h fit, S/T
+    3S = 4+!s, no 4!h
+      4H = !s fit, S/T
+    3N = 44 MM
+      4C = TRF
+      4D = TRF
+      4M = 4M, S/T, NF
+  3D = 5+!h, TRF
+    3H = NF
+      3S = 55 MM, S/T
+        3N = T/P
+        4C = !h fit
+        4D = !s fit
+      4C = 5!h-4!c
+        4D = CTRL for !c (only great fit for !c possible)
+        4H = NAT
+      4D = 5!h-4!d
+        4H = NAT
+        4S = CTRL for !d (only great fit for !d possible)
+    3S = good fit, second suit
+    3N = 3crd fit
+    4m = good fit, second suit
+  3H = 5+!s, TRF
+    3S = NF
+      4C = 5!s-4!c
+      4D = 5!s-4!d
+  3S = 6!c
+    3N = T/P
+  4C = 6!d
+  4D = 55 MM
+  4H = 55 mm, SPL !h
+    4N = T/P
+  4S = 55 mm, SPL !s
+
+** Intervention
