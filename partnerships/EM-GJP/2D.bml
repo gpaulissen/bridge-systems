@@ -1,0 +1,59 @@
+* The 2!d opening
+
+** Answers
+
+2D = Multi-coloured, one of:
+     1) weak-two in hearts
+     2) 22-24 NT
+     3) FG in !d
+     4) 6!s, strong (not GF)
+  2H = (R)
+    P = weak-two in !h
+    2S = 6!s, strong (not GF)
+      2N = (R)
+        3m = 4m
+        3H = 4H
+        3S = 6!s
+        3N = 6!s, NAT
+    2N = 22-24 NT, see 2NT opening
+    3C = FG in !d, one of:
+         a) 4M
+         b) 1-suiter, not a solid suit plus stoppers and 9 tricks
+      3D = (R)
+        3M = variant a
+          4C = S/A for M
+          4D = S/A for !d
+        3N = variant b
+        4m = variant b
+      3M = 5+M
+    3D = FG, 5+!d-4+!c
+      3M = stopper  
+      4C = S/A for !c
+      4D = S/A for !d
+    3M = FG, 5+!d-5M
+      4C = S/A for M
+      4D = S/A for !d
+    3N = FG in !d, 1-suiter, a solid suit plus stoppers and 9 tricks
+  2N = (R), STR
+    3C = weak-two in !h, MAX, short
+    3D = weak-two in !h, MIN
+    3H = weak-two in !h, two honors
+    3S = 6!s, strong (not GF)
+    3N = weak-two in !h, MAX, no singleton
+    4X = same meaning and development as after 2!d-2!h-3X
+
+** Intervention
+
+2D-(D)
+  P = nothing to say
+  R = T/P, strong, 5!d
+  2S = T/P
+  3m = T/P
+  
+2D-(2M)
+  P = NF
+  D = PEN
+  3m = T/P
+
+2D-(3m)
+  D = PEN

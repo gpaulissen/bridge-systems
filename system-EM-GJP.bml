@@ -49,9 +49,12 @@ Let's start with the basic opening structure of the system (:
 //#INCLUDE common/1H-1S.bml
 //#INCLUDE common/1H-1S-2N.bml
 //#INCLUDE common/1M-1N.bml
-//#INCLUDE partnerships/EM-GJP/1M-fit.bml
+#INCLUDE partnerships/EM-GJP/1M-fit.bml
 //#INCLUDE partnerships/EM-GJP/1N.bml
-//#INCLUDE partnerships/WL-GJP/2C.bml
+#INCLUDE common/2C.bml
+#INCLUDE partnerships/EM-GJP/2D.bml
+#INCLUDE partnerships/EM-GJP/2H.bml
+#INCLUDE partnerships/EM-GJP/2S.bml
 //#INCLUDE partnerships/EM-GJP/2N.bml
 //#INCLUDE common/theyopen.bml
 //#INCLUDE common/2suitedovercalls.bml

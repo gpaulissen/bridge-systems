@@ -1,0 +1,34 @@
+* The 2!h opening
+
+** Answers
+
+2H = Multi-coloured, one of:
+     1) weak-two in spades
+     2) 6!h, strong (not GF)
+  2S = (R)
+    P = weak-two in !s
+    2N = 6!h, strong (not GF), 6322
+    3m = 6!h, strong (not GF), 4m
+    3H = 6!h, strong (not GF), no second suit, not 6322
+    3S = 6!h, strong (not GF), 4S
+      4C = S/A !h
+      4D = S/A !s
+  2N = (R), STR
+    3C = weak-two in !s, MAX, short
+    3D = weak-two in !s, MIN
+    3S = weak-two in !s, two honors
+    3H = 6!h, strong (not GF)
+    3N = weak-two in !s, MAX, no singleton
+
+** Intervention
+
+2D-(D)
+  P = 
+  R = 
+
+2D-(2M)
+  P = NF
+  D = PEN
+
+2D-(3m)
+  D = PEN
