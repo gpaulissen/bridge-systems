@@ -19,16 +19,13 @@
     3S = weak-two in !s, two honors
     3H = 6!h, strong (not GF)
     3N = weak-two in !s, MAX, no singleton
+  3CDH = NAT, FG
 
 ** Intervention
 
-2D-(D)
-  P = 
-  R = 
-
-2D-(2M)
-  P = NF
-  D = PEN
-
-2D-(3m)
-  D = PEN
+2H-(D)
+  P = 6!h, T/P
+  R = Strong
+  2S = P/C
+  2N = (R)
+  3m = 6m, T/P
