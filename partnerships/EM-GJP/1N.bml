@@ -139,20 +139,26 @@ as well and is forcing till 2!s.
   2N = transfer lebensohl
   3X = transfer lebensohl
 
-*** They bid over stayman
+1N-(2D)
+  D = no 4M, FG
+  2N = Lebensohl, weak in !c or !d
+  3C = Stayman
+  3DH = Texas
+  3S = mm
+
+*** They bid over Stayman
 
 1N-(P)-2C-(D)
-  P = no !c stopper
-    R = Stayman again, INV+
-      2H = 4+!s
-      2S = 4+!h
-      2D = no 4+M
-      2N = MM, MIN
-      3C = MM, MAX
-  R = Proposal to play (4)5+!c
-  2DHS = !c stopper, system on
-  2N = !c stopper, system on
-  3C = !c stopper, system on
+  2D = 4!h
+  2H = 4!s
+  2S = 5!h
+  2N = 5!s
+  3C = 4!h, 4!s
+  P = rest
+
+1N-(P)-2C-(D)-P-(P)
+  3H = 5!h, Smolen
+  3S = 5!s, Smolen
 
 1N-(P)-2C-(2D)
   P  = no M

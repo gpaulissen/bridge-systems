@@ -31,11 +31,13 @@ Abbreviations chapter at the end.
 Let's start with the basic opening structure of the system (:
 
 1C  = 2+!c, NAT or BAL, 11+ HCP (12+ if BAL)
-1D  = 4+!d, 11+ HCP (12+ if BAL)
+1D  = 4+!d, 11+ HCP (12+ if BAL, no 18-19 BAL)
 1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
 1N  = 15--17 BAL
 2C  = Weak-two in !d / Any game force except !d
-2DHS  = To be defined
+2D  = Weak-two in !h / Strong with 6!s / 22-24 NT
+2H  = Weak-two in !s / Strong with 6!h
+2S  = 5!s, 4!m (no 5422, 55 if VUL)
 2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
 3X  = PRE
 3N  = Gambling
@@ -50,16 +52,16 @@ Let's start with the basic opening structure of the system (:
 //#INCLUDE common/1H-1S-2N.bml
 //#INCLUDE common/1M-1N.bml
 #INCLUDE partnerships/EM-GJP/1M-fit.bml
-//#INCLUDE partnerships/EM-GJP/1N.bml
+#INCLUDE partnerships/EM-GJP/1N.bml
 #INCLUDE common/2C.bml
 #INCLUDE partnerships/EM-GJP/2D.bml
 #INCLUDE partnerships/EM-GJP/2H.bml
 #INCLUDE partnerships/EM-GJP/2S.bml
-//#INCLUDE partnerships/EM-GJP/2N.bml
-//#INCLUDE common/theyopen.bml
-//#INCLUDE common/2suitedovercalls.bml
+#INCLUDE partnerships/EM-GJP/2N.bml
+#INCLUDE partnerships/EM-GJP/theyopen.bml
+#INCLUDE partnerships/EM-GJP/2suitedovercalls.bml
 //#INCLUDE common/weopen.bml
-//#INCLUDE common/TransferLebensohl.bml
+#INCLUDE common/TransferLebensohl.bml
 //#INCLUDE common/DefenseAgainstTwoSuiters.bml
 //#INCLUDE common/blackwood.bml
 

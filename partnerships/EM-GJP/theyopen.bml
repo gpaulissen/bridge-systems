@@ -1,0 +1,76 @@
+* They open the bidding 
+
+This chapter is about our defensive bidding if the opponent opens something on the 1 level.
+
+** A one level opening
+
+A cue bid promises a rebid.
+
+** Strong 1!c opening
+
+(1C)
+  D = 5+m, 4M, SPL om
+  1D = Multi
+  1M = 5M, 4m
+  1N = 44 MM
+
+** 1NT Opening
+
+Changes on 2018-01-16:
+
+- (1NT)-2!d may contain strong 5M5m
+
+The meaning of our dbl depends on the strength of their 1NT opening. If the
+lower limit is at most 13 HCP we consider it a weak NT. So a 14-16 NT is a
+strong NT. After a strong 1NT (or if the doubler did not open) we play double
+as 5+m-4M else it is for penalties. We play the same methods in 2nd or 4th seat.
+
+(1N)
+  D = 5+m, 4M, SPL om
+    2C = p/c
+    2D = asks major
+    2M = to play
+    2N = INV+ minor??
+    3m = to play
+  2C = Landy, 5(4)+4+MM
+    2D = no preference, the difference in the majors is at most 1 and may be a (light) INV
+    2M = Pref NF
+    2N = INV+ answers like Multi
+    3m = NF 
+    3M = (light) INV
+  2D = One major but 5M and 5m with a strong hand is also possible
+    2H = P/C
+      2S = 6!s
+      2N = 5!h, 5m, STR
+        3C = P/C
+        3D = INV for 4!h
+        3H = S/O
+      3m = 5!s, 5m, STR
+        3S = S/O
+      3H = 6!h, onesuiter, STR
+      3S = 6!s, onesuiter, STR
+    2S = P/C
+      2N = 5!h, 5m, STR
+        3C = P/C
+        3D = INV
+        3H = S/O
+      3m = 5!s, 5m, STR
+        3S = S/O
+      3H = 6!h, onesuiter, WK
+      3S = 6!s, onesuiter
+      4H = 6!h, onesuiter, STR
+  2M = Muiderberg (may be 6M occasionally), see 2S opening
+  2N = 5+5+ minors wide range
+  3m = wide ranged, NAT
+  3M = PRE
+
+(1N)-2D-(D)
+  R = I have a 6 card major suit of my own
+  2H = P/C, for the lead (e.g. heart KQJxx)
+  2S = P/C
+
+** 2NT Opening
+
+(2N)
+  D = MM (from both hands)
+

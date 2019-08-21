@@ -43,3 +43,9 @@
   4S = 55 mm, SPL !s
 
 ** Intervention
+
+2N-(P)-3D-(D)
+  R = 5 strong !d, T/P
+
+2N-(P)-3H-(D)
+  R = 5 strong !h, T/P

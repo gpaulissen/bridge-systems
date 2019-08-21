@@ -1,33 +1,35 @@
-** Michaels
+** Michaels super precisé
 
 We play two-suited overcalls after an opponents 1 level opening. The style
 depends a lot on vulnerability. A two-suited overcall always shows at least 5+
 in both suits.
 
-*** Direct two-suited bids
+*** Direct two-suited bids over a one level opening bid
 
 (1C)-
 2C = NAT
 2D = MM
 2N = !d+!h
-3C = Weak, 6+!c
+3C = !d+!s
 
 (1D)-
 2D = MM
 2N = !c+!h
-3D = Asks stop for 3NT
+3D = !c+!s
 
 (1H)-
-2H = !s+m
+2H = !s+!c
 2N = !c+!d
+3C = !s+!d
 3H = Asks stop for 3NT
 
 (1S)-
-2S = !h+m
+2S = !h+!c
 2N = !c+!d
+3C = !h+!d
 3S = Ask stop for 3NT
 
-**** Continuations after our two-suited overcall
+**** Continuations after our two-suited overcall over a one level opening bid
 
 (1C)-2D-(P)
   P = at own risk
@@ -89,17 +91,7 @@ in both suits.
 
 (1H)-2H-(P)
   2S = NF, preference 
-  2N = INV+, see continuation after Muiderberg 
-  3C = P/C
-  3D = INV, !s
-  3H = S/T, !s
-  3S = light INV, !s
-  3N = T/P
-  4C = !c+!s
-  4D = !d+!s
-  4H = SPL for !s
-  4S = T/P
-  4N = bid your m
+  3C = NF, preference
 
 (1H)-2N-(P)
   3m = NF, preference
@@ -113,17 +105,8 @@ in both suits.
   4N = Pick best m
 
 (1S)-2S-(P)
-  2N = INV+, see continuation after Muiderberg
-  3C = P/C
-  3D = INV, !h
-  3H = NF, pref
-  3S = S/T, !h
-  3N = T/P
-  4C = !c+!h
-  4D = !d+!h
-  4H = T/P
-  4S = K/B !h
-  4N = bid your m
+  3C = NF, preference
+  3H = NF, preference
 
 (1S)-2N-(P)
   3m = NF, preference
@@ -136,10 +119,29 @@ in both suits.
   4S = ?
   4N = Pick best m
 
-*** They bid after our two-suited overcall
+**** They bid after our two-suited overcall
 
 If they bid a new suit intended as natural, dbl is penalty.  If they support
 each other, dbl is for take-out and may be INV for the major if you don't have
 another invitational bid.  If they bid one of our suits, dbl means that you would have
 liked to bid that.
+
+*** Direct two-suited bids over their Multi
+
+(2D)-
+  4C = !c+!s
+  4D = !d+!s
+
+*** Direct two-suited bids over their three level opening bids
+
+(3C)-
+  3H = 5+!h, maybe 5-5 !h+!d
+  4C = !s+!d
+  4D = !h+!s
+
+(3D)-
+  3H = 5+!h, maybe 5-5 !h+!c
+  4C = !s+!c
+  4D = !h+!s
+
 
