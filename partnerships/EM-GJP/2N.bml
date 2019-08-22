@@ -34,13 +34,16 @@
     3S = NF
       4C = 5!s-4!c
       4D = 5!s-4!d
-  3S = 6!c
+  3S = mm
     3N = T/P
-  4C = 6!d
+    4m = S/A    
+  4C = 6m
+    4D = (R)
+      4H = 6!c
+        4S = Blackwood
+      4S = 6!d
+        5C = Blackwood
   4D = 55 MM
-  4H = 55 mm, SPL !h
-    4N = T/P
-  4S = 55 mm, SPL !s
 
 ** Intervention
 

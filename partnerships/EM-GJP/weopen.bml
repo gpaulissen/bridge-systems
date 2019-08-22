@@ -1,0 +1,60 @@
+* We open the bidding
+
+** They intervene with a natural 1NT
+
+1m-(1N)
+  2C = both MM
+  2D = transfer to !h 
+  2H = transfer to !s
+  2S = transfer to !c
+  2N = minors
+  3C = transfer to !d
+
+1H-(1N)
+  2C = transfer to !d
+  2D = transfer to !s 
+    2H = NAT, no !s fit
+  2H = NAT
+  2S = transfer to !c
+  2N = fit, INV+
+
+1S-(1N)
+  2C = transfer to !d
+  2D = transfer to !h
+  2H = transfer to !c
+    2S = NAT, no !c fit  
+  2S = NAT
+  2N = fit, INV+
+
+** 1M-(D)
+
+We will play transfers starting from 1NT till the bid below two of our
+suit. All those transfers show the next suit and they do not promise a
+rebid. A direct raise is weaker than the transfer to 2M. A jump is that suit
+plus support.
+
+1M-(D)
+  1N = TRF !c
+  2C = TRF !d
+  3m = support plus that suit
+
+1H-(D)
+  2D = TRF !h (fit), stronger than 2!h immediately
+  2H = 3!h, weaker than 2!d immediately
+
+1S-(D)
+  2H = TRF !s (fit), stronger than 2!s immediately
+  2S = 3!s, weaker than 2!h immediately
+
+** fit after 1M and intervention below 2NT
+
+The bid of 2NT shows at least four cards fit and at least an invitational hand, for
+example 1!h-(2!h)-2NT. There is one exception: when the cue bid is above 3M,
+2NT just shows at least three cards fit like 1!h-(2!s)-2NT.
+
+** A preempt of three of the other major after our 1M opening
+
+A bid of 4!c shows a good raise, something like 14 HCP or more. The cuebid shows clubs, the colour one can not bid. Always!
+
+So after 1!h-(3!s) or 1!s-(3!h), 4!c shows fit. Opener denies interest by bidding four of the major.
+

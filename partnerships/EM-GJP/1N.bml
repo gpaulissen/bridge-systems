@@ -12,12 +12,11 @@ K or Q. 14 or 17 with a 5crd suit are upgraded regularly.
   2S = 5+!c TRF
   2N = 8-9 HCP, BAL
   3C = 6+!d TRF
-  3D = Optional Stayman, normally 4333
-    3M = 4M, not 4333
+  3D = 6+!d INV
   3H = 31(54) FG
   3S = 13(54) FG
   3N = T/P
-  4C = 55 MM
+  4C = 55 MM, S/T
     4D = !c-fit
     4H = !s-fit
   4D = 55 MM
@@ -189,5 +188,13 @@ When they bid over our transfer a double is just for penalties.  Support shows
 a good hand with fit, after 2D at least 4 cards (partner may have 4!h5!s in
 the majors). If they bid our cuebid dbl shows fit and willingness to compete.
 
+*** They bid 3 minor
 
+1N-(3C)
+  3D = TRF !h, INV+
+  3H = TRF !s, INV+
+  3S = TRF !d, FG
 
+1N-(3D)
+  3H = TRF !s, INV+
+  3S = TRF !h, FG
