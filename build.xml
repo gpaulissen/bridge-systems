@@ -64,9 +64,9 @@ Build output files for a document.
     <property name="include_external_files"
               value="no-include-external-files"/>
     <condition property="latex.dir"
-               value="/usr/local/texlive/2017basic/bin/x86_64-darwin/"
+               value="/usr/local/texlive/2019/bin/x86_64-darwinlegacy/"
                else="">
-      <available file="/usr/local/texlive/2017basic/bin/x86_64-darwin" type="dir"/>
+      <available file="/usr/local/texlive/2019/bin/x86_64-darwinlegacy" type="dir"/>
     </condition>
     <property name="pdflatex" value="${latex.dir}pdflatex"/>
     <property name="bibtex" value="${latex.dir}bibtex"/>
