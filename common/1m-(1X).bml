@@ -43,8 +43,8 @@ It is more difficult to play 2m but not impossible. You may be able to bid
   2C = variant 2: transfer to their suit, hence fit and at least INV
   2DH = variant 3: transfer to the next suit, showing at least 6 cards
   3C = barrage
-  3D = variant 4: 6!h, INV
-  3H = variant 4: 6!s, INV
+  3D = variant 6: 6!h, INV
+  3H = variant 6: 6!s, INV
 
 1C-(1M)
   2C = variant 1: transfer to the next suit (!d) showing at least a reasonable 5 card suit and 9+HCP (trying for 3NT)
@@ -53,7 +53,7 @@ It is more difficult to play 2m but not impossible. You may be able to bid
 1m-(1H)
   2D = variant 2: transfer to their suit, hence fit and at least INV
   2H = variant 3: transfer to the next suit (!s), showing at least 6 cards
-  3H = variant 4: 6!s, INV
+  3H = variant 6: 6!s, INV
 
 1m-(1S)
   2D = variant 1: transfer to the next suit, showing a reasonable 5 card suit and 9+HCP or 6 cards and 6+HCP
