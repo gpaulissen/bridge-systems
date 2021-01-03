@@ -1,0 +1,182 @@
+* The 1NT Opening
+
+Shows 15-17 HCP (semi)Balanced, 5m422 or 6m are possible and rarely a singleton
+K or Q. 14 or 17 with a 5crd suit are upgraded regularly.
+
+** Answers
+
+1N
+  2C = Stayman, four responses
+  2D = 5+!h TRF
+  2H = 5+!s TRF
+  2S = 5+!c TRF
+  2N = 8-9 HCP, BAL
+  3C = 6+!d TRF
+  3D = 55 MM, INV
+  3H = 31(54) FG
+  3S = 13(54) FG
+  3N = T/P
+  4C = 6!h5!s
+  4D = 55 MM
+  4C = 5!h6!s
+  4M = T/P
+  4N = QUANT
+  5m = T/P
+  
+
+*** Continuation after Stayman
+
+1N-2C
+  2D = no 4M
+  2H = 4+!h, no 4!s
+  2S = 4+!s, no 4!h
+  2N = 44MM
+    3C = 4+!h, INV or S/T
+    3D = 4+!s, INV or S/T
+    4C = 4+!h, GF
+    4D = 4+!s, GF
+        
+1N-2C-2D
+  2H = 5+!h, INV (misère dorée)
+  2S = 5+!s, INV (misère dorée)
+  2N = INV 
+  3m = 5+m 4M FG
+  3H = Smolen (chassé croisé) with 5!s-4!h, FG
+  3S = Smolen (chassé croisé) with 5!h-4!s, FG
+  3N = T/P
+  4C = Smolen (chassé croisé) with 6!h-4!s, FG
+  4D = Smolen (chassé croisé) with 6!s-4!h, FG
+  4N = QUANT
+        
+1N-2C-2H
+  2S = 5+!s, INV (misère dorée)
+  2N = INV
+  3m = 5+m-4!s FG
+  3H = INV
+  3S = 4+!h, S/T
+    3N = CTRL !s
+  4m = 4+!h, S/T, SPL m
+  4N = QUANT
+  4S = 4+!h, BW exclusion
+  5m = 4+!h, BW exclusion
+        
+1N-2C-2S
+  2N = INV
+    3H = 3!h, GF, to play game opposite 5!h (misère dorée)
+  3m = 5+m-4!h FG
+  3H = 4+!s, S/T
+  3S = INV
+  4CDH = SPL, 4+!s, S/T
+  5CDH = 4+!s, BW exclusion
+  
+*** Continuation after Transfers
+
+1N-2D
+  2H = NF
+    2S = 55 MM, INV (et 1N-3D ?)
+    2N = FG, 5M4m(31), no S/T
+      3C = (R)
+        3D = 4!c, 3!d
+        3H = 4!c, 1!d
+        3S = 4!d, 3!c
+        3N = 4!d, 1!c
+    3m = 5+m, FG or 4m, S/T
+      3M = might be "I am stuck"
+    3H = 6+!h INV
+    3S = 6+!h SPL !s or no SPL
+    3N = T/P
+    4m = 6+!h SPL
+    4H = T/P
+  2N = 4+!h MAX
+    3C = INV
+    3D = TRF
+    3S = SPL
+    4m = SPL
+  3H = 4+!h MIN 
+
+After 1NT-2!h we use the same structure as over 1NT-2!d, so very natural. Some exceptions:
+
+1N-2H
+  2S = NF
+    3H = 55 MM, S/T
+    4C = 6!s, S/T, SPL !c or no SPL
+
+1N-2S = 5+!c
+  2N = fit !c, INV
+    3C = T/P
+    3D = 55 mm, FG
+    3M = 6!c, SPL
+    3N = accept INV
+    4C = S/T, no SPL M
+    4DHS = BW exclusion
+  3C = else
+    3N = suggests SPL !d
+        
+1N-3C
+  3D = Forced
+    3M = SPL 
+    3N = suggest SPL !c
+    4C = SPL !c, S/T
+    4D = S/T, no SPL
+    4HS = BW exclusion
+    4C = BW exclusion
+
+** They bid over our 1NT opening
+
+After a double we play system on. The only new bid is redouble which depends
+on the meaning of double. If double is for penalties (or just showing values),
+the redouble is a Puppet to 2!c. In any other case the redouble shows values
+as well and is forcing till 2!s.
+
+1N-(2C)
+  P = weak or a trap pass (for penalties)
+  D = values and a double later on is for take out
+  2D = NF
+  2H = NF (?)
+  2S = minors (?)
+  2N = transfer lebensohl
+  3X = transfer lebensohl
+
+*** They bid over stayman
+
+1N-(P)-2C-(D)
+  P = no !c stopper
+    R = Stayman again, INV+
+      2H = 4+!s
+      2S = 4+!h
+      2D = no 4+M
+      2N = MM, MIN
+      3C = MM, MAX
+  R = Proposal to play (4)5+!c
+  2DHS = !c stopper, system on
+  2N = !c stopper, system on
+  3C = !c stopper, system on
+
+1N-(P)-2C-(2D)
+  P  = no M
+  D  = for penalties
+  2M = 4+M
+  2N = MM, MIN
+  3C = MM, MAX
+
+1N-(P)-2C-(2M)
+  D  = take out (4+oM)
+  2S = 5+!s
+
+1N-(P)-2C-(3m)
+  D  = at least one major
+  3M = 5+M
+
+*** They bid over our transfer
+
+1N-(P)-2red-(D)
+  P = no 3 cards fit 
+    R = retransfer
+    1step = to play
+    3m = 5-5, NF
+  R = 3+ cards fit, wants partner to play (usually no stopper or something like Ax(x))
+  2M = 3+ cards fit, wants to play (usually a stopper)
+
+When they bid over our transfer a double is just for penalties.  Support shows
+a good hand with fit, after 2D at least 4 cards (partner may have 4!h5!s in
+the majors). If they bid our cuebid dbl shows fit and willingness to compete.

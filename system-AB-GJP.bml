@@ -1,0 +1,67 @@
+#+TITLE: DA-GJP 1.1
+
+#+AUTHOR: Albert Bitran / Gert-Jan Paulissen
+
+#+DESCRIPTION: Based on the French systeme SEF (five card major, strong NT, Albarran)
+
+* Introduction
+
+** BML - Bridge Bidding Markup Language
+
+The notation in this document is in BML format, see
+github.com/gpaulissen/bml/blob/master/README.org.
+
+This notation allows for text documents with simple bidding tables.
+
+*** Output
+
+Using a simple BML document one can generate:
+
+- a PDF file
+- an HTML file
+- a BSS file, a BBO system file, which can be uploaded using the BBO desktop Windows client.
+
+** Abbreviations
+
+The abbreviations used are mostly from the WBF with some changes, see also the
+Abbreviations chapter at the end.
+
+* Opening bids
+
+Let's start with the basic opening structure of the system (:
+
+1C  = 2+!c, NAT or BAL, 11+ HCP (12+ if BAL)
+1D  = 4+!d, 11+ HCP (12+ if BAL)
+1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
+1N  = 15--17 BAL
+// 2C  = Weak-two in !d / Any game force except !d
+// 2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
+// 2M  = 5M, 4+m, 5-10 HCP
+2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
+3X  = PRE
+3N  = Gambling
+
+// #INCLUDE partnerships/DA-GJP/1C.bml
+// #INCLUDE partnerships/DA-GJP/1C-1M-3D.bml
+// #INCLUDE partnerships/DA-GJP/1D.bml
+// #INCLUDE partnerships/DA-GJP/1m-1M-fit.bml
+// #INCLUDE common/1m-(1X).bml
+// #INCLUDE common/1M.bml
+// #INCLUDE common/1H-1S.bml
+// #INCLUDE common/1H-1S-2N.bml
+// #INCLUDE common/1M-1N.bml
+#INCLUDE partnerships/AB-GJP/1M-fit.bml
+#INCLUDE partnerships/AB-GJP/1N.bml
+// #INCLUDE common/2C.bml
+// #INCLUDE common/2D.bml
+// #INCLUDE common/muiderberg.bml
+#INCLUDE partnerships/AB-GJP/2N.bml
+// #INCLUDE common/theyopen.bml
+// #INCLUDE common/2suitedovercalls.bml
+// #INCLUDE common/weopen.bml
+// #INCLUDE common/TransferLebensohl.bml
+// #INCLUDE common/DefenseAgainstTwoSuiters.bml
+// #INCLUDE common/blackwood.bml
+
+#INCLUDE common/abbreviations.bml
+
