@@ -1,0 +1,35 @@
+* We open the bidding
+
+** They intervene with a natural 1NT
+
+1m-(1N)
+  D = bicolor Mm (see our intervention after 1NT)
+  2m = both MM
+  2om = NAT
+  2M = NAT
+
+** 1M-(D)
+
+We will play transfers starting from 1NT till the bid below two of our
+suit. All those transfers show the next suit and they do not promise a
+rebid. A direct raise is weaker than the transfer to 2M. A jump is that suit
+plus support.
+
+1M-(D)
+  1N = TRF !c
+  2C = TRF !d
+  3m = support plus that suit
+
+1H-(D)
+  2D = TRF !h (fit), stronger than 2!h immediately
+  2H = 3!h, weaker than 2!d immediately
+
+1S-(D)
+  2H = TRF !s (fit), stronger than 2!s immediately
+  2S = 3!s, weaker than 2!h immediately
+
+** fit after 1M and intervention below 2NT
+
+The bid of 2NT shows at least four cards fit and at least an invitational hand, for
+example 1!h-(2!h)-2NT. There is one exception: when the cue bid is above 3M,
+2NT just shows at least three cards fit like 1!h-(2!s)-2NT.

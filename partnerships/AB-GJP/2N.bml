@@ -16,7 +16,7 @@
       4D = TRF
       4M = 4M, S/T, NF
   3D = 5+!h, TRF
-    3H = NF
+    3H = NF (rectification non fittée)
       3S = 55 MM, S/T
         3N = T/P
         4C = !h fit
@@ -31,15 +31,15 @@
     3N = 3crd fit
     4m = good fit, second suit
   3H = 5+!s, TRF
-    3S = NF
+    3S = NF (rectification non fittée)
       4C = 5!s-4!c
       4D = 5!s-4!d
   3S = 6!c
     3N = T/P
   4C = 6!d
   4D = 55 MM
-  4H = 55 mm, SPL !h
+  4H = 54 mm, SPL !h
     4N = T/P
-  4S = 55 mm, SPL !s
+  4S = 54 mm, SPL !s
 
 ** Intervention

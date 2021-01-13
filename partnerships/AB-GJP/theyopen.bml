@@ -1,0 +1,43 @@
+* They open the bidding 
+
+This chapter is about our defensive bidding if the opponent opens something on the 1 level.
+
+** 1X
+
+*** 1NT intervention
+
+This shows the same kind of hand as a 1NT opening albeit a little bit stronger
+and usually with a stopper in their suit.
+
+The responses hereafter are just like after a 1NT opening we ignore their
+bid(s).
+
+** 1NT Opening
+
+The meaning of the bids remains unchanged when you are in second or fourth position.
+
+The meaning of our dbl depends on the strength of their 1NT opening. If the
+lower limit is at most 13 HCP we consider it a weak NT. So a 14-16 NT is a
+strong NT. After a strong 1NT (or if the doubler did not open) we play double
+as 5+m-4M else it is for penalties.
+
+(1N)
+  D = bicolor Mm (at least 4 cards) or strong (how many M, how many m, ?)
+    2M = NAT, NF
+    2D = at least 3 cards in both majors
+    2C = else
+  2C = Landy, 5(4)+4+MM
+    2D = no preference, the difference in the majors is at most 1 and may be a (light) INV
+    2M = Pref NF
+    2N = INV+ answers like Multi
+    3m = NF 
+    3M = (light) INV
+  2D/2M = NAT
+  2N = 5+5+ minors wide range
+  3m = wide ranged, NAT
+  3M = PRE
+
+** 2NT Opening
+
+(2N)
+  D = MM (from both hands)

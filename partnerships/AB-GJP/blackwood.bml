@@ -1,0 +1,21 @@
+* Blackwood
+
+Actually Roman Key Card Blackwood with old fashioned responses (30-41).
+
+4N
+  5C = 0-3 key cards
+  5D = 1-4 key cards
+  5H = 2-5 key cards, no trump Queen
+  5S = 2-5 key cards, trump Queen
+
+** Asking for the trump Queen
+
+The trump Queen can be demanded after 5!c/5!d with the first free bid. 
+The lowest of 5NT and the trump suit without jump denies the Queen. Any other
+bid in a suit promises the Queen plus only the King in that suit OR the two
+other Kings (the King of trumps is ignored of course).
+
+** Intervention after 4NT
+
+Double (or redouble) is for penalties. Pass shows an even number : 0/2/4 key
+cards. The first free bid shows 1/3/5 key cards.

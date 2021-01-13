@@ -1,4 +1,4 @@
-#+TITLE: DA-GJP 1.1
+#+TITLE: AB-GJP 1.1
 
 #+AUTHOR: Albert Bitran / Gert-Jan Paulissen
 
@@ -41,12 +41,13 @@ Let's start with the basic opening structure of the system (:
 3X  = PRE
 3N  = Gambling
 
-// #INCLUDE partnerships/DA-GJP/1C.bml
+#INCLUDE partnerships/AB-GJP/1C.bml
 // #INCLUDE partnerships/DA-GJP/1C-1M-3D.bml
-// #INCLUDE partnerships/DA-GJP/1D.bml
-// #INCLUDE partnerships/DA-GJP/1m-1M-fit.bml
-// #INCLUDE common/1m-(1X).bml
-// #INCLUDE common/1M.bml
+#INCLUDE partnerships/AB-GJP/1D.bml
+// using DA-GJP here
+#INCLUDE partnerships/DA-GJP/1m-1M-fit.bml
+#INCLUDE partnerships/AB-GJP/1m-(1X).bml
+#INCLUDE partnerships/AB-GJP/1M.bml
 // #INCLUDE common/1H-1S.bml
 // #INCLUDE common/1H-1S-2N.bml
 // #INCLUDE common/1M-1N.bml
@@ -54,14 +55,15 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/AB-GJP/1N.bml
 // #INCLUDE common/2C.bml
 // #INCLUDE common/2D.bml
-// #INCLUDE common/muiderberg.bml
+#INCLUDE partnerships/AB-GJP/2M.bml
 #INCLUDE partnerships/AB-GJP/2N.bml
-// #INCLUDE common/theyopen.bml
-// #INCLUDE common/2suitedovercalls.bml
-// #INCLUDE common/weopen.bml
+#INCLUDE partnerships/AB-GJP/theyopen.bml
+
+#INCLUDE common/2suitedovercalls.bml
+#INCLUDE partnerships/AB-GJP/weopen.bml
 // #INCLUDE common/TransferLebensohl.bml
 // #INCLUDE common/DefenseAgainstTwoSuiters.bml
-// #INCLUDE common/blackwood.bml
+#INCLUDE partnerships/AB-GJP/blackwood.bml
 
 #INCLUDE common/abbreviations.bml
 
