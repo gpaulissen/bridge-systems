@@ -36,17 +36,17 @@ Let's start with the basic opening structure of the system (:
 1N  = 15--17 BAL
 // 2C  = Weak-two in !d / Any game force except !d
 // 2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
-// 2M  = 5M, 4+m, 5-10 HCP
+2M  = 5+M, weak-two, vulnerable 6 cards and quite a good hand
 2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
 3X  = PRE
 3N  = Gambling
 
-#INCLUDE partnerships/AB-GJP/1C.bml
-// #INCLUDE partnerships/DA-GJP/1C-1M-3D.bml
-#INCLUDE partnerships/AB-GJP/1D.bml
-// using DA-GJP here
-#INCLUDE partnerships/DA-GJP/1m-1M-fit.bml
-#INCLUDE partnerships/AB-GJP/1m-(1X).bml
+// #INCLUDE partnerships/AB-GJP/1C.bml
+//// #INCLUDE partnerships/DA-GJP/1C-1M-3D.bml
+//#INCLUDE partnerships/AB-GJP/1D.bml
+//// using DA-GJP here
+//#INCLUDE partnerships/DA-GJP/1m-1M-fit.bml
+//#INCLUDE partnerships/AB-GJP/1m-(1X).bml
 #INCLUDE partnerships/AB-GJP/1M.bml
 // #INCLUDE common/1H-1S.bml
 // #INCLUDE common/1H-1S-2N.bml
@@ -57,13 +57,13 @@ Let's start with the basic opening structure of the system (:
 // #INCLUDE common/2D.bml
 #INCLUDE partnerships/AB-GJP/2M.bml
 #INCLUDE partnerships/AB-GJP/2N.bml
+#INCLUDE partnerships/AB-GJP/intervention.bml
 #INCLUDE partnerships/AB-GJP/theyopen.bml
-
 #INCLUDE common/2suitedovercalls.bml
 #INCLUDE partnerships/AB-GJP/weopen.bml
-// #INCLUDE common/TransferLebensohl.bml
-// #INCLUDE common/DefenseAgainstTwoSuiters.bml
-#INCLUDE partnerships/AB-GJP/blackwood.bml
+#INCLUDE common/TransferLebensohl.bml
+#INCLUDE common/DefenseAgainstTwoSuiters.bml
+#INCLUDE partnerships/AB-GJP/slembidding.bml
 
 #INCLUDE common/abbreviations.bml
 
