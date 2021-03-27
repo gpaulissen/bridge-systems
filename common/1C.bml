@@ -220,7 +220,7 @@ cards fit by bidding 3!d. After a 1!d opening this is not possible hence the
 development after 1!d-1M is different.
 
 1C-1M
-  3D = SPL, 4M, FG
+  3D = SPL !d, 4M, FG
   3M = 4M, INV
     1step = (R), asks for singleton that opener should show naturally
       4D = singleton
@@ -297,9 +297,9 @@ Pass is allowed now. All bids except pass, redouble and 1!d remain
 unchanged. So for example, 2!c is still inverted minor and FG.
 
 1C-(D)-
-P = nothing to bid, maybe even 5-5-3-0
-R = at least 10 HCP and not very unbalanced
-1D = 5+!d, 0+HCP, opener rebids like after 1!c-1!d without further intervention
+P = nothing to bid (like 1C-1D without intervention) but with at least 3!c, opener rebids like after 1!c-1!d without further intervention (redouble SOS, 1D show 4!d)
+R = at least 10 HCP and not very unbalanced, forcing till 2NT or a support bid by responder
+1D = as before but with at most 2!c, opener rebids like after 1!c-1!d without further intervention
 
 **** 1!c-(1X)
 

@@ -1,7 +1,7 @@
 <project name="system" default="build" basedir=".">
 
   <description>
-Build output files for a document.
+Build output files for a document (without extension).
   </description>
 
   <target name="init">
@@ -17,16 +17,18 @@ Build output files for a document.
     <property name="output.dir" location="output"/>
     <mkdir dir="${output.dir}"/>
     <property name="ant.log.level" value="verbose"/>
+    <!--
     <condition property="python3" value="python3" else="py">
       <os family="mac"/>
     </condition>
+    -->
     <condition property="bml.dir.relative" value="../bml" else="bml"> 
       <available file="../bml" type="dir"/>
     </condition>   
     <property name="bml.dir" location="${bml.dir.relative}"/>
-    <property name="bml.bin.dir" location="${bml.dir}/bin"/>
     <property name="bml.src.dir" location="${bml.dir}/src/bml"/>
     <property name="bml.option.verbose" value="-v"/>
+    <!--
     <fail message="BML directory (${bml.bin.dir}) must exist">
       <condition>
         <not>
@@ -34,6 +36,7 @@ Build output files for a document.
         </not>
       </condition>
     </fail>
+    -->
     <condition property="document.exists">
       <available file="${document}.bml" type="file"/>
     </condition>
@@ -165,8 +168,7 @@ Build output files for a document.
   </target>
 
   <target name="build-tex" description="Build .tex files" depends="bml-copy" if="document.exists">
-    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
-      <arg value="${bml.bin.dir}/bml2latex.py"/>
+    <exec executable="bml2latex" dir="${tmp.dir}" failonerror="true">
       <arg value="${option.tree}"/>
       <arg value="${bml.option.verbose}"/>
       <arg value="${option.include.external.files}"/>
@@ -175,8 +177,7 @@ Build output files for a document.
   </target>
 
   <target name="build-htm" description="Build .htm files" depends="bml-copy" if="document.exists">
-    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
-      <arg value="${bml.bin.dir}/bml2html.py"/>
+    <exec executable="bml2html" dir="${tmp.dir}" failonerror="true">
       <arg value="${option.tree}"/>
       <arg value="${bml.option.verbose}"/>
       <arg value="${option.include.external.files}"/>
@@ -184,13 +185,10 @@ Build output files for a document.
     </exec>
     <copy file="${tmp.dir}/${document}.htm" todir="${output.dir}"
           quiet="true"/>
-    <!-- may not be necessary but it can not hurd either -->
-    <copy file="${bml.src.dir}/bml.css" todir="${output.dir}" quiet="true"/>
   </target>
 
   <target name="build-bss" description="Build .bss files" depends="bml-copy" if="document.exists">
-    <exec executable="${python3}" dir="${tmp.dir}" failonerror="true">
-      <arg value="${bml.bin.dir}/bml2bss.py"/>
+    <exec executable="bml2bss" dir="${tmp.dir}" failonerror="true">
       <arg value="${bml.option.verbose}"/>
       <arg value="${tmp.dir}/${document}.bml"/>
     </exec>
