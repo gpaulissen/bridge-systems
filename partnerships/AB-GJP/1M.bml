@@ -1,3 +1,5 @@
+// Emacs: -*- coding: utf-8 -*-
+
 * The 1 major opening
 
 One of a major promises 5 cards and at least 11 HCP. It is limited since with
@@ -7,21 +9,61 @@ game forcing hands you open at the two level.
 
 1H-
 1S = 4!s and normally 6+ HCP
-1N = no 4!s, 5-12 HCP, with fit you have a minimum
-2C = FG
-2D = 5+!d, FG
+1N = no 4!s, 5-10 HCP, with fit you have a minimum
+2C = F1
+2D = 5+!d, F1
 2H = 3!h, 7-9 HCP
-2S = 6!s, 8-11 HCP
-2N = fit, 10-14 HCP
-3m = 6m, INV
+2S = 6!s, 4-7 HCP
+2N = fit, INV
+3C = at least 4 cards fit, 12-15 HCP, no SPL
+3D = 3 cards fit, 12-15 HCP, no SPL
+3H = at least 4 cards fit and a SPL, 7-9 HCP
+3S = SPL, 4 cards fit, 11-12 HCP
+3N = fit but very weak (?)
+4m = SPL, 4 cards fit, 11-12 HCP
+4H = T/P, expect to win
 
 1S-
-1N = 5-12 HCP, with fit you have a minimum
-2C = FG
-2D = 5+!d, FG
-2H = 5+!h, FG
+1N = 5-10 HCP, with fit you have a minimum
+2C = F1
+2D = 5+!d, F1
+2H = 5+!h, F1
 2S = 3!s, 7-9 HCP
-2N = fit, 10-14 HCP
-3m = 6m, INV
-3H = 6!h, INV
+2N = fit, INV
+3C = at least 4 cards fit, 12-15 HCP, no SPL
+3D = 3 cards fit, 12-15 HCP, no SPL
+3H = 6!h, barrage
+3S = at least 4 cards fit and a SPL, 7-9 HCP
+3N = fit but very weak (?)
+4m = SPL, 4 cards fit, 11-12 HCP
+4H = SPL, 4 cards fit, 11-12 HCP (NO please!!!)
+4S = T/P, expect to win
 
+*** 1M-1NT
+
+1M-1N;
+2m = 4+m, NF
+2M = 6M, NF
+2oM = 5M-4oM, 16+ HCP and F1 after 1H
+2N = BAL, 18-19 HCP, NF
+  3m = NF
+  3oM = FG, natural after 1S and minors after 1H
+  3M = S/O
+3m = 3+m, FG
+3M = 6M, NF
+3oM = 54 (65 after 1H), FG
+3N = solid 6 cards major
+
+*** Two over one
+
+Two over one is not forcing to game.
+
+1M-2Y (X < Y < Z)
+  2M = usually a weak hand but forcing
+    2N = NF
+    3Y = NF
+    2Z = (reverse) NAT, FG
+    3X = (new suit below the first suit) NAT, FG
+    3Z = (reverse) NAT, FG
+  2N = NAT, 15-17 HCP
+  2S = (after 1!h) NAT, 15+ HCP

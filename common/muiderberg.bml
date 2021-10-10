@@ -38,19 +38,17 @@ major is not allowed either.
   3C = 4+!c, MIN
     3D = NAT, 5+!d, FG, looking for best game/slam
     3M = FG with fit, S/T
-    3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
+    3oM = NAT, 5+ cards, FG, looking for best game/slam
     3N = T/P
     4C = NAT, S/T
-    4D = K/B for !c
     4M = T/P
   3D = 4+!d, MIN
     3M = FG with fit, S/T
-    3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
+    3oM = NAT, 5+ cards, FG, looking for best game/slam
     3N = T/P
     4C = CTRL for !d
     4D = NAT, S/T, no !c CTRL
     4M = T/P
-    4X = K/B for !d (X = oM)
   3H = 4+!c, MAX
     3S = CoG
     3N = T/P
@@ -58,10 +56,10 @@ major is not allowed either.
     4D = S/A for M
     4M = T/P
   3S = 4+!d, MAX
-    3N  = T/P
-    4C  = S/A for M
-    4D  = NAT, S/T
-    4M  = T/P
+    3N = T/P
+    4C = S/A for M
+    4D = NAT, S/T
+    4M = T/P
 
 ** Intervention after our Muiderberg
 
@@ -89,3 +87,11 @@ major is not allowed either.
   4N = asks partner to just bid his minor
   3D/4D = NAT, T/P
   4C = P/C
+
+** Opening in third / fourth position
+
+2M
+  2N = P/C, asks for the minot but maybe a limit for the major
+  3C = T/P, 6+!c
+  3D = T/P, 6+!d
+  3M = SUPP, PRE

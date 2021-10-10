@@ -1,0 +1,81 @@
+// Emacs: -*- coding: utf-8 -*-
+
+* The 2!d opening
+
+Multi-coloured with either a wek-two in a major, 22-24 NT or STR with a minor
+(onesuiter).  Vulnerable it is a good weak-two, non-vulnerable it may contain
+a weak-two with just 5 cards but the hand and colour is then of good quality
+(in first and second position of course).
+
+** Answers
+
+2D = Multi-coloured, one of:
+     1) weak-two in a major
+     2) 22-24 NT
+     3) STR in !c or !d (Acol two onesuiter)
+  2H = (R)
+    2S = weak-two in !s
+      2N = (R) asking for shortness
+        3CDH = Splinter, MIN/MAX
+        3S = MIN
+        3N = MAX
+      3m = T/P, no short !h (else 3m response)
+      3H = 6+!h, INV
+      3S = PRE
+    2N = 22-24 NT, see 2NT opening
+    3m = STR in m
+  2S = NF, opposite a weak-two in !s, positive (normally 10+ HCP)
+    2N = weak-two in !h
+      3m = 5!s-5m, FG
+      3H = NF
+      3S = 6!s, INV
+    3m = see 2!d-2!h-3m
+    3N = 22-24 HCP, BAL
+  2N = (R), STR
+    3C = weak-two in !h, not MAX or no good 6 cards suit
+      3D = (R)
+        3H = sorry, minimum (and so 6 cards)
+        3N = sorry, just 5 cards (but maximum)
+    3D = weak-two in !s, not MAX or no good 6 cards suit
+      3H = (R)
+        3S = sorry, minimum (and so 6 cards)
+        3N = sorry, just 5 cards (but maximum)
+    3H = weak-two in !s (reverse the majors), MAX, good 6 cards suit
+    3S = weak-two in !h (reverse the majors), MAX, good 6 cards suit
+    3N = solid weak-two (6 cards)
+    4m = same meaning and development as after 2!d-2!h-3m
+    4N = 22-24 HCP, BAL
+  3m = T/P, short !h (else 2!h response)
+  3M = P/C
+  3N = T/P, short !h
+    4C = TRF for !h (e.g. KQJ109x)
+    4D = TRF for !s
+  4C = ART, asks for transfer
+  4D = ART, asks for major
+  4M = NAT (!), T/P
+
+** Intervention
+
+We just keep it simple: a pass promises diamonds, redouble is a Puppet to 2!h
+in order to play with a long suit of our own. The rest is system-on.
+
+2D-(D)
+  P = promises !d
+  R = PUP to 2!h, T/P in our own suit
+
+2D-(2M)
+  P = NF
+  D = P/C
+
+2D-(3m)
+  D = PEN
+  3M = P/C
+  4X = see 2!d-4X
+
+2D-(P)-2N-(3m)
+  D = that was my bid
+  P = 3om was my bid
+
+2D-(P)-2N-(3M)
+  D = PEN, my suit
+  P = oM, MIN

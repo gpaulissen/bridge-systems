@@ -1,3 +1,5 @@
+// Emacs: -*- coding: utf-8 -*-
+
 #+TITLE: AB-GJP 1.1
 
 #+AUTHOR: Albert Bitran / Gert-Jan Paulissen
@@ -38,7 +40,7 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/AB-GJP/1N.bml
 #INCLUDE partnerships/AB-GJP/2C.bml
 #INCLUDE partnerships/AB-GJP/2D.bml
-#INCLUDE partnerships/AB-GJP/2M.bml
+#INCLUDE common/muiderberg.bml
 #INCLUDE partnerships/AB-GJP/2N.bml
 #INCLUDE partnerships/AB-GJP/intervention.bml
 #INCLUDE partnerships/AB-GJP/theyopen.bml

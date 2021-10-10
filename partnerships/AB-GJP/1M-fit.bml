@@ -1,3 +1,5 @@
+// Emacs: -*- coding: utf-8 -*-
+
 * Fit after 1M
 
 ** Answers
@@ -11,35 +13,45 @@
     4M = S/O
     4m = SPL, S/T
   2N = INV, at least 3 cards fit
-    3CD = ?
-    3oM = ?
-  3M = at least 4 cards fit and a SPL, 8-9 HCP
-  3N = fit but very weak (?)
+    3CD = NAT
+    3oM = NAT
   3C = at least 4 cards fit, 12-15 HCP, no SPL
   3D = 3 cards fit, 12-15 HCP, no SPL
+  3N = fit but very weak (?)
   4m = SPL, 4 cards fit, 11-12 HCP
   4M = T/P, expect to win
 
 1H
+  3H = at least 4 cards fit and a SPL, 7-9 HCP
+    3S = (R)
+      3N = singleton !s
+      4m = singleton m
   3S = SPL, 4 cards fit, 11-12 HCP
 
 1S
-  4H = SPL, 4 cards fit, 11-12 HCP (NON!!!????)
+  3S = at least 4 cards fit and a SPL, 7-9 HCP
+    3N = (R)
+      4m = singleton m
+      4H = singleton !h
+  4H = SPL, 4 cards fit, 11-12 HCP (NO please!!!)
+
 
 ** Remarks by GJP
 
 Too much space is used by all fit bids. Two over one and invitational hands
-like Ax, xxx, xx, KQJ10xx will be too difficult to bid.
+like Ax, xxx, xx, KQJ10xx will be too difficult to bid. I propose 2-over-1
+game forcing, 2NT as any limited fit bid with 10-15 HCP and 3 level jumps as
+natural and game invitational. It will take time to convince Albert...
 
 ** Passed hand bidding
 
-We play 2!c Drury after an opening in third or fourt hand. Opener returns to
-his major when weak (or bids 2!h after 1!s). 2!d is waiting and positive. Bids
-above 2M by opener are forcing game.
+We play 2!c Drury after an opening in third or fourth hand. Opener returns to
+his major when weak (or bids 2!h mildly positive after 1!s). 2!d is waiting and positive. Bids
+above 2M by opener are forcing to game.
 
 A single jump in a new suit after 1M is not a fit bid (so no "annonce de rencontre"). We
 never play single jumps as fit bids.
 
 ** 2NT after intervention
 
-Always natural, not fit like without intervention.
+Always natural, not showing a fit like when there is no intervention.

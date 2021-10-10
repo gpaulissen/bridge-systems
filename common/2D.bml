@@ -44,7 +44,7 @@ Changes 2018-01-09:
       3m = 5!s-5m, FG
       3H = NF
       3S = 6!s, INV
-    3X = see 2!d-2!h-3!c
+    3X = see 2!d-2!h-3X
     3N = 22-24 HCP, BAL
   2N = (R), STR
     3C = weak-two in !h, not MAX or no good suit
@@ -68,8 +68,8 @@ We just keep it simple: a pass promises diamonds, redouble is a Puppet to 2!h
 in order to play with a long suit. The rest is system-on.
 
 2D-(D)
-  P = wants !d lead
-  R = wants !c lead
+  P = promises !d
+  R = PUP to 2!h, T/P in our own suit
 
 2D-(2M)
   P = NF

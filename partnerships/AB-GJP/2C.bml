@@ -1,0 +1,55 @@
+// Emacs: -*- coding: utf-8 -*-
+
+* The 2!c opening
+
+This is the old-fashioned 2!c Albarran.
+
+** Answers
+
+2C = Albarran
+  2D = (R), no Ace or at most one King
+    2H = FG in !h
+      2S = 5+!s, 6+ HCP
+      2N = (R), any hand not suitable for other bids hence 0+ HCP
+        3m = 4+m
+        3H = 6!h
+        3S = 4!s
+      3m = 5+m, 6+ HCP
+      3H = fit, at least Hxx or xxxx, 6+ HCP
+        3S = no SPL
+        3N = SPL !s
+        4m = SPL m
+      3S = fit, at least Hxx or xxxx, 6+ HCP, SPL !s
+      3N = fit, at least Hxx or xxxx, 6+ HCP, SPL !d
+      4C = fit, at least Hxx or xxxx, 6+ HCP, SPL !c
+    2S = FG in !s
+      2N = (R), any hand not suitable for other bids hence 0+ HCP
+      3m = 5+m, 6+ HCP
+      3H = 5+!h, 6+ HCP
+      3S = fit, at least Hxx or xxxx, 6+ HCP
+        3N = no SPL
+        4m = SPL m
+        4H = SPL !h
+      3N = fit, at least Hxx or xxxx, 6+ HCP, SPL !h
+      4m = fit, at least Hxx or xxxx, 6+ HCP, SPL m
+    2N = 25+HCP, BAL
+    3C = FG in !c
+    3D = FG in !d
+  2H = Ace in !h
+  2S = Ace in !s
+  2N = no Ace, at least two kings
+  3C = Ace in !c
+  3D = Ace in !d
+  3H = Any two Aces
+  
+** Intervention
+
+We just keep it simple: a pass promises at least 4 clubs and redouble at least 5 and a good suit. The rest is system-on.
+
+2C-(D)
+  P = 4+!c
+    R = T/P
+    2D = (R) asks for Aces
+      2N = none
+      2M/3m = that Ace
+  R = 5+!c, good suit

@@ -1,12 +1,22 @@
+// Emacs: -*- coding: utf-8 -*-
+
 * We open the bidding
 
 ** They intervene with a natural 1NT
 
 1m-(1N)
-  D = bicolor Mm (see our intervention after 1NT)
+  D = bicolor 5m + 4M (see our intervention after 1NT)
   2m = both MM
   2om = NAT
   2M = NAT
+  2N = fit, INV+
+
+1M-(1N)
+  D = bicolor 5m + 4oM (see our intervention after 1NT)
+  2m = NAT
+  2oM = NAT
+  2M = NAT
+  2N = fit, INV+
 
 ** 1M-(D)
 

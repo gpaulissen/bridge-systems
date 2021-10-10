@@ -1,19 +1,24 @@
+// Emacs: -*- coding: utf-8 -*-
+
 * The 2NT opening
 
 ** Answers
 
-2N
+2N = 20-22 HCP, BAL (or semi-BAL)
   3C = Stayman, four responses
     3D = no 4M
       3H = Smolen (chassé croisé) with 5!s-4!h, FG
       3S = Smolen (chassé croisé) with 5!h-4!s, FG
+      4m = 5m, S/T
     3H = 4+!h, no 4!s
       3S = !h fit, S/T
+      4m = 5m, S/T
     3S = 4+!s, no 4!h
+      4m = 5m, S/T
       4H = !s fit, S/T
     3N = 44 MM
-      4C = TRF
-      4D = TRF
+      4C = TRF !h
+      4D = TRF !s
       4M = 4M, S/T, NF
   3D = 5+!h, TRF
     3H = NF (rectification non fittée)
@@ -43,3 +48,8 @@
   4S = 54 mm, SPL !s
 
 ** Intervention
+
+We ignore their double (system-on) but redouble is for business.
+When they intervene with a bid other than double, a double is for take-out.
+
+Should we play transfers?

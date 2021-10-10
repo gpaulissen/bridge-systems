@@ -1,3 +1,5 @@
+// Emacs: -*- coding: utf-8 -*-
+
 * The 1!c opening
 
 You can open either 1C or 1D with 4M333. You may decide to open 1D with AKx in diamonds when you have 3 small clubs.
@@ -20,7 +22,7 @@ We play Roudi constant after 1X-1M-1N.
 2C = NAT, 5+!c, 6-9 HCP
 2DHS = weak, 4-7 HCP
 2N = 11-12 HCP, BAL, INV
-3C = 5!c, 9-11 HCP
+3C = 5!c, singleton D/H/S, 9-11 HCP
 3X = like a 3X opening
 3N = 13-15 HCP, BAL
 
@@ -155,6 +157,13 @@ This shows a weak hand. Opener may pass, bid a new suit or repeat his opening co
   3C = S/O
   3D = ?
   3M = ?
+
+*** 1!c-3!c
+
+1C-3C
+  3D = (R)
+    3M = singleton M
+    3N = singleton !d
 
 *** Intervention after 1!c
 
