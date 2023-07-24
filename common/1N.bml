@@ -141,34 +141,43 @@ as well and is forcing till 2!s.
   2N = transfer lebensohl
   3X = transfer lebensohl
 
-*** They bid over stayman
+*** They bid over Stayman
+
+The idea is to bid a major of the opener thru a transfer, ensuring the right
+hand always plays the major. Furtermore, since they double regularly with not
+such a good suit, we also want to play 2 clubs redoubled when a good 4 card suit 
+with at least one top honor. And you must also be able to play 2 clubs
+redoubled when having a good 5 card suit. The drawback is that having a
+stopper in their suit can not be shown directly.
+
 
 1N-(P)-2C-(D)
-  P = no !c stopper
-    R = Stayman again, INV+
-      2D = 4+!h
-      2H = 4+!s
-      2S = no 4+M
-      2N = MM, MIN
-      3C = MM, MAX
-  R = Proposal to play (4)5+!c
-  2DHS = !c stopper, system on
-  2N = !c stopper, system on
-  3C = !c stopper, system on
+  P = no 4 card major, maybe 5 good clubs
+    (R) = Stayman again, INV+
+      P = 5 good clubs
+      2D = the rest
+  R = no major, proposal to play with 4 good clubs (no 5 good clubs)
+  2D = 4+ hearts
+    2H = S/O
+    3H = INV
+  2H = 4+ spades
+  2N/3C = 44 MM, min/max (system-on)
 
 1N-(P)-2C-(2D)
   P = no M
-  D = For penalties
+  D = take-out (difference with 2M?)
   2M = nat, 4+M
   2N = MM, MIN
   3C = MM, MAX
 
 1N-(P)-2C-(2M)
+  P
+    D = take-out
   D = take out (4+oM)
   2S = 5+!s
 
 1N-(P)-2C-(3m)
-  D = pen
+  D = take-out
   3M = 5+M
 
 *** They bid over our transfer

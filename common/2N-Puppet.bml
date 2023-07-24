@@ -6,24 +6,30 @@ Changes 2014-01-09:
 
 - 2NT-3!c-3!s-4!h shows !s fit (typo solved)
 
-After 2NT we just play standard Stayman.
-
+After 2NT we try to reach 5-3 major fits even with 5!s-4!h. This means that
+standard Puppet Stayman is not good enough. So after the 3!c response, opener
+must evaluate his hand opposite 5!s-4!h.
 
 2N
   3C = (R)
-    3D = no major
-      3H = 5!s, 4!h
-      3S = 5!h, 4!s
+    3D = one of:
+         1) 4!s, maybe 4!h
+         2) no 4M, suitable for 4!s opposite 5!s-4!h
+      3H = 4!s
+        3S = variant 1
+        3N = variant 2
+      3S = 4!h, maybe a S/T with 5!s-4!h
+        3N = no 4!h
       4m = NAT, S/T, see 1NT-2C-2D-4C
+      4H = 5!s-4!h, TRF to 4!s
     3H = 4+!h, no 4!s
       3S = (R)
         3N = exact 4!h
       4m = 5m
-    3S = 4+!s
+    3S = 5!s
       4m = 5m
       4H = S/T for !s
-    3N = 44 MM
-      4CD = Texas for !h/!s
+    3N = no 4M, no interest in playing 4!s opposite 5!s-4!h
   3D = 5+!h, TRF
     3H = NF
       3S = 5!h-4!s, FG

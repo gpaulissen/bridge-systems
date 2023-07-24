@@ -97,10 +97,13 @@ Changes 2018-01-16:
 
 - 1C-1H-1S-2C is NF and 1C-1H-1S-2C 4SFG
 
-1C-1H
-  1S = shows 4!s (but can bid 1NT too with 4333)
-    2C = NAT, NF
-    2D = 4SFG
+Changes 2023-07-22
+
+- Two-way checkback (double deux) after 1m-1M-1SA and 1m-1H-1S
+
+//1C-1H
+//  1S = shows 4!s (but can bid 1NT too with 4333)
+//    2C/D = Two-way checkback
 
 1C-1M
   1N = 12-14 NT. 4333 possible after 1!c-1!h.

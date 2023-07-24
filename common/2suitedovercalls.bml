@@ -64,8 +64,8 @@ in both suits.
     3C = min/med
       3D = asks shortness
       3M = NF INV
-    3D = MAX, short !c
-    3H = MAX, short !d
+    3D = MAX, short !d
+    3H = MAX, short !c
     3S = MAX, 1-1 minors
   3C = NF, (6)7+!c
   3D = INV, MM

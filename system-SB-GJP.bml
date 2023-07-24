@@ -1,0 +1,54 @@
+#+TITLE: SB-GJP 1.0
+
+#+AUTHOR: Sam Bahbout / Gert-Jan Paulissen
+
+#+DESCRIPTION: Based on Dutch doubleton (five card major, strong NT, Multi, Muiderberg)
+
+* Introduction
+
+Let's start with the basic opening structure of the system:
+
+1C  = 2+!c, NAT or BAL, 11+ HCP (12+ if BAL)
+1D  = 4+!d, 11+ HCP (12+ if BAL)
+1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
+1N  = 15--17 BAL
+2C  = Weak-two in !d / Any game force except !d
+2D  = Multi-coloured: 6+!h/6+!s and 5--10 HCP or 22--24 BAL or FG with !d
+2M  = 5M, 4+m, 5-10 HCP
+2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
+3X  = PRE
+3N  = Gambling, either a inor with nothing else or a major and extras (8-9 tricks)
+
+* Changes
+
+** 2023-07-22
+
+- Two-way checkback (double deux) after 1m-1M-1SA and 1m-1H-1S
+- 3SA opening includes Namyats
+- Bidding after our Stayman on 1SA
+- 2SA opening with standard Stayman or Puppet Stayman
+
+** To be done
+
+- Showing 5 cards diamonds and 4 major with a GF hand opposite 1!c
+
+#INCLUDE common/1C.bml
+#INCLUDE common/1C-1M-2M.bml
+#INCLUDE common/1D.bml
+#INCLUDE common/1m-2m.bml
+#INCLUDE common/1m-(1X).bml
+#INCLUDE common/1M.bml
+#INCLUDE common/1H-1S.bml
+#INCLUDE common/1M-1N.bml
+#INCLUDE common/1M-fit.bml
+#INCLUDE common/1N.bml
+#INCLUDE common/2C.bml
+#INCLUDE common/2D.bml
+#INCLUDE partnerships/GH-GJP/muiderberg.bml
+#INCLUDE common/2N.bml
+#INCLUDE common/theyopen.bml
+#INCLUDE common/2suitedovercalls.bml
+
+
+#INCLUDE common/abbreviations.bml
+
