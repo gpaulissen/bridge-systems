@@ -1,0 +1,41 @@
+* 1m-1M-1NT
+
+1m-1M-1N
+  2C = PUP to 2!d
+    2D = Mandatory
+      P = S/O
+      2M = INV, 5M, NF
+        2N = max, no fit
+        3N = COG
+      2N = PUP to 3!c, either to play in 3!c or GF with fit and an unbalanced hand 
+        3C = mandatory
+          P = S/O
+          3D = 5M, 4m, lowest singleton
+          3H = 5M, 4m, highest singleton
+          3S = 4M, 5m, lowest singleton
+          3N = 4M, 5m, highest singleton
+      3m = INV, 5M, 5m
+      3N = FG, (5M332), asks opener to bid M with 3M and a suitable hand
+  2D = FG, CONV
+  2N = INV
+  3m = 5M-5m, good suits (else 2!d), FG
+  3M = 6M, good suit (else 2!d), FG
+
+1m-1H-1N
+  2C
+    2D
+      2S = 5!h, 4!s, INV
+  3S = 65 MM
+
+1C-1H-1N = 4!s333 possible
+  2D
+    2S = 4!s333
+  2S = 44 MM, INV
+
+1m-1S-1N
+  2C
+    2D
+      2H = 54 MM, INV
+  2H = 55 MM, mild INV (too strong for 1m-2H)
+  3H = 55 MM
+

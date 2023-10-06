@@ -1,77 +1,95 @@
 * The Muiderberg
 
-Both 2!h and 2!s show 5M and 4+ minor (VULN 5) less than a one level opening
-bid. If your major suit is good you can open light. A minor of just four cards
-without a top honor is not allowed.
+Changes 2018-01-09:
+
+- Points added (5-10 HCP)
+- No 3 cards in the other major if you have a maximum
+- 2NT is not game forcing and answers after 2NT simple: mini/maxi
+- 2M-3D is not a slam try (bid 2NT)
+
+Both 2!h and 2!s show 5M and 4+ minor (VULN 5) and less than a one level opening
+bid (usually 5-10 HCP). If your major suit is good you can open light. A minor of just four cards
+without a top honor is not allowed. A maximum and three cards in the other
+major is not allowed either.
 
 ** Answers
 
-2M- = 5M with 4+m (VULN 5+m)
+2H
   2S = 5+!s, NF
-  2N = FG, ASK
+
+2S
+  3H = 6+!h, INV
+
+2M
+  2N = INV+, (R)
   3C = P/C
   3D = INV for 4M
   3M = PRE
-  3H = 6+!h, INV
   4C = 5+!c-4+M 
   4D = 5+!d-4+M
   4M = T/P
   4N = mm
 
-*** 2M-2N
+*** 2M-2NT
 
-2M-2N-
-3C = 4+!c (VULN 5+), MIN/MED
-  3D = NAT, 5+!d, FG, looking for best game/slam
-  3M = FG with fit
-  3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
-  3N = T/P
-  4C = NAT, S/T
-  4D = K/B for !c
-  4M = T/P
-3D = 4+!d (VULN 5+), MIN/MED
-  3M = FG with fit
-  3X = NAT, 5+ cards, FG, looking for best game/slam (X = oM)
-  3N = T/P
-  4C = CTRL for !d
-  4D = NAT, S/T, no !c CTRL
-  4M = T/P
-  4X = K/B for !d (X = oM)
-3H = 5+!c, MAX
-  3S = CoG
-  3N = T/P
-  4C = NAT, S/T
-  4D = S/A for M
-  4M = T/P
-3S = 5+!d, max
-  3N  = T/P
-  4C  = S/A for M
-  4D  = NAT, S/T
-  4M  = T/P
+2M-2N
+  3C = 4+!c, MIN
+    3D = NAT, 5+!d, FG, looking for best game/slam
+    3M = FG with fit, S/T
+    3oM = NAT, 5+ cards, FG, looking for best game/slam
+    3N = T/P
+    4C = NAT, S/T
+    4M = T/P
+  3D = 4+!d, MIN
+    3M = FG with fit, S/T
+    3oM = NAT, 5+ cards, FG, looking for best game/slam
+    3N = T/P
+    4C = CTRL for !d
+    4D = NAT, S/T, no !c CTRL
+    4M = T/P
+  3H = 4+!c, MAX
+    3S = CoG
+    3N = T/P
+    4C = NAT, S/T
+    4D = S/A for M
+    4M = T/P
+  3S = 4+!d, MAX
+    3N = T/P
+    4C = S/A for M
+    4D = NAT, S/T
+    4M = T/P
 
 ** Intervention after our Muiderberg
 
-2M-(D)-
+2M-(D)
   R = Showing strength, can be with fit
-  2N = asks partner to bid just his minor
+  2N = asks partner to just bid his minor
   3m = NAT, NF
 
-2M-(2X)-
+2M-(2X)
   D  = PEN
-  2N = asks partner to bid just his minor
-  4N = asks partner to bid just his minor
+  2N = asks partner to just bid his minor
+  4N = asks partner to just bid his minor
   3C = NAT and T/P
   3D = NAT, T/P
 
-2M-(2N)-
+2M-(2N)
   D  = PEN
-  3N = asks partner to bid just his minor
-  4N = asks partner to bid just his minor
+  3N = asks partner to just bid his minor
+  4N = asks partner to just bid his minor
   3C = P/C
   3D = NAT, T/P
 
-2M-(3X)-
+2M-(3X)
   D  = PEN
-  4N = asks partner to bid just his minor
+  4N = asks partner to just bid his minor
   3D/4D = NAT, T/P
   4C = P/C
+
+** Opening in third / fourth position
+
+2M
+  2N = P/C, asks for the minot but maybe a limit for the major
+  3C = T/P, 6+!c
+  3D = T/P, 6+!d
+  3M = SUPP, PRE

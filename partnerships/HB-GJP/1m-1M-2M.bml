@@ -1,0 +1,16 @@
+* 1m-1M-2M
+
+1m-1M
+  2M = MIN, usually 4M but sometimes 3M is possible with a singleton or small doubleton
+    2N = F1, any INV+
+      3C = shortage in lowest unbid suit
+      3D = shortage in highest unbid suit
+      3M = MIN, 4M
+      3N = 4M333
+      4M = MAX, 4M
+      3oM/4om = MAX, 4M, SPL in the suit bid
+      4m = MAX, 5422
+    3M = 5M, (mildly) INV
+    2S/3H = (bid in other major w/o jump), 54 MM, INV+
+    3CD = 5M, NAT, S/T
+  

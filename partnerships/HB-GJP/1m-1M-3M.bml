@@ -1,0 +1,18 @@
+* 1m-1M-3M
+
+1m-1H = 4!h, INV
+  3H
+    3S = (R)
+      3N = singleton lowest suit
+      4C = singleton highest suit
+      4D = 5422, max
+      4H = 5422, min
+
+1m-1S = 4!s, INV
+  3S
+    3N = (R)
+      4C = singleton lowest suit
+      4D = singleton highest suit
+      4H = 5422, max
+      4S = 5422, min
+

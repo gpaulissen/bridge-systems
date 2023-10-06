@@ -1,0 +1,69 @@
+*** 1!h-1!s
+
+1H-1S-
+1N = 12-14 SA
+2C = a kind of Gazilli with one of:
+     1) 4+!c
+     2) 18-19 NT
+     3) 17-19 HCP, 5!h-4m
+     4) FG, exactly 5!h and one minor
+     5) 3!s, 15-17 HCP, no 5332
+  2D = (R)
+    2H = variant 1
+      2S = ART, FG (!)
+      2N = INV, no 4!c
+      3C = T/P
+      3D = 5!s-5!d, FG
+    2S = variant 5
+      P = NF
+      2N = FG
+      3CDHS = FG
+    2N = variant 2 or 3
+      3C = (R), FG, 5!c or 5!s possible
+        3D = no 4m
+          3H = shows 5!c
+          3S = shows 5!s
+        3H = shows 4!c
+          3S = shows 5!s
+        3S = 4!d, 3!s (changed 1-11-2017)
+        3N = 4!d, no 3!s (changed 1-11-2017)
+      3D = 5!d, FG
+      3H = 3!h, FG
+      3S = 6!s, FG
+    3m = variant 4
+  2H = T/P, NAT, normally 3!h (otherwise 2!d)
+  2S = NAT, T/P, no interest in playing 3!c opposite variant 1
+  2N = 4!c, INV
+    3C = T/P
+  3C = 5!c, INV
+  3D = 6!d, T/P
+  3H = 5!s-3!h, INV
+2D = 5+!h-4+!d, limited to about 16 HCP
+2H = 6!h, NF
+  2N = F, see 1m-1M-2m-2N
+2S = NAT, normally 4!s
+  2N = F, see 1m-1M-2M-2N
+2N = 6!h, FG
+  3X = see 1!h-1!s-2!c-2!d-2NT
+3C = 15-17 HCP, 5!h-5!c
+  3D = 4SF, maybe slamtry in !h
+  3H = T/P
+  3S = 5+!s, FG
+  4C = NAT, SUPP, S/A !c
+3D = 15-17 HCP, 5!h-5!d
+  3H = T/P
+  3S = 5+!s, FG
+  4C = S/A !h
+  4D = NAT, SUPP, S/A !d
+3H = INV
+  3S = 5+!s, FG
+3S = 4!s, INV
+  3N = ASK for SPL
+3N = 4!s, FG
+  4C = ASK for SPL
+    4D = SPL !d
+    4H = SPL !c
+4m = 4!s, S/T, void
+4H = 6+!h, 3!s
+  4S = T/P
+

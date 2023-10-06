@@ -1,0 +1,295 @@
+* The 1!c opening
+
+This is the cornerstone of the 1 level opening bids: the rest of the 1 level
+opening bids depend on the meaning of 1!c. This system has been developed
+around 1990 when a club of Dutch bridge players did not want to continue with
+the old fashioned 4 card major opening bids.
+
+So 1!h and 1!s show 5 cards and 1!d shows 4 cards. Combined with
+the knowledge of the Polish club, 1!c shows a limited opening but is forcing
+anyway in order not to end in 1!c when opener is strong with 18-19 HCP and a
+balanced hand.
+
+The range of the 1!c opening is between 11 HCP and 22 HCP, so up to (but
+excluding) game forcing hands. Because 1!c is forcing you can have quite a
+good hand compared with a non forcing 1!c.
+
+Responder has two negative bids: 1!d and 2!d (a kind of Multi) and that means
+limited to about 6/7 HCP. When you bid positive the bidding becomes game
+forcing opposite a strong hand (17+ HCP). So a possible club fit is important
+when you are minimum for a positive bid.
+
+** Answers
+
+1C-
+P  = impossible except when 5+!c and 0-3 HCP
+1D = one of:
+     1) negative, 0-7 HCP
+     2) 4+!d, 8+ HCP
+     3) 8+ HCP, no major, no 4+!d, no other bid
+1M = 4+M, 8+ HCP
+1N = 8-10 HCP, BAL, no 4M
+2C = inverted minor, 5+!c, FG
+2D = 0-7 HCP, 6M
+2H = 5!s-4+!h, 5-9 HCP
+2S = inverted minor, INV
+2N = 11-12 HCP, INV
+3C = 6!c, 6-9 HCP, expects to win 3NT opposite a strong balanced hand
+3X = 6X, good suit, INV
+3N = 13-15 HCP, BAL
+
+*** 1!c-1!d
+
+1C-1D-
+1M = 3M or 4M but only 3M if there is no alternative (with 2245 you open 1!d or rebid 2!c)
+  1S = 0-7 HCP, 4+!s
+  1N = NF
+  2m = NF (after 1!c-1!d-1!s opener shows at least 3+!c)
+  2N = FG, 4+!d
+  3m = FG, NAT
+1N = 18-19 NT. See the 1NT opening.
+2C = 11-16 HCP, 6+!c or 2245 with good clubs
+  2D = NF
+  2M = FG, NAT (maybe 3 cards only)
+  2N = F till 3!c
+    3C = MIN
+    3X = MAX, S/S
+    3N = MAX, no S/S
+  3C = INV, not suitable for a 2NT bid
+  3D = FG, 6+!d
+  3M = FG, SPL
+2D = 17+HCP, 5+!c, 4+!d
+  2M = 5M, weak so NF
+  2N = PUP, usually a S/O
+    3C = NF
+      3D = (light) INV
+    3X = too strong for 3!c
+2M = 20+HCP, 5+!c, 4+M
+  2N = PUP, see 1!c-1!d-2!d-2NT
+2N = 20+ HCP, 6!c, F
+  3C = S/O
+  3X = FG, NAT
+3C = 17-19 HCP, 6!c
+  3X = FG, NAT
+3X = 20+ HCP, 6!c, S/S
+  4C = the only bid that is a S/O
+
+1C-1D-1H
+  2H = 4!h, 5-7 HCP
+  2S = FG, 4SFG
+  3H = FG, 5+!h (opener can have 3 cards so with 4!h you bid 4SFG first), longer diamonds
+
+1C-1D-1S
+  2H = FG, 4SFG
+  2S = 4!s, 5-7 HCP
+  3S = FG, 5+!s (opener can have 3 cards so with 4!s you bid 4SFG first), longer diamonds
+  
+*** 1!c-1M
+
+Changes 2023-10-06
+
+- Two-way checkback (double deux) only after 1m-1M-1SA
+
+1C-1H
+  1S = shows 4!s (but can bid 1NT too with 4333)
+    2D = Fourth suit GF
+
+1C-1M
+  1N = 12-14 NT. 4!s333 possible after 1!c-1!h.
+  2C = 11-16 HCP, 5+!c
+  2N = onesuiter, FG
+    3C = (R), opener responds naturally
+    3D = (R), !c-fit, (mild) S/T, opener responds naturally
+    3X = NAT
+  3C = onesuiter, INV
+
+**** 1!c-1M-2!c
+
+1C-1M-2C
+  2D = 3rd suit forcing, FG unless opener bids NF and responder passes
+    2M = NF
+    2N = NF
+    3C = NF
+    3D = NAT, FG
+    3M = 3M, FG
+  2M = NAT, NF
+  2N = exactly 4M, F
+    3C = MIN
+    3M = MAX, S/S (also 3M)
+    3N = MAX, no S/S
+  3C = INV, not suitable for 2NT
+  3D = 5M-5!d, FG
+  3M = FG, 6M
+
+1C-1H-2C-2D
+  2S = 4SFG
+
+1C-1S-2C-2D
+  2H = 4SFG
+
+1C-1H-2C
+  2S = NAT, FG
+  3S = SPL
+
+1C-1S-2C
+  2H = NAT, INV (1!c-2!h shows 5!s-4!h and a weak hand)
+  3H = 55 MM
+
+**** 1!c-1M-2!d
+
+1C-1M
+  2D = one of:
+       1) 18-19 HCP, BAL, 4M possible
+       2) 17+ HCP, NAT, reverse
+    2H = exactly 4M
+      2S = variant 1, either 4!s (after 1!c-1!h) or waiting (after 1!c-1!s)
+      2N = normally variant 1
+        3X = NAT
+      3C = variant 2, 5-4
+      3D = variant 2, 6-5
+      3M = variant 1, 4M, no 4333
+      3N = variant 1, 4M333
+    2S = 5+M
+      2N = variant 1
+        3X = NAT
+      3C = variant 2, 5-4
+      3D = variant 2, 6-5
+      3M = 3M, suitable for trumps
+      3N = variant 1, 4M333, stops
+    2N = 11+ HCP, BAL, no 5M
+    3C = 5M-4m, good suits (else 2!s), S/T
+    3D = 5M-5!d, good suits (else 2!s), S/T
+    3M = 6M, good suit (else 2!s), S/T
+
+1C-1H-2D
+  3S = 65 MM, good suits (else 2!s), S/T
+
+1C-1S-2D
+  3H = 55 MM, good suits (else 2!s), S/T
+
+**** 1!c-1M-2oM
+
+1C-1H
+  2S = NAT, STR, FG
+
+1C-1S
+  2H = NAT, STR, FG
+
+**** Strong with 4 cards fit after 1!c-1M
+
+After 1!c-1M there is room to show an unbalanced and game forcing hand with 4
+cards fit by bidding 3!d. After a 1!d opening this is not possible hence the
+development after 1!d-1M is different.
+
+1C-1M
+  3D = SPL !d, 4M, FG
+  3M = 4M, INV
+  3N = 5422, 4M, FG
+  4C = 6-4, good suits, (mild) S/T
+  4X = (X < M), void, 4M
+
+1C-1H
+  3S = SPL !s, 4!h, FG
+
+1C-1S
+  3H = SPL !h, 4!s, FG
+
+*** 1!c-1NT
+
+Changes 2017-12-22:
+
+- Added 1C-1N
+
+1C-1N
+  2C = S/O
+  2DHS = NAT, reverse, F
+    2N = PUP (maybe S/O in !c)
+    3C = FG
+  2N = INV, short in the other minor
+
+*** 1!c-2!d
+
+A weak Multi-coloured (<= 6 HCP). A hand that may not be strong enough opposite
+a strong (balanced) hand.
+
+1C-2D-
+2M = see the 2M opening
+2N = idem
+3M = idem
+3C = NF
+
+*** 1!c-2!h
+
+    Shows at least 5!s-4!h and 5-9 HCP. This bid exists because after 1!c-1!s-2!c a
+bid of 2!h is at least INV. It is not mandatory because if you prefer 2!c if
+partner rebids it, you can bid 1!d or 1!s.
+
+1C-2H-2N-
+3C = MIN, no 5-5
+3D = MIN, 5-5
+3H = MAX, FG, no 5-5
+3S = MAX, FG, 5-5
+
+*** 1!c-2!s
+
+Inverted minor and just INV.
+
+1C-2S
+  2N = NF
+  3C = S/O
+  3D = SPL, FG
+  3M = idem
+
+*** 1!c-2NT
+
+1C-2N
+  3C = S/O
+  3D = SPL, FG
+  3M = idem
+
+*** Intervention after 1!c
+
+**** 1!c-(D)
+
+Pass is allowed now. All bids except pass, redouble and 1!d remain
+unchanged. So for example, 2!c is still inverted minor and FG.
+
+1C-(D)-
+P = nothing to bid (like 1C-1D without intervention) but with at least 3!c, opener rebids like after 1!c-1!d without further intervention (redouble SOS, 1D show 4!d)
+R = at least 10 HCP and not very unbalanced, forcing till 2NT or a support bid by responder
+1D = as before but with at most 2!c, opener rebids like after 1!c-1!d without further intervention
+
+**** 1!c-(1X)
+
+We play transfers now.
+
+**** 1!c-(1X)-P-(2X)
+
+Any bid by opener is strong. 2NT is natural after which partner acts as if 2NT has been opened.
+
+**** 1!c-(2X)-P
+
+Like 1!c-(1X)-P-(2X) except that a double may not be so strong.
+
+**** 1!c-(P)-1!d-(D)
+
+A pass shows a minimal balanced hand. Redouble shows a strong hand and at
+least 3!d. Other bids are as usual but 1M suggests an unbalanced hand.
+
+**** 1!c-(P)-1!d-(nX)
+
+Double is for take-out and strong and a NT bid shows a maximal balanced hand.
+
+**** 1!c-(P)-1M-(...)
+
+(Re)double shows 3M support but only when we can return to 2M.
+
+**** 1!c-(P)-2!c-(...)
+
+A double is for penalties by opener as long as they do not jump. If they jump
+it is for take-out (avoid doubles when short).
+
+**** 1!c-(P)-2!d-(...)
+
+See the Multi-coloured opening.
+

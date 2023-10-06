@@ -21,12 +21,10 @@ major is not allowed either.
   3H = 6+!h, INV
 
 2M
-  2S = (after 2!h) 5+!s, NF
   2N = INV+, (R)
   3C = P/C
-  3D = INV for 4M (not for 6M)
-  3M = SUPP, PRE
-  3H = (after 2!s) 6+!h, INV
+  3D = INV for 4M
+  3M = PRE
   4C = 5+!c-4+M 
   4D = 5+!d-4+M
   4M = T/P
