@@ -1,0 +1,43 @@
+* Fit after 1M
+
+** Answers
+
+1M
+  2M = fit, 7-9 (10) HCP
+    3M = (mild) INV, normally 6M
+    2S/3H = NAT, F
+    2N = limit
+    3m = NAT, slam try
+    4M = S/O
+    4m = SPL, S/T
+  2N = usually 4M and at least a limit and unlimited
+    3C = (R), 11-16 HCP, (but not a dead minimum)
+      3D = relay, positive
+        3H = min, singleton somewhere
+          3S = (R)
+            3N = lowest suit
+            4C = middle suit
+            4D = highest suit
+        3S = max, singleton lowest suit
+        3N = max, singleton middle suit
+        4C = max, singleton highest suit
+        4M = S/O, no singleton
+      3M = S/O
+      3oM = splinter oM, 15+ HCP
+      4m = splinter m, 15+ HCP
+    3D = 17+ HCP, singleton somewhere
+      3H = (R)
+        3S = any void
+          3N = which (lowest, middle, highest)
+        3N = singleton, lowest suit
+        4C = singleton, middle suit
+        4D = singleton, highest suit
+      3N = NAT (since slam is almost impossible)
+    3M = S/O
+    3oM = 5422, 15-17 HCP
+      1step = (R) asks for second suit (first response = lowest, second response = middle, third response = highest)
+    3N = 18-19 BAL
+    4m = 55, ST, never two direct losers in doubleton
+    4M = to play with 6 cards, no interest in slam
+  3N = 4M, SPL in the other major, 13-15 HCP
+  4m = 4M, SPL m, 13-15 HCP

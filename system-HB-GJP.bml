@@ -24,7 +24,11 @@ Let's start with the basic opening structure of the system:
 ** 2023-10-06
 
 - 3NT opening Namyats
-- Two-way checkback (double deux) after 1m-1M-1SA and 1m-1H-1S
+- Two-way checkback (double deux) only after 1m-1M-1SA and its responses changed
+- 1m-1M-2M
+- 1m-1M-3M
+- 1M-2N
+- 1C-2D is either a weak Multi or a strong hand with 5+!d and 4M
 
 ** 2023-07-22
 
@@ -32,10 +36,6 @@ Let's start with the basic opening structure of the system:
 - 3SA opening includes Namyats
 - Bidding after our Stayman on 1SA
 - 2SA opening with standard Stayman or Puppet Stayman
-
-** To be done
-
-- Showing 5 cards diamonds and 4 major with a GF hand opposite 1!c
 
 #INCLUDE partnerships/HB-GJP/1C.bml
 #INCLUDE common/1D.bml
@@ -47,7 +47,7 @@ Let's start with the basic opening structure of the system:
 #INCLUDE common/1M.bml
 #INCLUDE partnerships/HB-GJP/1H-1S.bml
 #INCLUDE common/1M-1N.bml
-#INCLUDE common/1M-fit.bml
+#INCLUDE partnerships/HB-GJP/1M-fit.bml
 #INCLUDE common/1N.bml
 #INCLUDE common/2C.bml
 #INCLUDE common/2D.bml

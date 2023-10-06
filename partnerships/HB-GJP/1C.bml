@@ -25,12 +25,14 @@ when you are minimum for a positive bid.
 P  = impossible except when 5+!c and 0-3 HCP
 1D = one of:
      1) negative, 0-7 HCP
-     2) 4+!d, 8+ HCP
+     2) 4+!d, 8+ HCP (but not GF with 5!d and 4M)
      3) 8+ HCP, no major, no 4+!d, no other bid
 1M = 4+M, 8+ HCP
 1N = 8-10 HCP, BAL, no 4M
 2C = inverted minor, 5+!c, FG
-2D = 0-7 HCP, 6M
+2D = one of:
+     1) 0-7 HCP, 6M
+     2) 5+!d, 4M, GF
 2H = 5!s-4+!h, 5-9 HCP
 2S = inverted minor, INV
 2N = 11-12 HCP, INV
@@ -77,12 +79,12 @@ P  = impossible except when 5+!c and 0-3 HCP
 1C-1D-1H
   2H = 4!h, 5-7 HCP
   2S = FG, 4SFG
-  3H = FG, 5+!h (opener can have 3 cards so with 4!h you bid 4SFG first), longer diamonds
+  3H = FG, 5+!h (opener can have 3 cards so with 4!h you bid 1C-2D), longer diamonds
 
 1C-1D-1S
   2H = FG, 4SFG
   2S = 4!s, 5-7 HCP
-  3S = FG, 5+!s (opener can have 3 cards so with 4!s you bid 4SFG first), longer diamonds
+  3S = FG, 5+!s (opener can have 3 cards so with 4!s you bid 1C-2D), longer diamonds
   
 *** 1!c-1M
 
@@ -209,14 +211,26 @@ Changes 2017-12-22:
 
 *** 1!c-2!d
 
-A weak Multi-coloured (<= 6 HCP). A hand that may not be strong enough opposite
-a strong (balanced) hand.
+Either:
+1) a weak Multi-coloured (<= 6 HCP) and a hand that may not be strong enough opposite a strong (balanced) hand.
+2) a GF hand with 5+!d and 4M and a reason to show the diamonds and not just bid 1M after 1C (passed hand not GF just below) .
 
-1C-2D-
-2M = see the 2M opening
-2N = idem
-3M = idem
-3C = NF
+
+1C-2D
+  2M = P/C, see the 2M opening
+    3C = strong, 5!d and 4!h
+    3D = strong, 5!d and 4!s
+  2N = idem
+    3X = as after 2D - 2N
+    4C = strong, 5!d and 4!h
+      4D = S/A !d, K/B
+      4H = S/A !h, F
+    4D = strong, 5!d and 4!s
+      4H = S/A !d, K/B
+      4S = S/A !s, F
+  3M = idem
+    4m = as after 1C-2D-2N-4m
+  3C = NF
 
 *** 1!c-2!h
 

@@ -207,18 +207,35 @@
     3NT opening Namyats
    </li>
    <li>
-    Two-way checkback (double deux) after 1m-1M-1
+    Two-way checkback (double deux) only after 1m-1M-1
     <span class="scolor">
      &spades;
     </span>
-    A and 1m-1
-    <span class="hcolor">
-     &hearts;
+    A and its responses changed
+   </li>
+   <li>
+    1m-1M-2M
+   </li>
+   <li>
+    1m-1M-3M
+   </li>
+   <li>
+    1M-2NT
+   </li>
+   <li>
+    1
+    <span class="ccolor">
+     &clubs;
     </span>
-    -1
-    <span class="scolor">
-     &spades;
+    -2
+    <span class="dcolor">
+     &diams;
     </span>
+    is either a weak Multi or a strong hand with 5+
+    <span class="dcolor">
+     &diams;
+    </span>
+    and 4M
    </li>
   </ul>
   <h2>
@@ -259,17 +276,6 @@
      &spades;
     </span>
     A opening with standard Stayman or Puppet Stayman
-   </li>
-  </ul>
-  <h2>
-   To be done
-  </h2>
-  <ul>
-   <li>
-    Showing 5 cards diamonds and 4 major with a GF hand opposite 1
-    <span class="ccolor">
-     &clubs;
-    </span>
    </li>
   </ul>
   <h1>
@@ -397,7 +403,11 @@ when you are minimum for a positive bid.
           <span class="dcolor">
            &diams;
           </span>
-          , 8+ HCP
+          , 8+ HCP (but not GF with 5
+          <span class="dcolor">
+           &diams;
+          </span>
+          and 4M)
          </td>
         </tr>
         <tr>
@@ -457,14 +467,28 @@ when you are minimum for a positive bid.
       <li class="node">
        <table>
         <tr>
-         <td class="node" rowspan="1">
+         <td class="node" rowspan="3">
           2
           <span class="dcolor">
            &diams;
           </span>
          </td>
          <td>
-          0-7 HCP, 6M
+          one of:
+         </td>
+        </tr>
+        <tr>
+         <td>
+          1) 0-7 HCP, 6M
+         </td>
+        </tr>
+        <tr>
+         <td>
+          2) 5+
+          <span class="dcolor">
+           &diams;
+          </span>
+          , 4M, GF
          </td>
         </tr>
        </table>
@@ -1181,11 +1205,15 @@ when you are minimum for a positive bid.
           <span class="hcolor">
            &hearts;
           </span>
-          you bid 4
-          <span class="scolor">
-           &spades;
+          you bid 1
+          <span class="ccolor">
+           &clubs;
           </span>
-          FG first), longer diamonds
+          -2
+          <span class="dcolor">
+           &diams;
+          </span>
+          ), longer diamonds
          </td>
         </tr>
        </table>
@@ -1266,11 +1294,15 @@ when you are minimum for a positive bid.
           <span class="scolor">
            &spades;
           </span>
-          you bid 4
-          <span class="scolor">
-           &spades;
+          you bid 1
+          <span class="ccolor">
+           &clubs;
           </span>
-          FG first), longer diamonds
+          -2
+          <span class="dcolor">
+           &diams;
+          </span>
+          ), longer diamonds
          </td>
         </tr>
        </table>
@@ -2711,8 +2743,17 @@ development after 1
    </span>
   </h3>
   <p>
-   A weak Multi-coloured (&lt;= 6 HCP). A hand that may not be strong enough opposite
-a strong (balanced) hand.
+   Either:
+1) a weak Multi-coloured (&lt;= 6 HCP) and a hand that may not be strong enough opposite a strong (balanced) hand.
+2) a GF hand with 5+
+   <span class="dcolor">
+    &diams;
+   </span>
+   and 4M and a reason to show the diamonds and not just bid 1M after 1
+   <span class="ccolor">
+    &clubs;
+   </span>
+   (passed hand not GF just below) .
   </p>
   <div class="tree">
    <ul>
@@ -2733,10 +2774,56 @@ a strong (balanced) hand.
           2M
          </td>
          <td>
-          see the 2M opening
+          P/C, see the 2M opening
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="ccolor">
+             &clubs;
+            </span>
+           </td>
+           <td>
+            strong, 5
+            <span class="dcolor">
+             &diams;
+            </span>
+            and 4
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            strong, 5
+            <span class="dcolor">
+             &diams;
+            </span>
+            and 4
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
       </li>
       <li class="node">
        <table>
@@ -2749,6 +2836,148 @@ a strong (balanced) hand.
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3X
+           </td>
+           <td>
+            as after 2
+            <span class="dcolor">
+             &diams;
+            </span>
+            - 2NT
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            4
+            <span class="ccolor">
+             &clubs;
+            </span>
+           </td>
+           <td>
+            strong, 5
+            <span class="dcolor">
+             &diams;
+            </span>
+            and 4
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+         <ul>
+          <li class="node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              4
+              <span class="dcolor">
+               &diams;
+              </span>
+             </td>
+             <td>
+              S/A
+              <span class="dcolor">
+               &diams;
+              </span>
+              , K/B
+             </td>
+            </tr>
+           </table>
+          </li>
+          <li class="last node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              4
+              <span class="hcolor">
+               &hearts;
+              </span>
+             </td>
+             <td>
+              S/A
+              <span class="hcolor">
+               &hearts;
+              </span>
+              , F
+             </td>
+            </tr>
+           </table>
+          </li>
+         </ul>
+        </li>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            4
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            strong, 5
+            <span class="dcolor">
+             &diams;
+            </span>
+            and 4
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+          </tr>
+         </table>
+         <ul>
+          <li class="node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              4
+              <span class="hcolor">
+               &hearts;
+              </span>
+             </td>
+             <td>
+              S/A
+              <span class="dcolor">
+               &diams;
+              </span>
+              , K/B
+             </td>
+            </tr>
+           </table>
+          </li>
+          <li class="last node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              4
+              <span class="scolor">
+               &spades;
+              </span>
+             </td>
+             <td>
+              S/A
+              <span class="scolor">
+               &spades;
+              </span>
+              , F
+             </td>
+            </tr>
+           </table>
+          </li>
+         </ul>
+        </li>
+       </ul>
       </li>
       <li class="node">
        <table>
@@ -2761,6 +2990,28 @@ a strong (balanced) hand.
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            4m
+           </td>
+           <td>
+            as after 1
+            <span class="ccolor">
+             &clubs;
+            </span>
+            -2
+            <span class="dcolor">
+             &diams;
+            </span>
+            -2NT-4m
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
       </li>
       <li class="last node">
        <table>
@@ -8902,7 +9153,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
           2NT
          </td>
          <td>
-          at least 3M and either a limit or a (limited) gameforcing hand
+          usually 4M and at least a limit and unlimited
          </td>
         </tr>
        </table>
@@ -8917,7 +9168,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
             </span>
            </td>
            <td>
-            slam try
+            (R), 11-16 HCP, (but not a dead minimum)
            </td>
           </tr>
          </table>
@@ -8941,22 +9192,89 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
              <table>
               <tr>
                <td class="node" rowspan="1">
-                3M
+                3
+                <span class="hcolor">
+                 &hearts;
+                </span>
                </td>
                <td>
-                BAL
+                min, singleton somewhere
                </td>
               </tr>
              </table>
+             <ul>
+              <li class="last node">
+               <table>
+                <tr>
+                 <td class="node" rowspan="1">
+                  3
+                  <span class="scolor">
+                   &spades;
+                  </span>
+                 </td>
+                 <td>
+                  (R)
+                 </td>
+                </tr>
+               </table>
+               <ul>
+                <li class="node">
+                 <table>
+                  <tr>
+                   <td class="node" rowspan="1">
+                    3NT
+                   </td>
+                   <td>
+                    lowest suit
+                   </td>
+                  </tr>
+                 </table>
+                </li>
+                <li class="node">
+                 <table>
+                  <tr>
+                   <td class="node" rowspan="1">
+                    4
+                    <span class="ccolor">
+                     &clubs;
+                    </span>
+                   </td>
+                   <td>
+                    middle suit
+                   </td>
+                  </tr>
+                 </table>
+                </li>
+                <li class="last node">
+                 <table>
+                  <tr>
+                   <td class="node" rowspan="1">
+                    4
+                    <span class="dcolor">
+                     &diams;
+                    </span>
+                   </td>
+                   <td>
+                    highest suit
+                   </td>
+                  </tr>
+                 </table>
+                </li>
+               </ul>
+              </li>
+             </ul>
             </li>
             <li class="node">
              <table>
               <tr>
                <td class="node" rowspan="1">
-                3X
+                3
+                <span class="scolor">
+                 &spades;
+                </span>
                </td>
                <td>
-                NAT (X = oM)
+                max, singleton lowest suit
                </td>
               </tr>
              </table>
@@ -8968,7 +9286,22 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
                 3NT
                </td>
                <td>
-                SPL in the other major
+                max, singleton middle suit
+               </td>
+              </tr>
+             </table>
+            </li>
+            <li class="node">
+             <table>
+              <tr>
+               <td class="node" rowspan="1">
+                4
+                <span class="ccolor">
+                 &clubs;
+                </span>
+               </td>
+               <td>
+                max, singleton highest suit
                </td>
               </tr>
              </table>
@@ -8977,10 +9310,10 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
              <table>
               <tr>
                <td class="node" rowspan="1">
-                4m
+                4M
                </td>
                <td>
-                SPL m
+                S/O, no singleton
                </td>
               </tr>
              </table>
@@ -8994,33 +9327,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
               3M
              </td>
              <td>
-              minimum, sorry
-             </td>
-            </tr>
-           </table>
-           <ul>
-            <li class="last node">
-             <table>
-              <tr>
-               <td class="node" rowspan="1">
-                3NT
-               </td>
-               <td>
-                NAT (since slam is almost impossible)
-               </td>
-              </tr>
-             </table>
-            </li>
-           </ul>
-          </li>
-          <li class="node">
-           <table>
-            <tr>
-             <td class="node" rowspan="1">
-              3X
-             </td>
-             <td>
-              NAT (X = oM)
+              S/O
              </td>
             </tr>
            </table>
@@ -9029,10 +9336,10 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
            <table>
             <tr>
              <td class="node" rowspan="1">
-              3NT
+              3oM
              </td>
              <td>
-              SPL in the other major
+              splinter oM, 15+ HCP
              </td>
             </tr>
            </table>
@@ -9044,7 +9351,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
               4m
              </td>
              <td>
-              SPL
+              splinter m, 15+ HCP
              </td>
             </tr>
            </table>
@@ -9061,11 +9368,99 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
             </span>
            </td>
            <td>
-            game try
+            17+ HCP, singleton somewhere
            </td>
           </tr>
          </table>
          <ul>
+          <li class="node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              3
+              <span class="hcolor">
+               &hearts;
+              </span>
+             </td>
+             <td>
+              (R)
+             </td>
+            </tr>
+           </table>
+           <ul>
+            <li class="node">
+             <table>
+              <tr>
+               <td class="node" rowspan="1">
+                3
+                <span class="scolor">
+                 &spades;
+                </span>
+               </td>
+               <td>
+                any void
+               </td>
+              </tr>
+             </table>
+             <ul>
+              <li class="last node">
+               <table>
+                <tr>
+                 <td class="node" rowspan="1">
+                  3NT
+                 </td>
+                 <td>
+                  which (lowest, middle, highest)
+                 </td>
+                </tr>
+               </table>
+              </li>
+             </ul>
+            </li>
+            <li class="node">
+             <table>
+              <tr>
+               <td class="node" rowspan="1">
+                3NT
+               </td>
+               <td>
+                singleton, lowest suit
+               </td>
+              </tr>
+             </table>
+            </li>
+            <li class="node">
+             <table>
+              <tr>
+               <td class="node" rowspan="1">
+                4
+                <span class="ccolor">
+                 &clubs;
+                </span>
+               </td>
+               <td>
+                singleton, middle suit
+               </td>
+              </tr>
+             </table>
+            </li>
+            <li class="last node">
+             <table>
+              <tr>
+               <td class="node" rowspan="1">
+                4
+                <span class="dcolor">
+                 &diams;
+                </span>
+               </td>
+               <td>
+                singleton, highest suit
+               </td>
+              </tr>
+             </table>
+            </li>
+           </ul>
+          </li>
           <li class="last node">
            <table>
             <tr>
@@ -9096,13 +9491,27 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
          <table>
           <tr>
            <td class="node" rowspan="1">
-            3X
+            3oM
            </td>
            <td>
-            FG, NAT (X = oM)
+            5422, 15-17 HCP
            </td>
           </tr>
          </table>
+         <ul>
+          <li class="last node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              1step
+             </td>
+             <td>
+              (R) asks for second suit (first response = lowest, second response = middle, third response = highest)
+             </td>
+            </tr>
+           </table>
+          </li>
+         </ul>
         </li>
         <li class="node">
          <table>
@@ -9111,10 +9520,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
             3NT
            </td>
            <td>
-            SPL in the other major, stronger than via 3
-            <span class="ccolor">
-             &clubs;
-            </span>
+            18-19 BAL
            </td>
           </tr>
          </table>
@@ -9126,10 +9532,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
             4m
            </td>
            <td>
-            SPL, stronger than via 3
-            <span class="ccolor">
-             &clubs;
-            </span>
+            55, ST, never two direct losers in doubleton
            </td>
           </tr>
          </table>
@@ -9141,7 +9544,7 @@ An indirect 2NT rebid (via Gazilli) promises 18-19 NT or 17-19
             4M
            </td>
            <td>
-            to play, no interest in slam
+            to play with 6 cards, no interest in slam
            </td>
           </tr>
          </table>
