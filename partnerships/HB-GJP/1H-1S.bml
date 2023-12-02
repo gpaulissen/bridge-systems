@@ -1,5 +1,12 @@
 *** 1!h-1!s
 
+Changes 2023-12-02
+- 1H-1S-2C-2D-2N
+- 1H-1S-2C-2D-3H
+- 1H-1S-2C-2D-3S
+- 1H-1S-2N
+- 1H-1S-3H
+
 1H-1S-
 1N = 12-14 SA
 2C = a kind of Gazilli with one of:
@@ -18,7 +25,7 @@
       P = NF
       2N = FG
       3CDHS = FG
-    2N = variant 2 or 3
+    2N = variant 2 or 3 but never with 3!s and 5431 (see 3H/S below)
       3C = (R), FG, 5!c or 5!s possible
         3D = no 4m
           3H = shows 5!c
@@ -31,7 +38,15 @@
       3H = 3!h, FG
       3S = 6!s, FG
     3m = variant 4
-  2H = T/P, NAT, normally 3!h (otherwise 2!d)
+    3H = GF, variant 2 or 3, 3514 (in that order so 3!s, 5!h, 4!c)
+      3S = S/A !s
+      4C = S/A !c
+      4D = S/A !h
+    3S = GF, variant 2 or 3, 3541 (3!s, 5!h, 4!d)
+      4C = S/A !s
+      4D = S/A !d
+      4H = S/A !h, F (although switching 4C and 4H is more optimal)
+  2H = T/P, NAT, normally 3!h but 2!h and a very minimal hand is possible too (otherwise 2!d)
   2S = NAT, T/P, no interest in playing 3!c opposite variant 1
   2N = 4!c, INV
     3C = T/P
@@ -43,8 +58,20 @@
   2N = F, see 1m-1M-2m-2N
 2S = NAT, normally 4!s
   2N = F, see 1m-1M-2M-2N
-2N = 6!h, FG
-  3X = see 1!h-1!s-2!c-2!d-2NT
+2N = 6!h, onesuiter and either:
+     1) 15-17, no 3!s OR
+     2) FG
+  3C = (R), FG, 5!c or 5!s possible
+    3D = FG, no 3!s
+      3H = shows 5!c
+      3S = shows 5!s
+    3H = 15-17, no 3!s
+      3S = shows 5!s, FG
+    3S = FG, 6!h, 3!s
+    3N = FG, 6!h, solid suit, natural
+  3D = 5!d, FG
+  3H = 3!h, FG
+  3S = 6!s, FG
 3C = 15-17 HCP, 5!h-5!c
   3D = 4SF, maybe slamtry in !h
   3H = T/P
@@ -55,8 +82,10 @@
   3S = 5+!s, FG
   4C = S/A !h
   4D = NAT, SUPP, S/A !d
-3H = INV
-  3S = 5+!s, FG
+3H = INV, 6!h, 3!s
+  3S = do you know what is the best contract (3NT or 4H)? 
+  4C = S/A !h
+  4C = S/A !s
 3S = 4!s, INV
   3N = ASK for SPL
 3N = 4!s, FG

@@ -150,7 +150,6 @@ with at least one top honor. And you must also be able to play 2 clubs
 redoubled when having a good 5 card suit. The drawback is that having a
 stopper in their suit can not be shown directly.
 
-
 1N-(P)-2C-(D)
   P = no 4 card major, maybe 5 good clubs
     (R) = Stayman again, INV+
@@ -161,7 +160,9 @@ stopper in their suit can not be shown directly.
     2H = S/O
     3H = INV
   2H = 4+ spades
-  2N/3C = 44 MM, min/max (system-on)
+  2N/3C = 44 MM, min/max, no Texas 3!d/3!h hereafter (responder usually has to play)
+    3HS = S/O
+    4CD = S/A !h/!s
 
 1N-(P)-2C-(2D)
   P = no M

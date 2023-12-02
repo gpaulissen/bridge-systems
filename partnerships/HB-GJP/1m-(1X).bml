@@ -4,8 +4,15 @@ Changes 2023-10-06
 
 - 1C-(1D)-1S = 44 MM
 
-All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are
-transfers. All bids are FG opposite a strong opener (17+ HCP).
+Changes 2023-12-02
+
+- Better explanation of the transfer bids available.
+- Further development better described.
+
+All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are transfers
+starting from our opening colour. All these transfer bids are FG opposite a strong
+opener (17+ HCP). There may be also invitational transfer bids at the three
+level but only starting from their colour.  
 
 When X is their suit bid and Y is a new suit bid there are seven variants:
 
@@ -23,7 +30,7 @@ It is more difficult to play 2m but not impossible. You may be able to bid
 1!s, a transfer to 1NT, after which you can correct to 2m.
 
 1C-(1D)
-  1S = 44 MM
+  1S = 44 MM (exactly, never 5+ cards in a major unless weak, i.e. less than an INV)
 
 1m-(1X)
   D  = Negative double with at least 4 (and at most 5) cards in the next suit (X<!s) or the other major (X=!s).
@@ -62,6 +69,10 @@ It is more difficult to play 2m but not impossible. You may be able to bid
 ** Further development
 
 Opener responds to a 1 level transfer as if the bid has been bid naturally but
-accepting the transfer shows 3 cards. Accepting the transfer by jumping to the two level
-just shows a minimal opening and 4 cards. When responder shows (not
-necessarily bids) !h or !s after 1!c a 2!d bid is system-on.
+accepting the transfer shows 3 cards. Accepting the transfer by jumping to the
+two level just shows a minimal opening and 4 cards. When responder shows (not
+necessarily bids) !h and/or !s after 1!c, a 2!d bid by opener is system-on
+(usually 18-19 BAL). When opener rebids 1NT after responder has show just one
+major we still play two-way Checkback Stayman. But after 1C-(1D)-1S we do not
+need to play that anymore, since responder can only have 5 cards in a major
+when weak.

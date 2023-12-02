@@ -1,0 +1,89 @@
+* The 2NT opening
+
+** Answers
+
+Changes 2014-01-09:
+
+- 2NT-3!c-3!s-4!h shows !s fit (typo solved)
+
+Changes 2023-12-02:
+
+- 2NT-3!d-3!h-3!s shows 55 MM, slamtry
+- 2NT-3!h-3!s-4!h shows 55 MM, N/F
+- 2NT-4!h
+- 2NT-4!s
+
+After 2NT we just play standard Stayman.
+
+
+2N
+  3C = (R)
+    3D = no major
+      3H = 5!s, 4!h
+      3S = 5!h, 4!s
+      4m = NAT, S/T, see 1NT-2C-2D-4C
+    3H = 4+!h, no 4!s
+      3S = (R)
+        3N = exact 4!h
+      4m = 5m
+    3S = 4+!s
+      4m = 5m
+      4H = S/T for !s
+    3N = 44 MM
+      4CD = Texas for !h/!s
+  3D = 5+!h, TRF
+    3H = NF
+      3S = 55 MM, S/T
+        4C = S/A for !h
+        4D = S/A for !s
+      4C = 5!h-4!c
+        4D = K/B (only great fit for !c possible)
+        4H = NAT
+      4D = 5!h-4!d
+        4H = NAT
+        4S = K/B (only great fit for !d possible)
+      4H = S/T
+    3S = good fit, second suit
+    3N = 5!s2!h33
+      4C = S/A for !s
+      4D/4H = TRF
+    4m = good fit, second suit
+  3H = 5+!s, TRF
+    3S = NF
+      4C = 5!s-4!c
+        4D = K/B (only great fit for !c possible)
+        4S = NAT
+      4D = 5!s-4!d
+        4H = K/B (only great fit for !d possible)
+        4S = NAT
+      4H = 55 MM, NF
+      4S = S/T
+    3N = 5!h2!s33
+      4C = S/A for !h
+      4D/4H = TRF
+    4m = good fit, second suit
+    4H = good fit, second suit
+  3S = mm
+    4m = S/A
+  4C = 6!h, TRF to 4!h
+    4H = forced
+  4D = 6!s, TRF to 4!s
+    4S = forced
+  4H = 6!c, S/T
+    4S = fit, min
+      4N = K/B
+    4N = no fit, T/P
+      5C = S/O
+      5DHSN = responses to K/B
+    5X = responses to K/B (so 0/3, 1/4, etcetera)
+  4S = 6!d, S/T
+    4N = no fit, T/P
+      5D = S/O
+      5CHSN = responses to K/B
+    5C = fit, min
+      5D = S/O
+      5HSN = responses to K/B
+      6C = response to K/B
+    5DHSN = responses to K/B (so 0/3, 1/4, etcetera)
+
+** Intervention

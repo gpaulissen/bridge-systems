@@ -38,7 +38,7 @@ Let's start with the basic opening structure of the system:
 - 2SA opening with standard Stayman or Puppet Stayman
 
 #INCLUDE partnerships/HB-GJP/1C.bml
-#INCLUDE common/1D.bml
+#INCLUDE partnerships/HB-GJP/1D.bml
 #INCLUDE partnerships/HB-GJP/1m-1M-1N.bml
 #INCLUDE partnerships/HB-GJP/1m-1M-2M.bml
 #INCLUDE partnerships/HB-GJP/1m-1M-3M.bml
@@ -52,7 +52,7 @@ Let's start with the basic opening structure of the system:
 #INCLUDE common/2C.bml
 #INCLUDE common/2D.bml
 #INCLUDE common/muiderberg.bml
-#INCLUDE common/2N.bml
+#INCLUDE partnerships/HB-GJP/2N.bml
 #INCLUDE partnerships/HB-GJP/3N.bml
 #INCLUDE common/theyopen.bml
 #INCLUDE common/2suitedovercalls.bml
