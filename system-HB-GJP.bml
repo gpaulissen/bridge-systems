@@ -24,6 +24,7 @@ Let's start with the basic opening structure of the system:
 ** 2023-12-03
 
 - 1C-1M-3C-3D relay with 5+M, the rest denies
+- 1C-1M-3M relay asking for distribution
 - Layout improvements for 1C-2D
 - 1D-1M-3D shows 3M as well
 - 1D-1M-2N may include onesuiter, 6+!d, no 3M, 15-17 (besides onesuiter, 18+)
@@ -34,6 +35,7 @@ Let's start with the basic opening structure of the system:
 - 1H-1S-2C-2D-3S
 - 1H-1S-2N
 - 1H-1S-3H
+- 1H-1S-3S-3N
 - no Texas 3!d/!h after 1NT-(P)-2!c-(D)-2NT/3!c
 - 2NT-3!d-3!h-3!s shows 55 MM, slamtry
 - 2NT-3!h-3!s-4!h shows 55 MM, N/F

@@ -9,6 +9,7 @@
 - 1H-1S-2C-2D-3S
 - 1H-1S-2N
 - 1H-1S-3H
+- 1H-1S-3S-3N
 
 **** Description
 
@@ -30,7 +31,7 @@
       P = NF
       2N = FG
       3CDHS = FG
-    2N = variant 2 or 3 but never with 3!s and 5431 (see 3H/S below)
+    2N = variant 2 or 3 but never with 3!s and 5431 (see 3!h/3!s below)
       3C = (R), FG, 5!c or 5!s possible
         3D = no 4m
           3H = shows 5!c
@@ -42,7 +43,7 @@
       3D = 5!d, FG
       3H = 3!h, FG
       3S = 6!s, FG
-    3m = variant 4
+    3m = variant 4, no 3M
     3H = FG, variant 2 or 3, 3514 (in that order so 3!s, 5!h, 4!c)
       3S = S/A !s
       4C = S/A !c
@@ -88,11 +89,15 @@
   4C = S/A !h
   4D = NAT, SUPP, S/A !d
 3H = INV, 6!h, 3!s
-  3S = do you know what is the best contract (3NT or 4H)? 
+  3S = do you know what is the best contract (3NT or 4!h)? 
   4C = S/A !h
   4C = S/A !s
 3S = 4!s, INV
-  3N = ASK for SPL
+  3N = ASK for shortness
+    4C = shortness in lowest suit
+    4D = shortness in highest suit
+    4H = 5422, max
+    4S = 5422, min
 3N = 4!s, FG
   4C = ASK for SPL
     4D = SPL !d

@@ -97,6 +97,7 @@ P  = impossible except when 5+!c and 0-3 HCP
 ***** 2023-12-03
 
 - 1C-1M-3C-3D relay with 5+M, the rest denies
+- 1C-1M-3M relay asking for distribution
 
 **** Description
 
@@ -202,6 +203,11 @@ development after 1!d-1M is different.
 1C-1M
   3D = SPL !d, 4M, FG
   3M = 4M, INV
+    1step = ASK for shortness
+      1step = shortness in lowest suit
+      2steps = shortness in highest suit
+      3steps = 5422, max
+      4steps = 5422, min
   3N = 5422, 4M, FG
   4C = 6-4, good suits, (mild) S/T
   4X = (X < M), void, 4M
