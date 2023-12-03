@@ -88,9 +88,17 @@ P  = impossible except when 5+!c and 0-3 HCP
   
 *** 1!c-1M
 
-Changes 2023-10-06
+**** Changes
+
+***** 2023-10-06
 
 - Two-way checkback (double deux) only after 1m-1M-1SA
+
+***** 2023-12-03
+
+- 1C-1M-3C-3D relay with 5+M, the rest denies
+
+**** Description
 
 1C-1H
   1S = shows 4!s (but can bid 1NT too with 4333)
@@ -104,6 +112,14 @@ Changes 2023-10-06
     3D = (R), !c-fit, (mild) S/T, opener responds naturally
     3X = NAT
   3C = onesuiter, INV
+    3D = (R), FG, 5+M
+      3M = no 3M, exactly 4M, stopper !d
+      3oM = no 3M, exactly 4M, stopper oM
+      3N = no 3M, both stoppers
+      4X = 3M
+    3M = exactly 4M, stopper !d
+    3oM = exactly 4M, stopper oM
+    3N = exactly 4M, both stoppers
 
 **** 1!c-1M-2!c
 
@@ -198,9 +214,13 @@ development after 1!d-1M is different.
 
 *** 1!c-1NT
 
-Changes 2017-12-22:
+**** Changes
+
+***** 2017-12-22
 
 - Added 1C-1N
+
+**** Description
 
 1C-1N
   2C = S/O

@@ -1,13 +1,17 @@
 * Transfers after 1m and a one level overcall
 
-Changes 2023-10-06
+** Changes
+
+*** 2023-10-06
 
 - 1C-(1D)-1S = 44 MM
 
-Changes 2023-12-02
+*** 2023-12-03
 
-- Better explanation of the transfer bids available.
-- Further development better described.
+- Better explanation of the transfer bids available
+- Further development better described
+
+** Description
 
 All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are transfers
 starting from our opening colour. All these transfer bids are FG opposite a strong

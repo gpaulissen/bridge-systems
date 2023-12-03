@@ -2,16 +2,20 @@
 
 ** Answers
 
-Changes 2014-01-09:
+*** Changes
+
+**** 2014-01-09
 
 - 2NT-3!c-3!s-4!h shows !s fit (typo solved)
 
-Changes 2023-12-02:
+**** 2023-12-03
 
 - 2NT-3!d-3!h-3!s shows 55 MM, slamtry
 - 2NT-3!h-3!s-4!h shows 55 MM, N/F
 - 2NT-4!h
 - 2NT-4!s
+
+*** Description
 
 After 2NT we just play standard Stayman.
 
@@ -74,16 +78,16 @@ After 2NT we just play standard Stayman.
       4N = K/B
     4N = no fit, T/P
       5C = S/O
-      5DHSN = responses to K/B
+        5DHS/5N = responses to K/B
     5X = responses to K/B (so 0/3, 1/4, etcetera)
   4S = 6!d, S/T
     4N = no fit, T/P
       5D = S/O
-      5CHSN = responses to K/B
+      5CHS/5N = responses to K/B
     5C = fit, min
       5D = S/O
-      5HSN = responses to K/B
+      5HS/5N = responses to K/B
       6C = response to K/B
-    5DHSN = responses to K/B (so 0/3, 1/4, etcetera)
+    5DHS/5N = responses to K/B (so 0/3, 1/4, etcetera)
 
 ** Intervention

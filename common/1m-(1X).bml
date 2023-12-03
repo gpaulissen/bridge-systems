@@ -1,12 +1,16 @@
 * Transfers after 1m and a one level overcall
 
-Changes 2018-01-10:
+** Changes
+
+*** 2018-01-10
 
 - totally rewritten
 
-Changes 2018-01-16:
+*** 2018-01-16
 
 - Added bids at the three level.
+
+** Description
 
 All bids up to 2!s (excluding 1NT and 2!c after a 1!d opening) are
 transfers. All bids are FG opposite a strong opener (17+ HCP).

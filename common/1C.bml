@@ -86,20 +86,24 @@ P  = impossible except when 5+!c and 0-3 HCP
   
 *** 1!c-1M
 
-Changes 2017-12-22:
+**** Changes
+
+***** 2017-12-22
 
 - Added 1C-1M-1S
 - Modified 1C-1M-2M-2N-4CD
 - Modified 1C-1M-2M-3X
 - Modified 1C-1M-2D (4M possible)
 
-Changes 2018-01-16:
+***** 2018-01-16
 
 - 1C-1H-1S-2C is NF and 1C-1H-1S-2C 4SFG
 
-Changes 2023-07-22
+***** 2023-07-22
 
 - Two-way checkback (double deux) after 1m-1M-1SA and 1m-1H-1S
+
+**** Description
 
 1C-1H
   1S = shows 4!s (but can bid 1NT too with 4333)
@@ -241,9 +245,13 @@ development after 1!d-1M is different.
 
 *** 1!c-1NT
 
-Changes 2017-12-22:
+**** Changes
+
+***** 2017-12-22
 
 - Added 1C-1N
+
+**** Description
 
 1C-1N
   2C = S/O

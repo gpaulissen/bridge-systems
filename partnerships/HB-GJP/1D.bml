@@ -6,11 +6,15 @@ we only open 1!d with a good 5 card suit.
 
 ** Answers
 
-Changes 2017-12-22:
+*** Changes
+
+**** 2017-12-22
 
 - Modified 1D-2C
 - Modified 1D-2D
 - Modified 1D-2H
+
+*** Description
 
 1D
   1M = 4+M 5+HCP 
@@ -33,13 +37,17 @@ Changes 2017-12-22:
 
 *** 1!d-1M
 
-Changes 2017-12-23:
+**** Changes
+
+***** 2017-12-23
 
 - 1D-1M-2S
 
-Changes 2023-12-02:
+***** 2023-12-03
 
 - 1D-1M-3D shows 3M
+
+**** Description
 
 1D-1M
   1S = 4+!s NF 
@@ -80,6 +88,14 @@ Changes 2023-12-02:
 
 **** Strong with 4 cards fit after 1!d-1M
 
+***** Changes
+
+****** 2023-12-03
+
+- 1D-1M-3M relay asks for: 1st lowest singleton; 2nd highest; 3rd 5422 max; 4th 5422 min
+
+***** Description
+
 1D-1M
   3M = 15-17, (4)5+!d-4M
     1step = asking shortness
@@ -104,14 +120,18 @@ Changes 2023-12-02:
 
 *** 1!d-1NT
 
-Changes 2017-12-23:
+**** Changes
+
+***** 2017-12-23
 
 - Modified 1D-1N-2N
 - Added 1D-1N-3M
 
-Changes 2018-01-16:
+***** 2018-01-16
 
 - 1D-1N-2M-2N is a Puppet
+
+**** Description
 
 1D-1N
   2m = NF

@@ -6,11 +6,15 @@ we only open 1!d with a good 5 card suit.
 
 ** Answers
 
-Changes 2017-12-22:
+*** Changes
+
+**** 2017-12-22
 
 - Modified 1D-2C
 - Modified 1D-2D
 - Modified 1D-2H
+
+*** Description
 
 1D
   1M = 4+M 5+HCP 
@@ -33,9 +37,13 @@ Changes 2017-12-22:
 
 *** 1!d-1M
 
-Changes 2017-12-23:
+**** Changes
+
+***** 2017-12-23
 
 - 1D-1M-2S
+
+**** Description
 
 1D-1M
   1S = 4+!s NF 
@@ -96,14 +104,18 @@ Changes 2017-12-23:
 
 *** 1!d-1NT
 
-Changes 2017-12-23:
+**** Changes
+
+***** 2017-12-23
 
 - Modified 1D-1N-2N
 - Added 1D-1N-3M
 
-Changes 2018-01-16:
+***** 2018-01-16
 
 - 1D-1N-2M-2N is a Puppet
+
+**** Description
 
 1D-1N
   2m = NF
