@@ -43,11 +43,11 @@
       3H = 3!h, FG
       3S = 6!s, FG
     3m = variant 4
-    3H = GF, variant 2 or 3, 3514 (in that order so 3!s, 5!h, 4!c)
+    3H = FG, variant 2 or 3, 3514 (in that order so 3!s, 5!h, 4!c)
       3S = S/A !s
       4C = S/A !c
       4D = S/A !h
-    3S = GF, variant 2 or 3, 3541 (3!s, 5!h, 4!d)
+    3S = FG, variant 2 or 3, 3541 (3!s, 5!h, 4!d)
       4C = S/A !s
       4D = S/A !d
       4H = S/A !h, F (although switching 4C and 4H is more optimal)

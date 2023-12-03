@@ -46,6 +46,7 @@ we only open 1!d with a good 5 card suit.
 ***** 2023-12-03
 
 - 1D-1M-3D shows 3M
+- 1D-1M-2N-3M is natural, FG
 
 **** Description
 
@@ -85,6 +86,8 @@ we only open 1!d with a good 5 card suit.
       3oM = 6+!d, no 3M, FG
       3N = else
     3D = fit, FG, (mild) S/T
+    3M = 6M, FG
+    3oM = NAT, so 65/55 MM, FG
 
 **** Strong with 4 cards fit after 1!d-1M
 
@@ -137,7 +140,7 @@ we only open 1!d with a good 5 card suit.
   2m = NF
   2M = 16+ reverse, F1R
     2N = PUP, S/O in 3m
-    3m = GF
+    3m = FG
   2N = INV, short in other minor
   3C = 4+!c, FG
   3D = 6+!d, INV
