@@ -5,7 +5,7 @@
 2C = a kind of Gazilli with one of:
      1) 4+!c
      2) 18-19 NT
-     3) 17-19 HCP, 5!h-4m
+     3) 16-18 HCP, 5!h-4m
      4) FG, exactly 5!h and one minor
      5) 3!s, 15-17 HCP, no 5332
   2D = (R)
@@ -30,7 +30,9 @@
       3D = 5!d, FG
       3H = 3!h, FG
       3S = 6!s, FG
-    3m = variant 4
+    3m = variant 4, no 3!s
+    3H = variant 4, 3=5=1=4
+    3S = variant 4, 3=5=4=1
   2H = T/P, NAT, normally 3!h (otherwise 2!d)
   2S = NAT, T/P, no interest in playing 3!c opposite variant 1
   2N = 4!c, INV
@@ -55,7 +57,7 @@
   3S = 5+!s, FG
   4C = S/A !h
   4D = S/A !d
-3H = INV
+3H = INV, no 3!s (else 2!c)
   3S = 5+!s, FG
 3S = 4!s, INV
   3N = ASK for SPL

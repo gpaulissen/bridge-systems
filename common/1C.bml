@@ -30,7 +30,8 @@ P  = impossible except when 5+!c and 0-3 HCP
 1M = 4+M, 8+ HCP
 1N = 8-10 HCP, BAL, no 4M
 2C = inverted minor, 5+!c, FG
-2D = 0-7 HCP, 6M
+2D = a) 0-7 HCP, 6M
+     b) 5!d, FG (S/T)
 2H = 5!s-4+!h, 5-9 HCP
 2S = inverted minor, INV
 2N = 11-12 HCP, INV
@@ -45,7 +46,7 @@ P  = impossible except when 5+!c and 0-3 HCP
   1S = 0-7 HCP, 4+!s
   1N = NF
   2m = NF (after 1!c-1!d-1!s opener shows at least 3+!c)
-  2N = FG, 4+!d
+  2N = INV (a problem in partners major or 5!d)
   3m = FG, NAT
 1N = 18-19 NT. See the 1NT opening.
 2C = 11-16 HCP, 6+!c or 2245 with good clubs
@@ -70,7 +71,8 @@ P  = impossible except when 5+!c and 0-3 HCP
   3C = S/O
   3X = FG, NAT
 3C = 17-19 HCP, 6!c
-  3X = FG, NAT
+  3D = FG, NAT
+  3M = FG, stopper
 3X = 20+ HCP, 6!c, S/S
   4C = the only bid that is a S/O
 
@@ -116,7 +118,16 @@ P  = impossible except when 5+!c and 0-3 HCP
     3C = (R), opener responds naturally
     3D = (R), !c-fit, (mild) S/T, opener responds naturally
     3X = NAT
+
+1C-1M
   3C = onesuiter, INV
+    3D = (R), 5+M, FG
+      3oM = 2M, stop oM 
+      3M = 2M, stop !d
+      3N = 0-1M
+      4X = 3M, AGR
+    3oM = FG, exact 4M, stop oM
+    3M = FG, exact 4M, stop !d
 
 **** 1!c-1M-1NT
 
@@ -262,12 +273,21 @@ development after 1!d-1M is different.
 
 *** 1!c-2!d
 
-A weak Multi-coloured (<= 6 HCP). A hand that may not be strong enough opposite
+A weak Multi-coloured (<= 6 HCP) or a hand with long diamonds and game forcing and some slam aspirations or a balanced hand with 16+ HCP and no major. When weak a hand that may not be strong enough opposite
 a strong (balanced) hand.
 
 1C-2D-
-2M = see the 2M opening
-2N = idem
+2M = see the 2M opening but a 2NT rebid after 2!h shows a 16+ HCP BAL
+2N = (R)
+  3C = any weak hand with 6!h
+    3D = look at your hand
+  3C = any weak hand with 6!h
+    3D = look at your hand
+  3M = 5!d, 4M
+  3N = 16-17 HCP, BAL
+  4C = 5!d, 4!c
+  4D = 6!d
+  4N = 18-19 HCP, BAL
 3M = idem
 3C = NF
 

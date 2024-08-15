@@ -56,7 +56,13 @@ we only open 1!d with a good 5 card suit.
   2H = 16+ HCP, 5+!d-4+!h
   2S = 19+ HCP, 5+!d-4+!s, FG
   3C = 19+, 5+!d-4+!c, FG
-  3D = 15-17, 6+!d
+
+1D-1M
+  3D = 15-17, 6+!d, 3M
+    3M = stop !c
+    3oM = stop oM
+    4C = AGR M
+    4D = AGR !d
 
 1D-1H-2H
   2S = INV+, NAT
@@ -67,11 +73,12 @@ we only open 1!d with a good 5 card suit.
 **** 1!d-1M-2NT
 
 1D-1H
-  2N = 18+ HCP, 5+!d
+  2N = a) 15-17, 6+!d, no 3M
+       b) 18+ HCP, 6+!d (5332, 18-19 very rare)
     3C = (R)
-      3D = 5332, NF
-      3H = 3!h, FG
-      3S = 6+!d, no 3!h, FG
+      3D = variant a
+      3H = variant b, 3!h, FG
+      3S = variant b, no 3!h, FG
     3D = fit, FG, (mild) S/T
 
 1D-1S
