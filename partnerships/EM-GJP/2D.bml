@@ -36,8 +36,12 @@
     3N = FG in !d, 1-suiter, a solid suit plus stoppers and 9 tricks
   2N = (R), STR
     3C = weak-two in !h, MAX, short
+      3D = (R), asks for singleton up the line
+        3H = x !c
+        3S = x !d
+        3N = x Om
     3D = weak-two in !h, MIN
-    3H = weak-two in !h, two honors
+    3H = weak-two in !h, two top honors (AK, AQ, KQ)
     3S = 6!s, strong (not GF)
     3N = weak-two in !h, MAX, no singleton
     4X = same meaning and development as after 2!d-2!h-3X

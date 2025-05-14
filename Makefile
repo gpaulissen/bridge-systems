@@ -1,7 +1,7 @@
 all: output/system-EM-GJP.pdf
 
 output/%.pdf: %.bml
-	devbox run ant -Ddocument=$*
+	devbox run --quiet ant build-pdf -Ddocument=$*
 
 output/system-EM-GJP.pdf: \
 	partnerships/EM-GJP/1C.bml \
