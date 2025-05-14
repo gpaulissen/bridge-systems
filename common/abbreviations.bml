@@ -29,6 +29,7 @@ CAPITALS and SLASHES (/)):
 - FRAG         = Fragment
 - F            = Forcing
 - F1           = Forcing 1 round
+- F1R          = Forcing 1 round
 - F2NT         = Forcing to 2NT
 - FG           = Forcing to game
 - 4SF          = 4th suit forcing (4SFG, 4SF1)
