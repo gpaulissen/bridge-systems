@@ -1,4 +1,4 @@
-#+TITLE: EM-GJP 1.1
+#+TITLE: EM-GJP 1.2
 
 #+AUTHOR: Erick Mauberquez / Gert-Jan Paulissen
 
@@ -22,7 +22,7 @@ Let's start with the basic opening structure of the system (:
 2C  = Weak-two in !d / Any game force except !d
 2D  = Weak-two in !h / Game force with !d / Strong with 6!s / 22-24 NT
 2H  = Weak-two in !s / Strong with 6!h
-2S  = 5!s, 4!m (no 5422, 55 if VUL)
+2S  = 5!s, 4m (no 5422, 55 if VUL)
 2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
 3X  = PRE
 3N  = Gambling
@@ -34,7 +34,9 @@ Let's start with the basic opening structure of the system (:
 A jump after an opening bid, e.g. 1X-2Y is weak.
 Hence a rebid of such a suit, e.g. 1X-1Y-2X-2Y is positive.
 
-We play major suit splinteres where 1M-3M+1 shows fit with a void (renonce) and other bids below 4M (also 4H after 1S) show fit with exactly a singleton. These bids are really slam going, i.e. at least an opening.
+We play major suit splinteres where 1M-3M+1 shows fit with a void (renonce) and other bids below 4M (also 4!h after 1!s) show fit with exactly a singleton. These bids are really slam going, i.e. at least an opening.
+
+Check-back Stayman (double deux) only after 1NT rebid and you have to bid 2NT after 1NT to end in 3!c.
 
 *** One of the partners has denied an opening (pas d'ouverture)
 
@@ -42,9 +44,9 @@ After our pass and a suit bid by partner, jumps are still natural (in French: pa
 
 *** With intervention
 
-Cachalot after a one level opening bid in a suit and on the level of one and two (and sometimes even three). Also after a double of such an opening bid with one exception: 1C-(X)-XX is for penalties (punitive). When opener accepts responders major on the one level it shows three cards **and** it is forcing. So 1D-(1H)-X-P-1S shows 3 cards in spades and it is **forcing**.
+Cachalot after a one level opening bid in a suit and on the level of one and two (and sometimes even three). Also after a double of such an opening bid with one exception: 1!c-(X)-XX is for penalties (punitive). When opener accepts responders major on the one level it shows three cards *and* it is forcing. So 1!d-(1!h)-X-P-1!s shows 3 cards in spades and it is *forcing*.
 
-When they intervene, jumps are weak: 1H-(1S)-3C. Without the intervention it would be invitational.
+When they intervene, jumps are weak: 1!h-(1!s)-3!c. Without the intervention it would be invitational.
 
 #INCLUDE partnerships/EM-GJP/1C.bml
 #INCLUDE partnerships/EM-GJP/1C-1M-3D.bml

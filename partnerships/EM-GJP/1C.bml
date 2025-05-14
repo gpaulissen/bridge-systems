@@ -238,12 +238,12 @@ A weak Multi-coloured (<= 6 HCP) or a hand with club fit. The weak hand may not 
 a strong (balanced) hand.
 
 1C-2D
-  2H = similar to the 2D opening
+  2H = P/C
     P = weak !h
     2S = weak !s
     2N = 5+!c, FG
     3C = 5+!c, INV, NF
-  2S = similar to the 2D opening
+  2S = P/C
     P = weak !s
     2N = weak !h
     3C = 5+!c, INV, NF
@@ -297,7 +297,26 @@ We play Cachalot now and redouble is strong.
 
 **** 1!c-(1X)
 
-We play transfers now till 1!s.
+We play transfers now till 1!s but also from 2!c till 2!s (always shows bid in next suit) and even 3X or higher (till 3!s).
+
+See also chapter "Transfers after 1m and a one level overcall".
+
+Example:
+
+1C-(1H)
+  D = 4(5)!s
+    1S = 3!s, F1
+    1N = NAT, NF (no double deux now)
+  1S = Texas for 1NT (at most INV)
+  1N = NAT
+  2C = Texas for !d, i.e. 5+!d
+  2D = Texas for !h, i.e. fit for !c
+  2H = Texas for !s, i.e. 6+!s, waek or GF (INV via 3!h)
+  2S = Texas for NT, promises stopper, partner needs to play
+    2N = NF
+  2N = NAT, NF
+  3H = Texas for !s, INV
+  3S = Axx in !s, BAL, 13-15
 
 **** 1!c-(1X)-P-(2X)
 
