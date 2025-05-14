@@ -6,27 +6,12 @@
 
 * Introduction
 
-** BML - Bridge Bidding Markup Language
-
-The notation in this document is in BML format, see
-github.com/gpaulissen/bml/blob/master/README.org.
-
-This notation allows for text documents with simple bidding tables.
-
-*** Output
-
-Using a simple BML document one can generate:
-
-- a PDF file
-- an HTML file
-- a BSS file, a BBO system file, which can be uploaded using the BBO desktop Windows client.
-
 ** Abbreviations
 
 The abbreviations used are mostly from the WBF with some changes, see also the
 Abbreviations chapter at the end.
 
-* Opening bids
+** Opening bids
 
 Let's start with the basic opening structure of the system (:
 
@@ -35,12 +20,31 @@ Let's start with the basic opening structure of the system (:
 1HS = 5+!h/!s, 11+ HCP (12+ if BAL)
 1N  = 15--17 BAL
 2C  = Weak-two in !d / Any game force except !d
-2D  = Weak-two in !h / Strong with 6!s / 22-24 NT
+2D  = Weak-two in !h / Game force with !d / Strong with 6!s / 22-24 NT
 2H  = Weak-two in !s / Strong with 6!h
 2S  = 5!s, 4!m (no 5422, 55 if VUL)
 2N  = 20-22 HCP, BAL (5M332 or 5m422 possible) and maybe even 4441, 5431 or 6322 (no 5+M)
 3X  = PRE
 3N  = Gambling
+
+** General style
+
+*** Without intervention
+
+A jump after an opening bid, e.g. 1X-2Y is weak.
+Hence a rebid of such a suit, e.g. 1X-1Y-2X-2Y is positive.
+
+We play major suit splinteres where 1M-3M+1 shows fit with a void (renonce) and other bids below 4M (also 4H after 1S) show fit with exactly a singleton. These bids are really slam going, i.e. at least an opening.
+
+*** One of the partners has denied an opening (pas d'ouverture)
+
+After our pass and a suit bid by partner, jumps are still natural (in French: pas d’enchère de rencontre).
+
+*** With intervention
+
+Cachalot after a one level opening bid in a suit and on the level of one and two (and sometimes even three). Also after a double of such an opening bid with one exception: 1C-(X)-XX is for penalties (punitive). When opener accepts responders major on the one level it shows three cards **and** it is forcing. So 1D-(1H)-X-P-1S shows 3 cards in spades and it is **forcing**.
+
+When they intervene, jumps are weak: 1H-(1S)-3C. Without the intervention it would be invitational.
 
 #INCLUDE partnerships/EM-GJP/1C.bml
 #INCLUDE partnerships/EM-GJP/1C-1M-3D.bml
@@ -63,7 +67,7 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/EM-GJP/weopen.bml
 #INCLUDE common/TransferLebensohl.bml
 //#INCLUDE common/DefenseAgainstTwoSuiters.bml
-//#INCLUDE common/blackwood.bml
+#INCLUDE partnerships/EM-GJP/slam-bidding.bml
 
 #INCLUDE common/abbreviations.bml
 

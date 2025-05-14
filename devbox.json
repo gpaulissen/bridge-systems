@@ -1,0 +1,14 @@
+{
+  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": ["ant@1.10.15"],
+  "shell": {
+    "init_hook": [
+      "export PATH=$DEVBOX_PROJECT_ROOT/../bml/.venv/bin:$PATH"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

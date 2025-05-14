@@ -15,8 +15,12 @@
       4D = S/A !s
   2N = (R), STR
     3C = weak-two in !s, MAX, short
+      3D = (R), asks for singleton up the line
+        3H = x !c
+        3S = x !d
+        3N = x Om
     3D = weak-two in !s, MIN
-    3S = weak-two in !s, two honors
+    3S = weak-two in !s, two top honors (AK, AQ, KQ)
     3H = 6!h, strong (not GF)
     3N = weak-two in !s, MAX, no singleton
   3CDH = NAT, FG
