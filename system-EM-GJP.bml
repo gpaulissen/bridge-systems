@@ -63,7 +63,7 @@ Let's start with the basic opening structure of the system (:
 #INCLUDE partnerships/EM-GJP/weopen.bml
 #INCLUDE common/TransferLebensohl.bml
 //#INCLUDE common/DefenseAgainstTwoSuiters.bml
-//#INCLUDE common/blackwood.bml
+#INCLUDE partnerships/EM-GJP/blackwood.bml
 
 #INCLUDE common/abbreviations.bml
 

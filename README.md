@@ -40,6 +40,6 @@ Example:
 
 This command:
 
-$ ant -Ddocument=system-WL-GJP
+$ ant -Ddocument=system-EM-GJP
 
-will create files system-WL-GJP.htm, system-WL-GJP.pdf and system-WL-GJP.bss in the output directory.
+will create files system-EM-GJP.htm, system-EM-GJP.pdf and system-EM-GJP.bss in the output directory.
